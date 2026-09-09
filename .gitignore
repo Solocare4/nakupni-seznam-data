@@ -1,3 +1,8 @@
 node_modules/
 npm-debug.log*
 .DS_Store
+
+# PENNY auditní soubory
+scripts/audit-penny*.cjs
+penny-*-audit.txt
+penny-audit.txt

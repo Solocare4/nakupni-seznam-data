@@ -4,7 +4,8 @@
   "private": true,
   "description": "Automaticky generovana data akcnich nabidek pro aplikaci Nakupni seznam",
   "scripts": {
-    "update:billa": "node scripts/update-billa.cjs"
+    "update:billa": "node scripts/update-billa.cjs",
+    "update:penny": "node scripts/update-penny.cjs"
   },
   "devDependencies": {
     "pdfjs-dist": "3.11.174"
