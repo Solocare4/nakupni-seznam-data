@@ -1,0 +1,12 @@
+{
+  "name": "nakupni-seznam-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automaticky generovana data akcnich nabidek pro aplikaci Nakupni seznam",
+  "scripts": {
+    "update:billa": "node scripts/update-billa.cjs"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "3.11.174"
+  }
+}
