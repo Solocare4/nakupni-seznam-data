@@ -3,9 +3,6 @@ name: Update PENNY offers
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "37 */6 * * *"
-      timezone: "Europe/Prague"
 
 permissions:
   contents: write

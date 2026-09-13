@@ -3,9 +3,6 @@ name: Update BILLA offers
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "17 */6 * * *"
-      timezone: "Europe/Prague"
 
 permissions:
   contents: write

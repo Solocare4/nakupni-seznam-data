@@ -20,8 +20,8 @@ const OUTPUT_FILE =
     'pennyCatalog.json'
   );
 
-const FIRST_PAGE = 2;
-const LAST_PAGE = 29;
+const FIRST_PAGE = 1;
+const LAST_PAGE = 100;
 
 function clean(value) {
   return String(
@@ -2432,9 +2432,7 @@ async function main() {
         globalValidity
       );
 
-    if (!result) {
-      break;
-    }
+    if (!result) { if (pageNumber === 1) continue; break; }
 
     pageResults.push(
       result
@@ -2667,7 +2665,7 @@ async function main() {
   }
 }
 
-main().catch(
+if (require.main === module) main().catch(
   (
     error
   ) => {
@@ -2687,3 +2685,4 @@ main().catch(
       1;
   }
 );
+module.exports = { parseGlobalValidity, unitInfo, invalidOfferName, unsafeCondition };

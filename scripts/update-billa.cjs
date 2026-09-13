@@ -1095,6 +1095,7 @@ function createOffer(
     sourceUrl:
       BILLA_SOURCE_URL,
 
+    flyerPage: candidate.page,
     productName:
       title,
 
@@ -1442,7 +1443,7 @@ async function main() {
   }
 
   const offers =
-    [...offersMap.values()];
+    [...offersMap.values()].map(offer => ({...offer, flyerUrl: `${pdfUrl}#page=${offer.flyerPage}`}));
 
   /*
    * Ochrana proti zásadní změně PDF.
@@ -1568,7 +1569,7 @@ async function main() {
   );
 }
 
-main().catch(
+if (require.main === module) main().catch(
   (error) => {
     console.error('');
 
@@ -1582,3 +1583,4 @@ main().catch(
     process.exitCode = 1;
   }
 );
+module.exports = { slugDates, repairTitle, plausibleTitle, conditionalText, clubText };

@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict');
+const b=require('./update-billa.cjs'),p=require('./update-penny.cjs');
+assert.equal(b.conditionalText('Při koupi 2 ks'),true);
+assert.equal(b.clubText('s BILLA klubem'),true);
+assert.equal(b.plausibleTitle('Tchibo Espresso zrnková káva'),true);
+assert.throws(()=>b.slugDates('neplatne'));
+assert.equal(b.slugDates('velky-letak-9-9-15-9-2026').validTo,'2026-09-15');
+assert.equal(p.unitInfo(20,'m').dimension,'length');
+assert.equal(p.invalidOfferName('VYROBENO V ČR'),true);
+console.log('OK: BILLA conditions, titles, dates and PENNY units/title regressions');

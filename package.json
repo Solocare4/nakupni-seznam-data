@@ -5,7 +5,13 @@
   "description": "Automaticky generovana data akcnich nabidek pro aplikaci Nakupni seznam",
   "scripts": {
     "update:billa": "node scripts/update-billa.cjs",
-    "update:penny": "node scripts/update-penny.cjs"
+    "update:penny": "node scripts/update-penny.cjs",
+    "update:lidl": "node scripts/update-lidl.cjs",
+    "update:lidl:app": "node scripts/update-lidl.cjs",
+    "test:lidl": "node scripts/test-lidl-title.cjs",
+    "update:all": "node --max-http-header-size=131072 scripts/update-all.cjs --all-branches",
+    "test": "node scripts/test-lidl-title.cjs && node scripts/test-parsers.cjs",
+    "validate": "node scripts/validate.cjs"
   },
   "devDependencies": {
     "pdfjs-dist": "3.11.174"

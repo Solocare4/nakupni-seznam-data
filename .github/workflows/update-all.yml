@@ -1,0 +1,42 @@
+name: Update all validated catalogs
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: catalog-publisher
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Generate independently validated catalogs
+        id: generate
+        continue-on-error: true
+        run: npm run update:all
+      - run: npm run validate
+      - name: Publish successful catalogs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update validated offer catalogs'
+            git push
+          fi
+      - name: Report source failures
+        if: steps.generate.outcome == 'failure'
+        run: |
+          cat update-report.json
+          exit 1
+

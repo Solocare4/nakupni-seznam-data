@@ -6,3 +6,6 @@ npm-debug.log*
 scripts/audit-penny*.cjs
 penny-*-audit.txt
 penny-audit.txt
+update-report.json
+data/lidl-debug.json
+*.tmp

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "billa",
-  "fetchedAt": "2026-09-09T20:48:25.683Z",
+  "fetchedAt": "2026-09-13T08:00:13.391Z",
   "storeId": "cz",
   "offers": [
     {
@@ -10,6 +10,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 1,
       "productName": "Tchibo Espresso zrnková káva",
       "category": "pantry",
       "subcategory": "",
@@ -20,7 +21,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=1"
     },
     {
       "id": "billa-pdf-2026-09-09-1-332-549-veprova-pecene-bez-kosti-1kg",
@@ -28,6 +30,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 1,
       "productName": "Vepřová pečeně bez kosti",
       "category": "meat",
       "subcategory": "",
@@ -38,7 +41,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=1"
     },
     {
       "id": "billa-pdf-2026-09-09-1-329-397-kure-chlazene-1kg",
@@ -46,6 +50,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 1,
       "productName": "Kuře chlazené",
       "category": "meat",
       "subcategory": "",
@@ -56,7 +61,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=1"
     },
     {
       "id": "billa-pdf-2026-09-09-1-209-524-rajcata-kerik-1kg",
@@ -64,6 +70,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 1,
       "productName": "Rajčata keřík",
       "category": "produce",
       "subcategory": "",
@@ -74,7 +81,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=1"
     },
     {
       "id": "billa-pdf-2026-09-09-1-495-392-hrozny-revy-vinne-bile-bezsemenne-500g",
@@ -82,6 +90,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 1,
       "productName": "Hrozny révy vinné bílé bezsemenné",
       "category": "produce",
       "subcategory": "",
@@ -91,7 +100,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=1"
     },
     {
       "id": "billa-pdf-2026-09-09-2-364-461-masa-sunka-marina-100g",
@@ -99,6 +109,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 2,
       "productName": "MASA Šunka Marina",
       "category": "meat",
       "subcategory": "",
@@ -108,7 +119,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=2"
     },
     {
       "id": "billa-pdf-2026-09-09-2-495-629-old-jersey-gouda-vintage-cheddar-truile-cheese-150g",
@@ -116,6 +128,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 2,
       "productName": "Old Jersey Gouda, Vintage Cheddar, TruȈle Cheese",
       "category": "pantry",
       "subcategory": "",
@@ -125,7 +138,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=2"
     },
     {
       "id": "billa-pdf-2026-09-09-2-495-352-hellmann-s-original-tatarska-omacka-majoneza-500ml",
@@ -133,6 +147,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 2,
       "productName": "Hellmann’s Originál Tatarská omáčka, Majonéza",
       "category": "pantry",
       "subcategory": "",
@@ -142,7 +157,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=2"
     },
     {
       "id": "billa-pdf-2026-09-09-2-487-235-bozkov-vodka-0.5l",
@@ -150,6 +166,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 2,
       "productName": "Božkov Vodka",
       "category": "drinks",
       "subcategory": "",
@@ -159,7 +176,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=2"
     },
     {
       "id": "billa-pdf-2026-09-09-2-350-307-felix-kapsicky-pro-kocky-1020g",
@@ -167,6 +185,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 2,
       "productName": "Felix Kapsičky pro kočky",
       "category": "home",
       "subcategory": "",
@@ -176,7 +195,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=2"
     },
     {
       "id": "billa-pdf-2026-09-09-2-268-658-jablko-cervene-1kg",
@@ -184,6 +204,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 2,
       "productName": "Jablko červené",
       "category": "produce",
       "subcategory": "",
@@ -194,7 +215,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=2"
     },
     {
       "id": "billa-pdf-2026-09-09-2-332-579-nektarinky-1kg",
@@ -202,6 +224,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 2,
       "productName": "Nektarinky",
       "category": "pantry",
       "subcategory": "",
@@ -212,7 +235,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=2"
     },
     {
       "id": "billa-pdf-2026-09-09-3-263-584-vlockova-sul-prirodni-morska-70g",
@@ -220,6 +244,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 3,
       "productName": "Vločková sůl přírodní mořská",
       "category": "pantry",
       "subcategory": "",
@@ -229,7 +254,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=3"
     },
     {
       "id": "billa-pdf-2026-09-09-3-489-216-hovezi-gulas-porcovany-400g",
@@ -237,6 +263,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 3,
       "productName": "Hovězí guláš porcovaný",
       "category": "meat",
       "subcategory": "",
@@ -246,7 +273,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=3"
     },
     {
       "id": "billa-pdf-2026-09-09-3-489-32-veprova-pecene-s-kosti-platky-1kg",
@@ -254,6 +282,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 3,
       "productName": "Vepřová pečeně s kostí, plátky",
       "category": "meat",
       "subcategory": "",
@@ -264,7 +293,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=3"
     },
     {
       "id": "billa-pdf-2026-09-09-3-147-213-tenke-platky-z-krkovice-600g",
@@ -272,6 +302,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 3,
       "productName": "Tenké plátky z krkovice",
       "category": "pantry",
       "subcategory": "",
@@ -281,7 +312,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=3"
     },
     {
       "id": "billa-pdf-2026-09-09-3-316-422-krevety-varene-loupane-200g",
@@ -289,6 +321,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 3,
       "productName": "Krevety vařené loupané",
       "category": "pantry",
       "subcategory": "",
@@ -298,7 +331,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=3"
     },
     {
       "id": "billa-pdf-2026-09-09-3-147-32-veprova-kyta-bez-kosti-1kg",
@@ -306,6 +340,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 3,
       "productName": "Vepřová kýta bez kosti",
       "category": "meat",
       "subcategory": "",
@@ -316,7 +351,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=3"
     },
     {
       "id": "billa-pdf-2026-09-09-3-98-621-kruti-rizek-ze-stehna-1kg",
@@ -324,6 +360,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 3,
       "productName": "Krůtí řízek ze stehna",
       "category": "pantry",
       "subcategory": "",
@@ -334,7 +371,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=3"
     },
     {
       "id": "billa-pdf-2026-09-09-3-485-419-veprova-panenka-1kg",
@@ -342,6 +380,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 3,
       "productName": "Vepřová panenka",
       "category": "meat",
       "subcategory": "",
@@ -352,7 +391,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=3"
     },
     {
       "id": "billa-pdf-2026-09-09-4-495-26-vres-smixies-1ks",
@@ -360,6 +400,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Vřes Smixies",
       "category": "pantry",
       "subcategory": "",
@@ -369,7 +410,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-370-112-ruze-duo-1ks",
@@ -377,6 +419,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Růže Duo",
       "category": "pantry",
       "subcategory": "",
@@ -386,7 +429,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-114-328-mandarinka-1kg",
@@ -394,6 +438,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Mandarinka",
       "category": "produce",
       "subcategory": "",
@@ -404,7 +449,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-358-441-svestky-1kg",
@@ -412,6 +458,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Švestky",
       "category": "pantry",
       "subcategory": "",
@@ -422,7 +469,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-495-353-kukurice-varena-400g",
@@ -430,6 +478,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Kukuřice vařená",
       "category": "pantry",
       "subcategory": "",
@@ -439,7 +488,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-321-217-paprika-cervena-1kg",
@@ -447,6 +497,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Paprika červená",
       "category": "produce",
       "subcategory": "",
@@ -457,7 +508,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-326-333-cibulka-lahudkova-1ks",
@@ -465,6 +517,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Cibulka lahůdková",
       "category": "produce",
       "subcategory": "",
@@ -474,7 +527,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-133-169-rajcata-cherry-na-vetvicce-100g",
@@ -482,6 +536,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Rajčata cherry na větvičce",
       "category": "produce",
       "subcategory": "",
@@ -491,7 +546,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-497-252-okurka-1ks",
@@ -499,6 +555,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Okurka",
       "category": "produce",
       "subcategory": "",
@@ -508,7 +565,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-4-341-26-mango-ananas-suseny-bez-pridaneho-cukru-70g",
@@ -516,6 +574,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 4,
       "productName": "Mango, ananas sušený bez přidaného cukru",
       "category": "pantry",
       "subcategory": "",
@@ -525,7 +584,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=4"
     },
     {
       "id": "billa-pdf-2026-09-09-5-487-89-clever-vlocky-jemne-500g",
@@ -533,6 +593,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Clever Vločky jemné",
       "category": "pantry",
       "subcategory": "",
@@ -542,7 +603,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-5-238-408-srdce-domova-chleb-psenicno-zitny-570g",
@@ -550,6 +612,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Srdce domova Chléb pšenično-žitný",
       "category": "bakery",
       "subcategory": "",
@@ -559,7 +622,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-5-39-346-energy-drink-0.25l",
@@ -567,6 +631,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Energy drink",
       "category": "drinks",
       "subcategory": "",
@@ -576,7 +641,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-5-348-383-clever-testoviny-bezvajecne-500g",
@@ -584,6 +650,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Clever Těstoviny bezvaječné",
       "category": "pantry",
       "subcategory": "",
@@ -593,7 +660,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-5-392-124-clever-oplatka-40g",
@@ -601,6 +669,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Clever Oplatka",
       "category": "sweet",
       "subcategory": "",
@@ -611,7 +680,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "regularPrice": 13.75
+      "regularPrice": 13.75,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-5-42-67-srdce-domova-tvaroh-250g",
@@ -619,6 +689,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Srdce domova Tvaroh",
       "category": "dairy",
       "subcategory": "",
@@ -628,7 +699,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-5-147-55-clever-jogurt-bily-s-biodokulturou-150g",
@@ -636,6 +708,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Clever Jogurt bílý s biȌdokulturou",
       "category": "dairy",
       "subcategory": "",
@@ -645,7 +718,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-5-136-425-srdce-domova-cerstve-mleko-polotucne-1l",
@@ -653,6 +727,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Srdce domova Čerstvé mléko polotučné",
       "category": "dairy",
       "subcategory": "",
@@ -662,7 +737,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-5-251-90-today-kosmeticke-ubrousky-200ks",
@@ -670,6 +746,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 5,
       "productName": "Today Kosmetické ubrousky",
       "category": "home",
       "subcategory": "",
@@ -679,7 +756,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=5"
     },
     {
       "id": "billa-pdf-2026-09-09-9-107-624-pecena-sunka-100g",
@@ -687,6 +765,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 9,
       "productName": "Pečená šunka",
       "category": "meat",
       "subcategory": "",
@@ -696,7 +775,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=9"
     },
     {
       "id": "billa-pdf-2026-09-09-9-495-331-kostelecka-anglicka-slanina-100g",
@@ -704,6 +784,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 9,
       "productName": "Kostelecká anglická slanina",
       "category": "pantry",
       "subcategory": "",
@@ -713,7 +794,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=9"
     },
     {
       "id": "billa-pdf-2026-09-09-9-134-317-kureci-debrecinka-100g",
@@ -721,6 +803,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 9,
       "productName": "Kuřecí debrecínka",
       "category": "meat",
       "subcategory": "",
@@ -730,7 +813,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=9"
     },
     {
       "id": "billa-pdf-2026-09-09-9-276-120-pastika-s-mandlemi-100g",
@@ -738,6 +822,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 9,
       "productName": "Paštika s mandlemi",
       "category": "salty",
       "subcategory": "",
@@ -747,7 +832,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=9"
     },
     {
       "id": "billa-pdf-2026-09-09-9-484-223-niva-45-t-v-s-100g",
@@ -755,6 +841,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 9,
       "productName": "Niva 45 % t. v s.",
       "category": "pantry",
       "subcategory": "",
@@ -764,7 +851,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=9"
     },
     {
       "id": "billa-pdf-2026-09-09-9-338-332-vysocina-100g",
@@ -772,6 +860,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 9,
       "productName": "Vysočina",
       "category": "pantry",
       "subcategory": "",
@@ -781,7 +870,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=9"
     },
     {
       "id": "billa-pdf-2026-09-09-9-305-38-kureci-stripsy-obalovane-100g",
@@ -789,6 +879,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 9,
       "productName": "Kuřecí stripsy obalované",
       "category": "meat",
       "subcategory": "",
@@ -798,7 +889,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=9"
     },
     {
       "id": "billa-pdf-2026-09-09-10-488-34-nowaco-rybi-ole-xxl-porce-1kg",
@@ -806,6 +898,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 10,
       "productName": "Nowaco Rybí Ȍlé XXL porce",
       "category": "pantry",
       "subcategory": "",
@@ -816,7 +909,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=10"
     },
     {
       "id": "billa-pdf-2026-09-09-11-130-551-horal-salam-900g",
@@ -824,6 +918,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 11,
       "productName": "Horal salám",
       "category": "meat",
       "subcategory": "",
@@ -833,7 +928,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=11"
     },
     {
       "id": "billa-pdf-2026-09-09-11-307-551-uzene-predni-koleno-100-1kg",
@@ -841,6 +937,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 11,
       "productName": "Uzené přední koleno 100",
       "category": "pantry",
       "subcategory": "",
@@ -851,7 +948,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=11"
     },
     {
       "id": "billa-pdf-2026-09-09-11-225-206-hit-xxl-susenky-257g",
@@ -859,6 +957,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 11,
       "productName": "Hit XXL sušenky",
       "category": "sweet",
       "subcategory": "",
@@ -868,7 +967,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=11"
     },
     {
       "id": "billa-pdf-2026-09-09-11-307-378-magnum-mini-55ml",
@@ -876,6 +976,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 11,
       "productName": "Magnum Mini",
       "category": "pantry",
       "subcategory": "",
@@ -885,7 +986,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=11"
     },
     {
       "id": "billa-pdf-2026-09-09-11-494-379-kaktus-jahoda-citron-45ml",
@@ -893,6 +995,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 11,
       "productName": "Kaktus Jahoda citron",
       "category": "produce",
       "subcategory": "",
@@ -902,7 +1005,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=11"
     },
     {
       "id": "billa-pdf-2026-09-09-12-109-189-kureci-prsni-sunka-100g",
@@ -910,6 +1014,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 12,
       "productName": "Kuřecí prsní šunka",
       "category": "meat",
       "subcategory": "",
@@ -919,7 +1024,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=12"
     },
     {
       "id": "billa-pdf-2026-09-09-12-500-38-podebradka-ochucena-1.5l",
@@ -927,6 +1033,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 12,
       "productName": "Poděbradka ochucená",
       "category": "pantry",
       "subcategory": "",
@@ -936,7 +1043,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=12"
     },
     {
       "id": "billa-pdf-2026-09-09-12-104-342-billa-ready-hummus-bataty-a-dyne-160g",
@@ -944,6 +1052,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 12,
       "productName": "BILLA Ready Hummus batáty a dýně",
       "category": "pantry",
       "subcategory": "",
@@ -953,7 +1062,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=12"
     },
     {
       "id": "billa-pdf-2026-09-09-12-90-40-lunter-francouzka-pomazanka-150g",
@@ -961,6 +1071,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 12,
       "productName": "Lunter Francouzká pomazánka",
       "category": "pantry",
       "subcategory": "",
@@ -970,7 +1081,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=12"
     },
     {
       "id": "billa-pdf-2026-09-09-13-225-629-billa-prosciutto-crudo-90g",
@@ -978,6 +1090,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "BILLA Prosciutto Crudo",
       "category": "pantry",
       "subcategory": "",
@@ -987,7 +1100,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-13-90-448-burty-600g",
@@ -995,6 +1109,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "Buřty",
       "category": "pantry",
       "subcategory": "",
@@ -1004,7 +1119,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-13-225-448-president-camembert-90g",
@@ -1012,6 +1128,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "Président Camembert",
       "category": "pantry",
       "subcategory": "",
@@ -1021,7 +1138,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-13-225-266-madeland-platky-100g",
@@ -1029,6 +1147,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "Madeland Plátky",
       "category": "pantry",
       "subcategory": "",
@@ -1038,7 +1157,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-13-360-448-halloumi-225g",
@@ -1046,6 +1166,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "Halloumi",
       "category": "pantry",
       "subcategory": "",
@@ -1055,7 +1176,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-13-495-448-syr-na-panev-100g",
@@ -1063,6 +1185,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "Sýr na pánev",
       "category": "dairy",
       "subcategory": "",
@@ -1072,7 +1195,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-13-90-629-sunka-mandolina-nejvyssi-jakosti-100g",
@@ -1080,6 +1204,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "Šunka Mandolína nejvyšší jakosti",
       "category": "meat",
       "subcategory": "",
@@ -1089,7 +1214,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-13-360-266-billa-platky-100g",
@@ -1097,6 +1223,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "BILLA Plátky",
       "category": "pantry",
       "subcategory": "",
@@ -1106,7 +1233,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-13-90-266-smetanito-150g",
@@ -1114,6 +1242,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 13,
       "productName": "Smetanito",
       "category": "dairy",
       "subcategory": "",
@@ -1123,7 +1252,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=13"
     },
     {
       "id": "billa-pdf-2026-09-09-16-127-164-bezlepkove-ryzove-noky-500g",
@@ -1131,6 +1261,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 16,
       "productName": "Bezlepkové rýžové noky",
       "category": "pantry",
       "subcategory": "",
@@ -1140,7 +1271,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=16"
     },
     {
       "id": "billa-pdf-2026-09-09-16-471-345-panzani-gluten-free-400g",
@@ -1148,6 +1280,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 16,
       "productName": "Panzani Gluten free",
       "category": "pantry",
       "subcategory": "",
@@ -1157,7 +1290,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=16"
     },
     {
       "id": "billa-pdf-2026-09-09-17-391-274-slane-precliky-b-bezlepkove-z-k-60-g-l-e-p-60g",
@@ -1165,6 +1299,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 17,
       "productName": "Slané preclíky b bezlepkové z k 60 g l e p",
       "category": "salty",
       "subcategory": "",
@@ -1174,7 +1309,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=17"
     },
     {
       "id": "billa-pdf-2026-09-09-17-485-414-bezlepkovy-sandwich-chocolate-225g",
@@ -1182,6 +1318,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 17,
       "productName": "Bezlepkový sandwich chocolate",
       "category": "drinks",
       "subcategory": "",
@@ -1191,7 +1328,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=17"
     },
     {
       "id": "billa-pdf-2026-09-09-17-155-67-bezlepkove-perlicky-s-ovocnou-prichuti-130g",
@@ -1199,6 +1337,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 17,
       "productName": "Bezlepkové Perličky s ovocnou příchutí",
       "category": "pantry",
       "subcategory": "",
@@ -1208,7 +1347,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=17"
     },
     {
       "id": "billa-pdf-2026-09-09-17-506-68-billa-olivy-snack-100g",
@@ -1216,6 +1356,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 17,
       "productName": "BILLA Olivy snack",
       "category": "pantry",
       "subcategory": "",
@@ -1225,7 +1366,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=17"
     },
     {
       "id": "billa-pdf-2026-09-09-17-310-402-bezlepkove-susenky-s-kousky-cokolady-bez-pridaneho-cukru-130g",
@@ -1233,6 +1375,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 17,
       "productName": "Bezlepkové sušenky s kousky čokolády bez přidaného cukru",
       "category": "sweet",
       "subcategory": "",
@@ -1242,7 +1385,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=17"
     },
     {
       "id": "billa-pdf-2026-09-09-18-495-638-chocenske-tradicni-pomazankove-150g",
@@ -1250,6 +1394,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 18,
       "productName": "Choceňské tradiční pomazánkové",
       "category": "pantry",
       "subcategory": "",
@@ -1259,7 +1404,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=18"
     },
     {
       "id": "billa-pdf-2026-09-09-18-90-465-kefirove-mleko-450ml",
@@ -1267,6 +1413,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 18,
       "productName": "Kefírové mléko",
       "category": "dairy",
       "subcategory": "",
@@ -1276,7 +1423,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=18"
     },
     {
       "id": "billa-pdf-2026-09-09-18-360-119-olma-smetana-200g",
@@ -1284,6 +1432,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 18,
       "productName": "Olma Smetana",
       "category": "dairy",
       "subcategory": "",
@@ -1293,7 +1442,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=18"
     },
     {
       "id": "billa-pdf-2026-09-09-18-501-292-smetanovy-jogurt-150g",
@@ -1301,6 +1451,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 18,
       "productName": "Smetanový jogurt",
       "category": "dairy",
       "subcategory": "",
@@ -1310,7 +1461,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=18"
     },
     {
       "id": "billa-pdf-2026-09-09-18-360-465-grand-dessert-190g",
@@ -1318,6 +1470,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 18,
       "productName": "Grand Dessert",
       "category": "pantry",
       "subcategory": "",
@@ -1327,7 +1480,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=18"
     },
     {
       "id": "billa-pdf-2026-09-09-18-495-465-kunin-mlecna-krupice-150g",
@@ -1335,6 +1489,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 18,
       "productName": "Kunín Mléčná krupice",
       "category": "pantry",
       "subcategory": "",
@@ -1344,7 +1499,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=18"
     },
     {
       "id": "billa-pdf-2026-09-09-18-360-638-prepustene-maslo-alfa-200g",
@@ -1352,6 +1508,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 18,
       "productName": "Přepuštěné máslo alfa",
       "category": "dairy",
       "subcategory": "",
@@ -1361,7 +1518,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=18"
     },
     {
       "id": "billa-pdf-2026-09-09-18-225-119-jihocesky-tvaroh-polotucny-250g",
@@ -1369,6 +1527,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 18,
       "productName": "Jihočeský Tvaroh polotučný",
       "category": "dairy",
       "subcategory": "",
@@ -1378,7 +1537,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=18"
     },
     {
       "id": "billa-pdf-2026-09-09-19-495-448-mccain-golden-longs-750g",
@@ -1386,6 +1546,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "McCain Golden Longs",
       "category": "pantry",
       "subcategory": "",
@@ -1395,7 +1556,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-90-629-nowaco-jatrove-knedlicky-300g",
@@ -1403,6 +1565,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Nowaco Játrové knedlíčky",
       "category": "pantry",
       "subcategory": "",
@@ -1412,7 +1575,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-225-629-nowaco-spenat-sekany-porce-400g",
@@ -1420,6 +1584,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Nowaco Špenát sekaný porce",
       "category": "pantry",
       "subcategory": "",
@@ -1429,7 +1594,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-90-266-carte-d-or-825ml",
@@ -1437,6 +1603,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Carte d’Or",
       "category": "pantry",
       "subcategory": "",
@@ -1446,7 +1613,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-360-266-cornetto-max-115ml",
@@ -1454,6 +1622,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Cornetto Max",
       "category": "pantry",
       "subcategory": "",
@@ -1463,7 +1632,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-495-85-calippo-jahoda-105ml",
@@ -1471,6 +1641,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Calippo Jahoda",
       "category": "pantry",
       "subcategory": "",
@@ -1480,7 +1651,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-90-448-nowaco-vlnky-do-trouby-750g",
@@ -1488,6 +1660,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Nowaco Vlnky do trouby",
       "category": "pantry",
       "subcategory": "",
@@ -1497,7 +1670,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-219-266-haagen-dazs-420ml",
@@ -1505,6 +1679,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Häagen- –Dazs",
       "category": "pantry",
       "subcategory": "",
@@ -1514,7 +1689,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-495-266-cornetto-125ml",
@@ -1522,6 +1698,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Cornetto",
       "category": "pantry",
       "subcategory": "",
@@ -1531,7 +1708,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-19-90-85-mroz-45ml",
@@ -1539,6 +1717,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 19,
       "productName": "Mrož",
       "category": "pantry",
       "subcategory": "",
@@ -1548,7 +1727,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=19"
     },
     {
       "id": "billa-pdf-2026-09-09-20-313-26-uzena-kureci-stehna-420g",
@@ -1556,6 +1736,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 20,
       "productName": "Uzená kuřecí stehna",
       "category": "meat",
       "subcategory": "",
@@ -1565,7 +1746,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=20"
     },
     {
       "id": "billa-pdf-2026-09-09-20-491-45-kureci-junior-400g",
@@ -1573,6 +1755,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 20,
       "productName": "Kuřecí Junior",
       "category": "meat",
       "subcategory": "",
@@ -1582,7 +1765,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=20"
     },
     {
       "id": "billa-pdf-2026-09-09-20-127-26-kureci-parky-detske-bez-e-250g",
@@ -1590,6 +1774,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 20,
       "productName": "Kuřecí párky dětské bez „E“",
       "category": "meat",
       "subcategory": "",
@@ -1599,7 +1784,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=20"
     },
     {
       "id": "billa-pdf-2026-09-09-20-463-450-dr-oetker-ryzova-kase-52g",
@@ -1607,6 +1793,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 20,
       "productName": "Dr. Oetker Rýžová kaše",
       "category": "pantry",
       "subcategory": "",
@@ -1616,7 +1803,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=20"
     },
     {
       "id": "billa-pdf-2026-09-09-21-282-40-kostici-107g",
@@ -1624,6 +1812,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 21,
       "productName": "Kostíci",
       "category": "pantry",
       "subcategory": "",
@@ -1633,7 +1822,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=21"
     },
     {
       "id": "billa-pdf-2026-09-09-21-495-40-kostici-kapsicka-70g",
@@ -1641,6 +1831,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 21,
       "productName": "Kostíci kapsička",
       "category": "pantry",
       "subcategory": "",
@@ -1650,7 +1841,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=21"
     },
     {
       "id": "billa-pdf-2026-09-09-21-460-436-kunin-kefirove-mleko-300g",
@@ -1658,6 +1850,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 21,
       "productName": "Kunín Kefírové mléko",
       "category": "dairy",
       "subcategory": "",
@@ -1667,7 +1860,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=21"
     },
     {
       "id": "billa-pdf-2026-09-09-21-217-424-kunin-probio2-jogurt-140g",
@@ -1675,6 +1869,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 21,
       "productName": "Kunín Probio2 jogurt",
       "category": "dairy",
       "subcategory": "",
@@ -1684,7 +1879,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=21"
     },
     {
       "id": "billa-pdf-2026-09-09-24-231-629-j-c-horn-grilovaci-koreni-25g",
@@ -1692,6 +1888,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 24,
       "productName": "J. C. Horn Grilovací koření",
       "category": "pantry",
       "subcategory": "",
@@ -1701,7 +1898,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=24"
     },
     {
       "id": "billa-pdf-2026-09-09-24-495-448-babiccina-volba-krupicka-jemna-500g",
@@ -1709,6 +1907,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 24,
       "productName": "Babiččina volba Krupička jemná",
       "category": "pantry",
       "subcategory": "",
@@ -1718,7 +1917,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=24"
     },
     {
       "id": "billa-pdf-2026-09-09-24-130-266-rekord-veprove-maso-ve-vlastni-stave-300g",
@@ -1726,6 +1926,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 24,
       "productName": "Rekord Vepřové maso ve vlastní šťávě",
       "category": "meat",
       "subcategory": "",
@@ -1735,7 +1936,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=24"
     },
     {
       "id": "billa-pdf-2026-09-09-24-360-629-vitana-paprika-sladka-maxi-100g",
@@ -1743,6 +1945,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 24,
       "productName": "Vitana Paprika sladká maxi",
       "category": "produce",
       "subcategory": "",
@@ -1752,7 +1955,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=24"
     },
     {
       "id": "billa-pdf-2026-09-09-24-312-267-franz-josef-omacka-350g",
@@ -1760,6 +1964,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 24,
       "productName": "Franz Josef Omáčka",
       "category": "pantry",
       "subcategory": "",
@@ -1769,7 +1974,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=24"
     },
     {
       "id": "billa-pdf-2026-09-09-24-495-85-franz-josef-olivy-130g",
@@ -1777,6 +1983,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 24,
       "productName": "Franz Josef Olivy",
       "category": "pantry",
       "subcategory": "",
@@ -1786,7 +1993,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=24"
     },
     {
       "id": "billa-pdf-2026-09-09-24-360-448-ryze-loupana-ve-varnych-saccich-800g",
@@ -1794,6 +2002,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 24,
       "productName": "Rýže loupaná ve varných sáčcích",
       "category": "pantry",
       "subcategory": "",
@@ -1803,7 +2012,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=24"
     },
     {
       "id": "billa-pdf-2026-09-09-24-495-266-billa-koreni-13g",
@@ -1811,6 +2021,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 24,
       "productName": "BILLA Koření",
       "category": "pantry",
       "subcategory": "",
@@ -1820,7 +2031,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=24"
     },
     {
       "id": "billa-pdf-2026-09-09-25-495-119-maxsport-proteinova-tycinka-50g",
@@ -1828,6 +2040,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 25,
       "productName": "Maxsport Proteinová tyčinka",
       "category": "sweet",
       "subcategory": "",
@@ -1837,7 +2050,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=25"
     },
     {
       "id": "billa-pdf-2026-09-09-25-90-292-clever-mandarinky-v-nalevu-175g",
@@ -1845,6 +2059,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 25,
       "productName": "Clever Mandarinky v nálevu",
       "category": "produce",
       "subcategory": "",
@@ -1854,7 +2069,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=25"
     },
     {
       "id": "billa-pdf-2026-09-09-25-366-119-fit-musli-tycinka-30g",
@@ -1862,6 +2078,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 25,
       "productName": "Fit müsli Tyčinka",
       "category": "sweet",
       "subcategory": "",
@@ -1871,7 +2088,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=25"
     },
     {
       "id": "billa-pdf-2026-09-09-25-131-465-nestle-fitness-granola-od-300g",
@@ -1879,6 +2097,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 25,
       "productName": "Nestlé Fitness Granola od",
       "category": "pantry",
       "subcategory": "",
@@ -1888,7 +2107,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=25"
     },
     {
       "id": "billa-pdf-2026-09-09-25-360-292-bombus-gummies-35g",
@@ -1896,6 +2116,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 25,
       "productName": "Bombus Gummies",
       "category": "pantry",
       "subcategory": "",
@@ -1905,7 +2126,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=25"
     },
     {
       "id": "billa-pdf-2026-09-09-25-124-638-billa-premium-neoltrovany-olivovy-olej-extra-panensky-750ml",
@@ -1913,6 +2135,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 25,
       "productName": "BILLA Premium NeȌltrovaný olivový olej Extra panenský",
       "category": "pantry",
       "subcategory": "",
@@ -1922,7 +2145,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=25"
     },
     {
       "id": "billa-pdf-2026-09-09-25-225-292-trtinovy-cukr-very-dark-1kg",
@@ -1930,6 +2154,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 25,
       "productName": "Třtinový cukr Very Dark",
       "category": "pantry",
       "subcategory": "",
@@ -1940,7 +2165,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=25"
     },
     {
       "id": "billa-pdf-2026-09-09-25-501-292-nestle-detska-tycinka-23.5g",
@@ -1948,6 +2174,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 25,
       "productName": "Nestlé Dětská tyčinka",
       "category": "sweet",
       "subcategory": "",
@@ -1957,7 +2184,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=25"
     },
     {
       "id": "billa-pdf-2026-09-09-26-495-629-haribo-bonbony-80g",
@@ -1965,6 +2193,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 26,
       "productName": "Haribo Bonbony",
       "category": "sweet",
       "subcategory": "",
@@ -1974,7 +2203,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=26"
     },
     {
       "id": "billa-pdf-2026-09-09-26-501-448-opavia-brumik-30g",
@@ -1982,6 +2212,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 26,
       "productName": "Opavia Brumík",
       "category": "drinks",
       "subcategory": "",
@@ -1991,7 +2222,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=26"
     },
     {
       "id": "billa-pdf-2026-09-09-26-360-85-bebe-dobre-rano-360g",
@@ -1999,6 +2231,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 26,
       "productName": "BeBe Dobré ráno",
       "category": "pantry",
       "subcategory": "",
@@ -2008,7 +2241,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=26"
     },
     {
       "id": "billa-pdf-2026-09-09-26-137-266-nesquik-susenka-50g",
@@ -2016,6 +2250,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 26,
       "productName": "Nesquik Sušenka",
       "category": "sweet",
       "subcategory": "",
@@ -2025,7 +2260,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=26"
     },
     {
       "id": "billa-pdf-2026-09-09-26-495-85-werther-s-original-70g",
@@ -2033,6 +2269,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 26,
       "productName": "Werther’s Originál",
       "category": "pantry",
       "subcategory": "",
@@ -2042,7 +2279,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=26"
     },
     {
       "id": "billa-pdf-2026-09-09-27-495-266-nice-bites-kesu-prazene-solene-150g",
@@ -2050,6 +2288,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "Nice Bites Kešu pražené solené",
       "category": "salty",
       "subcategory": "",
@@ -2059,7 +2298,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-27-225-83-dupetky-70g",
@@ -2067,6 +2307,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "Dupetky",
       "category": "pantry",
       "subcategory": "",
@@ -2076,7 +2317,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-27-360-85-lay-s-55g",
@@ -2084,6 +2326,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "Lay’s",
       "category": "pantry",
       "subcategory": "",
@@ -2093,7 +2336,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-27-495-85-cantina-tortilla-chips-150g",
@@ -2101,6 +2345,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "Cantina Tortilla chips",
       "category": "salty",
       "subcategory": "",
@@ -2110,7 +2355,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-27-124-629-davidoi-zrnkova-kava-500g",
@@ -2118,6 +2364,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "DavidoȈ Zrnková káva",
       "category": "pantry",
       "subcategory": "",
@@ -2127,7 +2374,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-27-307-629-jacobs-brazilie-kolumbie-mleta-kava-200g",
@@ -2135,6 +2383,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "Jacobs Brazílie/ Kolumbie mletá káva",
       "category": "pantry",
       "subcategory": "",
@@ -2144,7 +2393,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-27-124-448-nescafe-classic-instantni-kava-180g",
@@ -2152,6 +2402,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "Nescafé Classic Instantní káva",
       "category": "pantry",
       "subcategory": "",
@@ -2161,7 +2412,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-27-354-266-ahmad-caj-200g",
@@ -2169,6 +2421,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "Ahmad čaj",
       "category": "pantry",
       "subcategory": "",
@@ -2178,7 +2431,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-27-90-85-maretti-70g",
@@ -2186,6 +2440,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 27,
       "productName": "Maretti",
       "category": "pantry",
       "subcategory": "",
@@ -2195,7 +2450,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=27"
     },
     {
       "id": "billa-pdf-2026-09-09-28-208-420-mroz-270ml",
@@ -2203,6 +2459,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 28,
       "productName": "Mrož",
       "category": "pantry",
       "subcategory": "",
@@ -2212,7 +2469,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=28"
     },
     {
       "id": "billa-pdf-2026-09-09-28-305-462-cappy-pomeranc-1l",
@@ -2220,6 +2478,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 28,
       "productName": "Cappy Pomeranč",
       "category": "produce",
       "subcategory": "",
@@ -2229,7 +2488,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=28"
     },
     {
       "id": "billa-pdf-2026-09-09-28-489-466-martini-prosecco-0.75l",
@@ -2237,6 +2497,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 28,
       "productName": "Martini Prosecco",
       "category": "pantry",
       "subcategory": "",
@@ -2246,7 +2507,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=28"
     },
     {
       "id": "billa-pdf-2026-09-09-28-213-224-parecky-s-telecim-masem-100g",
@@ -2254,6 +2516,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 28,
       "productName": "Párečky s telecím masem",
       "category": "pantry",
       "subcategory": "",
@@ -2263,7 +2526,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=28"
     },
     {
       "id": "billa-pdf-2026-09-09-28-36-62-parky-90-200g",
@@ -2271,6 +2535,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 28,
       "productName": "Párky 90%",
       "category": "pantry",
       "subcategory": "",
@@ -2280,7 +2545,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=28"
     },
     {
       "id": "billa-pdf-2026-09-09-28-307-22-jacobs-velvet-instantni-kava-180g",
@@ -2288,6 +2554,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 28,
       "productName": "Jacobs Velvet Instantní káva",
       "category": "pantry",
       "subcategory": "",
@@ -2297,7 +2564,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=28"
     },
     {
       "id": "billa-pdf-2026-09-09-28-483-46-jacobs-velvet-mleta-kava-250g",
@@ -2305,6 +2573,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 28,
       "productName": "Jacobs Velvet Mletá káva",
       "category": "pantry",
       "subcategory": "",
@@ -2314,7 +2583,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=28"
     },
     {
       "id": "billa-pdf-2026-09-09-29-374-424-nivea-balzam-po-holeni-sensitive-100ml",
@@ -2322,6 +2592,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 29,
       "productName": "Nivea Balzám po holení sensitive",
       "category": "pantry",
       "subcategory": "",
@@ -2331,7 +2602,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=29"
     },
     {
       "id": "billa-pdf-2026-09-09-29-393-655-nivea-krem-na-oblicej-250g",
@@ -2339,6 +2611,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 29,
       "productName": "Nivea Krém na obličej",
       "category": "pantry",
       "subcategory": "",
@@ -2348,7 +2621,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=29"
     },
     {
       "id": "billa-pdf-2026-09-09-29-331-532-nivea-sprchovy-gel-250ml",
@@ -2356,6 +2630,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 29,
       "productName": "Nivea Sprchový gel",
       "category": "home",
       "subcategory": "",
@@ -2365,7 +2640,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=29"
     },
     {
       "id": "billa-pdf-2026-09-09-29-104-428-nivea-deosprej-150ml",
@@ -2373,6 +2649,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 29,
       "productName": "Nivea deosprej",
       "category": "pantry",
       "subcategory": "",
@@ -2382,7 +2659,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=29"
     },
     {
       "id": "billa-pdf-2026-09-09-30-489-629-bozkov-standard-0.5l",
@@ -2390,6 +2668,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Božkov Standard",
       "category": "pantry",
       "subcategory": "",
@@ -2399,7 +2678,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-354-448-jameson-0.7l",
@@ -2407,6 +2687,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Jameson",
       "category": "pantry",
       "subcategory": "",
@@ -2416,7 +2697,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-489-448-professorado-0.5l",
@@ -2424,6 +2706,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Professorado",
       "category": "pantry",
       "subcategory": "",
@@ -2433,7 +2716,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-84-266-jagermeister-0.7l",
@@ -2441,6 +2725,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Jägermeister",
       "category": "pantry",
       "subcategory": "",
@@ -2450,7 +2735,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-219-629-hanacka-vodka-0.5l",
@@ -2458,6 +2744,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Hanácká vodka",
       "category": "drinks",
       "subcategory": "",
@@ -2467,7 +2754,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-354-629-stara-myslivecka-0.5l",
@@ -2475,6 +2763,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Stará myslivecká",
       "category": "pantry",
       "subcategory": "",
@@ -2484,7 +2773,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-360-266-templarske-sklepy-0.75l",
@@ -2492,6 +2782,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Templářské sklepy",
       "category": "pantry",
       "subcategory": "",
@@ -2501,7 +2792,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-219-266-heiron-0.5l",
@@ -2509,6 +2801,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "HeȈron",
       "category": "pantry",
       "subcategory": "",
@@ -2518,7 +2811,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-313-85-radegast-razna-10-0.5l",
@@ -2526,6 +2820,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Radegast Rázná 10",
       "category": "pantry",
       "subcategory": "",
@@ -2535,7 +2830,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-495-85-zlaty-bazant-krusovice-bohem-0.5l",
@@ -2543,6 +2839,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Zlatý Bažant, Krušovice Bohém",
       "category": "pantry",
       "subcategory": "",
@@ -2552,7 +2849,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-130-85-staropramen-10-0.5l",
@@ -2560,6 +2858,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Staropramen 10",
       "category": "pantry",
       "subcategory": "",
@@ -2569,7 +2868,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-30-489-266-mucha-sekt-0.75l",
@@ -2577,6 +2877,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 30,
       "productName": "Mucha sekt",
       "category": "drinks",
       "subcategory": "",
@@ -2586,7 +2887,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=30"
     },
     {
       "id": "billa-pdf-2026-09-09-31-495-85-lisacke-jablko-0.5l",
@@ -2594,6 +2896,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Lišácké jablko",
       "category": "produce",
       "subcategory": "",
@@ -2603,7 +2906,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-90-629-magnesia-red-1.5l",
@@ -2611,6 +2915,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Magnesia red",
       "category": "pantry",
       "subcategory": "",
@@ -2620,7 +2925,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-225-627-gemerka-botanica-1.5l",
@@ -2628,6 +2934,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Gemerka Botanica",
       "category": "pantry",
       "subcategory": "",
@@ -2637,7 +2944,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-360-85-budweiser-budvar-original-budvar-33-0.5l",
@@ -2645,6 +2953,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Budweiser Budvar Originál, Budvar 33",
       "category": "pantry",
       "subcategory": "",
@@ -2654,7 +2963,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-360-629-relax-ovocny-sirup-0.7l",
@@ -2662,6 +2972,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Relax Ovocný sirup",
       "category": "drinks",
       "subcategory": "",
@@ -2671,7 +2982,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-90-266-monster-energy-drink-0.5l",
@@ -2679,6 +2991,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Monster Energy drink",
       "category": "drinks",
       "subcategory": "",
@@ -2688,7 +3001,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-90-85-excelent-11-0.5l",
@@ -2696,6 +3010,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Excelent 11",
       "category": "pantry",
       "subcategory": "",
@@ -2705,7 +3020,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-225-85-v-kozel-12-0.5l",
@@ -2713,6 +3029,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "V. Kozel 12",
       "category": "pantry",
       "subcategory": "",
@@ -2722,7 +3039,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-495-266-gambrinus-patron-12-0.5l",
@@ -2730,6 +3048,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Gambrinus Patron 12",
       "category": "pantry",
       "subcategory": "",
@@ -2739,7 +3058,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-225-266-staropramen-11-0.5l",
@@ -2747,6 +3067,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Staropramen 11",
       "category": "pantry",
       "subcategory": "",
@@ -2756,7 +3077,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-31-360-266-krusovice-10-krusovice-nealko-0.5l",
@@ -2764,6 +3086,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 31,
       "productName": "Krušovice 10, Krušovice Nealko",
       "category": "pantry",
       "subcategory": "",
@@ -2773,7 +3096,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=31"
     },
     {
       "id": "billa-pdf-2026-09-09-32-360-629-tento-papirove-kapesnicky-v-boxu-58ks",
@@ -2781,6 +3105,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 32,
       "productName": "Tento Papírové kapesníčky v boxu",
       "category": "home",
       "subcategory": "",
@@ -2790,7 +3115,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=32"
     },
     {
       "id": "billa-pdf-2026-09-09-32-354-448-premium-detske-plenky-a-kalhotky-52ks",
@@ -2798,6 +3124,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 32,
       "productName": "Premium Dětské plenky a kalhotky",
       "category": "home",
       "subcategory": "",
@@ -2807,7 +3134,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=32"
     },
     {
       "id": "billa-pdf-2026-09-09-32-495-448-hami-maso-zeleninovy-prikrm-250g",
@@ -2815,6 +3143,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 32,
       "productName": "Hami Maso- zeleninový příkrm",
       "category": "produce",
       "subcategory": "",
@@ -2824,7 +3153,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=32"
     },
     {
       "id": "billa-pdf-2026-09-09-32-495-266-wellaoex-lak-na-vlasy-250ml",
@@ -2832,6 +3162,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 32,
       "productName": "Wellaȏex Lak na vlasy",
       "category": "pantry",
       "subcategory": "",
@@ -2841,7 +3172,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=32"
     },
     {
       "id": "billa-pdf-2026-09-09-32-360-266-parodontax-zubni-pasta-whitening-75ml",
@@ -2849,6 +3181,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 32,
       "productName": "Parodontax Zubní pasta Whitening",
       "category": "pantry",
       "subcategory": "",
@@ -2858,7 +3191,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=32"
     },
     {
       "id": "billa-pdf-2026-09-09-32-495-115-kvetinace-1ks",
@@ -2866,6 +3200,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 32,
       "productName": "Květináče",
       "category": "pantry",
       "subcategory": "",
@@ -2875,7 +3210,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=32"
     },
     {
       "id": "billa-pdf-2026-09-09-32-90-85-head-shoulders-sampon-250ml",
@@ -2883,6 +3219,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 32,
       "productName": "Head & shoulders Šampon",
       "category": "home",
       "subcategory": "",
@@ -2892,7 +3229,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=32"
     },
     {
       "id": "billa-pdf-2026-09-09-33-489-629-quantum-kapsle-do-mycky-nadobi-111ks",
@@ -2900,6 +3238,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Quantum kapsle do myčky nádobí",
       "category": "pantry",
       "subcategory": "",
@@ -2909,7 +3248,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-90-448-somat-sul-do-mycky-1.5kg",
@@ -2917,6 +3257,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Somat Sůl do myčky",
       "category": "pantry",
       "subcategory": "",
@@ -2926,7 +3267,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-495-448-jelen-na-nadobi-brusinka-500ml",
@@ -2934,6 +3276,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Jelen Na nádobí brusinka",
       "category": "pantry",
       "subcategory": "",
@@ -2943,7 +3286,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-360-448-cif-cistici-krem-500ml",
@@ -2951,6 +3295,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Cif Čisticí krém",
       "category": "home",
       "subcategory": "",
@@ -2960,7 +3305,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-225-266-purina-granule-pro-psy-800g",
@@ -2968,6 +3314,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Purina Granule pro psy",
       "category": "home",
       "subcategory": "",
@@ -2977,7 +3324,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-360-266-poesie-pro-kocky-85g",
@@ -2985,6 +3333,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Poesie pro kočky",
       "category": "pantry",
       "subcategory": "",
@@ -2994,7 +3343,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-495-266-sheba-kapsicky-pro-kocky-340g",
@@ -3002,6 +3352,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Sheba Kapsičky pro kočky",
       "category": "home",
       "subcategory": "",
@@ -3011,7 +3362,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-90-266-gourmet-perle-gravy-340g",
@@ -3019,6 +3371,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Gourmet Perle gravy",
       "category": "pantry",
       "subcategory": "",
@@ -3028,7 +3381,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-495-85-pedigree-denta-stix-small-7ks",
@@ -3036,6 +3390,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Pedigree Denta Stix small",
       "category": "pantry",
       "subcategory": "",
@@ -3045,7 +3400,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-354-85-whiskas-kapsicky-pro-kocky-1020g",
@@ -3053,6 +3409,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Whiskas Kapsičky pro kočky",
       "category": "drinks",
       "subcategory": "",
@@ -3062,7 +3419,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-225-85-shelma-granule-pro-kocky-750g",
@@ -3070,6 +3428,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Shelma Granule pro kočky",
       "category": "home",
       "subcategory": "",
@@ -3079,7 +3438,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-90-85-cesar-kapsicky-pro-psy-400g",
@@ -3087,6 +3447,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Cesar kapsičky pro psy",
       "category": "pantry",
       "subcategory": "",
@@ -3096,7 +3457,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-33-225-448-dr-devil-wc-gel-turbulence-polar-aqua-1l",
@@ -3104,6 +3466,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 33,
       "productName": "Dr. Devil WC gel turbulence polar aqua",
       "category": "pantry",
       "subcategory": "",
@@ -3113,7 +3476,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=33"
     },
     {
       "id": "billa-pdf-2026-09-09-34-491-203-actimel-1200g",
@@ -3121,6 +3485,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 34,
       "productName": "Actimel",
       "category": "pantry",
       "subcategory": "",
@@ -3130,7 +3495,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=34"
     },
     {
       "id": "billa-pdf-2026-09-09-34-139-29-nudle-100g",
@@ -3138,6 +3504,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 34,
       "productName": "Nudle",
       "category": "pantry",
       "subcategory": "",
@@ -3147,7 +3514,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=34"
     },
     {
       "id": "billa-pdf-2026-09-09-34-287-388-hovezi-melnene-maso-440g",
@@ -3155,6 +3523,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 34,
       "productName": "Hovězí mělněné maso",
       "category": "meat",
       "subcategory": "",
@@ -3164,7 +3533,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=34"
     },
     {
       "id": "billa-pdf-2026-09-09-34-149-298-brambory-konzumni-pozdni-5kg",
@@ -3172,6 +3542,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 34,
       "productName": "Brambory konzumní pozdní",
       "category": "produce",
       "subcategory": "",
@@ -3181,7 +3552,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=34"
     },
     {
       "id": "billa-pdf-2026-09-09-35-309-477-zlaty-syr-platky-100g",
@@ -3189,6 +3561,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 35,
       "productName": "Zlatý sýr Plátky",
       "category": "dairy",
       "subcategory": "",
@@ -3199,7 +3572,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "regularPrice": 31.9
+      "regularPrice": 31.9,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=35"
     },
     {
       "id": "billa-pdf-2026-09-09-35-91-213-jacobs-velvet-crema-zrnkova-kava-1kg",
@@ -3207,6 +3581,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 35,
       "productName": "Jacobs Velvet Crema Zrnková káva",
       "category": "pantry",
       "subcategory": "",
@@ -3217,7 +3592,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "soldByWeight": true
+      "soldByWeight": true,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=35"
     },
     {
       "id": "billa-pdf-2026-09-09-35-79-33-contello-prosecco-d-o-c-frizzante-0.75l",
@@ -3225,6 +3601,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 35,
       "productName": "Contello Prosecco D.O.C. Frizzante",
       "category": "pantry",
       "subcategory": "",
@@ -3234,7 +3611,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=35"
     },
     {
       "id": "billa-pdf-2026-09-09-35-214-35-pilsner-urquell-0.5l",
@@ -3242,6 +3620,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 35,
       "productName": "Pilsner Urquell",
       "category": "pantry",
       "subcategory": "",
@@ -3251,7 +3630,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=35"
     },
     {
       "id": "billa-pdf-2026-09-09-35-348-36-jar-platinum-kapsle-do-mycky-45ks",
@@ -3259,6 +3639,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 35,
       "productName": "Jar Platinum Kapsle do myčky",
       "category": "home",
       "subcategory": "",
@@ -3268,7 +3649,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=35"
     },
     {
       "id": "billa-pdf-2026-09-09-35-140-497-fiky-cerstve-1ks",
@@ -3276,6 +3658,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 35,
       "productName": "Fíky čerstvé",
       "category": "pantry",
       "subcategory": "",
@@ -3285,7 +3668,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=35"
     },
     {
       "id": "billa-pdf-2026-09-09-36-495-454-vocilka-ceska-sunka-100g",
@@ -3293,6 +3677,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 36,
       "productName": "Vocílka Česká šunka",
       "category": "meat",
       "subcategory": "",
@@ -3302,7 +3687,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=36"
     },
     {
       "id": "billa-pdf-2026-09-09-36-123-379-billa-eidam-45-t-v-s-100g",
@@ -3310,6 +3696,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 36,
       "productName": "BILLA Eidam 45 % t. v s.",
       "category": "dairy",
       "subcategory": "",
@@ -3319,7 +3706,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=36"
     },
     {
       "id": "billa-pdf-2026-09-09-36-344-453-chocensky-smetanovy-jogurt-380g",
@@ -3327,6 +3715,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 36,
       "productName": "Choceňský smetanový jogurt",
       "category": "dairy",
       "subcategory": "",
@@ -3336,7 +3725,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=36"
     },
     {
       "id": "billa-pdf-2026-09-09-37-197-643-nice-bites-rozinky-200g",
@@ -3344,6 +3734,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 37,
       "productName": "Nice Bites Rozinky",
       "category": "pantry",
       "subcategory": "",
@@ -3353,7 +3744,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=37"
     },
     {
       "id": "billa-pdf-2026-09-09-37-485-360-calocephalus-1ks",
@@ -3361,6 +3753,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 37,
       "productName": "Calocephalus",
       "category": "pantry",
       "subcategory": "",
@@ -3370,7 +3763,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=37"
     },
     {
       "id": "billa-pdf-2026-09-09-37-246-44-hebe-mix-1ks",
@@ -3378,6 +3772,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 37,
       "productName": "Hebe mix",
       "category": "pantry",
       "subcategory": "",
@@ -3387,7 +3782,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=37"
     },
     {
       "id": "billa-pdf-2026-09-09-37-489-44-anturie-1ks",
@@ -3395,6 +3791,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 37,
       "productName": "Anturie",
       "category": "pantry",
       "subcategory": "",
@@ -3404,7 +3801,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=37"
     },
     {
       "id": "billa-pdf-2026-09-09-37-128-463-nice-bites-tykev-seminka-70g",
@@ -3412,6 +3810,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 37,
       "productName": "Nice Bites Tykev semínka",
       "category": "pantry",
       "subcategory": "",
@@ -3421,7 +3820,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=37"
     },
     {
       "id": "billa-pdf-2026-09-09-37-103-288-nice-bites-goji-70g",
@@ -3429,6 +3829,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 37,
       "productName": "Nice Bites Goji",
       "category": "pantry",
       "subcategory": "",
@@ -3438,7 +3839,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=37"
     },
     {
       "id": "billa-pdf-2026-09-09-37-262-327-slunecnicova-seminka-70g",
@@ -3446,6 +3848,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 37,
       "productName": "Slunečnicová semínka",
       "category": "pantry",
       "subcategory": "",
@@ -3455,7 +3858,8 @@
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
-      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny."
+      "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=37"
     },
     {
       "id": "billa-pdf-2026-09-09-38-269-395-olma-misa-130g",
@@ -3463,6 +3867,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 38,
       "productName": "Olma Míša",
       "category": "pantry",
       "subcategory": "",
@@ -3473,7 +3878,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "regularPrice": 24.9
+      "regularPrice": 24.9,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=38"
     },
     {
       "id": "billa-pdf-2026-09-09-38-454-395-etera-1.5l",
@@ -3481,6 +3887,7 @@
       "retailer": "Billa",
       "source": "billa",
       "sourceUrl": "https://www.billa.cz/letaky-billa/velky-letak-aktualni",
+      "flyerPage": 38,
       "productName": "Etera",
       "category": "pantry",
       "subcategory": "",
@@ -3491,7 +3898,8 @@
       "validTo": "2026-09-15",
       "storeName": "BILLA · celostátní velký leták",
       "description": "Cena z aktuálního velkého letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty. Dostupnost se může lišit podle prodejny.",
-      "regularPrice": 22.9
+      "regularPrice": 22.9,
+      "flyerUrl": "https://view.publitas.com/64069/2700042/pdfs/addef4b0-1b22-437c-88a7-3f41ce93c143.pdf#page=38"
     }
   ],
   "skipped": 146,
