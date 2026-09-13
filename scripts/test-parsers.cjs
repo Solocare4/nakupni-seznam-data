@@ -8,3 +8,8 @@ assert.equal(b.slugDates('velky-letak-9-9-15-9-2026').validTo,'2026-09-15');
 assert.equal(p.unitInfo(20,'m').dimension,'length');
 assert.equal(p.invalidOfferName('VYROBENO V ČR'),true);
 console.log('OK: BILLA conditions, titles, dates and PENNY units/title regressions');
+const {mergeCatalog}=require('./runtime/services/offers/catalogPolicy');
+const row={id:'albert-same-publication',source:'albert',retailer:'Albert',productName:'Máslo',quantity:250,unit:'g',validFrom:'2026-09-09',validTo:'2026-09-15',price:39.9,verification:'pdf-layout-v1'};
+const merged=mergeCatalog(null,{fetchedAt:'2026-09-13T12:00:00Z',offers:[row,{...row,price:34.9,verification:undefined}]});
+assert.equal(merged.offers.length,1);assert.equal(merged.offers[0].price,39.9);
+console.log('OK: Albert conflicting source revision');

@@ -10,12 +10,28 @@ function catalogDay(now = new Date()) {
 }
 const offerIdentity = (o) => [o.retailer, o.productName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(), o.quantity, o.unit, o.price, o.validFrom, o.validTo, o.loyaltyOnly ? o.loyaltyProgram : ''].join('|');
 exports.offerIdentity = offerIdentity;
+function resolveSourceRevisions(offers) {
+    const revisions = new Map();
+    for (const offer of offers) {
+        // Albert's HTML and PDF refer to the same publication row, sometimes with
+        // conflicting prices. Keep the geometrically verified PDF in that case.
+        const key = offer.source === 'albert'
+            ? [offer.source, offer.id, offer.quantity, offer.unit, offer.validFrom, offer.validTo, offer.storeName, offer.loyaltyOnly, offer.loyaltyProgram].join('|')
+            : (0, exports.offerIdentity)(offer);
+        const previous = revisions.get(key);
+        const verified = (o) => o.verification === 'pdf-layout-v1';
+        if (previous && verified(previous) && !verified(offer))
+            continue;
+        revisions.set(key, offer);
+    }
+    return [...new Map([...revisions.values()].map(o => [(0, exports.offerIdentity)(o), o])).values()];
+}
 /** Retain overlapping publications; never extend any individual offer's dates. */
 function mergeCatalog(current, incoming) {
     if (!incoming.offers.length)
         throw new Error('Prázdný katalog');
     if (!current)
-        return { ...incoming, offers: [...new Map(incoming.offers.map(o => [(0, exports.offerIdentity)(o), o])).values()] };
+        return { ...incoming, offers: resolveSourceRevisions(incoming.offers) };
     const oldRevision = current.pipelineVersion ?? 0;
     const newRevision = incoming.pipelineVersion ?? 0;
     if (newRevision > oldRevision && incoming.offers[0]?.source === 'lidl')
@@ -33,7 +49,7 @@ function mergeCatalog(current, incoming) {
         const old = offers.get((0, exports.offerIdentity)(next));
         offers.set((0, exports.offerIdentity)(next), { ...old, ...next, imageUrl: next.imageUrl ?? old?.imageUrl });
     }
-    return { ...incoming, offers: [...offers.values()] };
+    return { ...incoming, offers: resolveSourceRevisions([...offers.values()]) };
 }
 function refreshDue(offers, checkedAt, now = Date.now()) {
     const day = catalogDay(new Date(now));
