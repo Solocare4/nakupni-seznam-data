@@ -70,8 +70,17 @@ async function main() {
   for(const b of branches.filter(b=>b.retailer==='Globus'&&(all||['globus-cerny-most','globus-brno'].includes(b.id)))) {const storeId=b.id.replace('globus-',''); jobs.push({key:`globus/${storeId}`,run:()=>runtime('services/offers/globus/fetch').fetchGlobusCatalog({storeId,storeName:b.name})});}
   if(only) for(let i=jobs.length-1;i>=0;i--) if(!jobs[i].key.startsWith(only)) jobs.splice(i,1);
   for(let i=0;i<jobs.length;i+=3) await Promise.allSettled(jobs.slice(i,i+3).map(async job=>{try{publish(job.key,await job.run());}catch(e){failures.push(`${job.key}: ${e.message}`);console.error(`${job.key}: ${e.message}`);}}));
+  for (const source of ['albert','billa'].filter(s=>!only||s===only)) {
+    try {
+      const current=read(path.join(publicDir,manifest.catalogs[source].path));
+      const offers=await require('./branch-coverage.cjs').enrich(source,current.offers,branches);
+      publish(source,{...current,offers});
+    } catch(e){failures.push(`${source} branches: ${e.message}`);console.error(e.message);}
+  }
   atomic(path.join(publicDir,'manifest.json'),manifest);
   atomic(path.join(root,'update-report.json'),{at:new Date().toISOString(),failures,catalogs:Object.keys(manifest.catalogs).length});
   if(failures.length) process.exitCode=1;
 }
 main().catch(e=>{console.error(e);process.exitCode=1});
+
+

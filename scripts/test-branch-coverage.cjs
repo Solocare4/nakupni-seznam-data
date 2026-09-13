@@ -1,0 +1,21 @@
+const assert=require('node:assert/strict');
+const {albertCoverage}=require('./branch-coverage.cjs');
+const branches=[{retailer:'Albert',id:'albert-341',name:'Albert Benešov, Červené Vršky'},{retailer:'Albert',id:'albert-504',name:'Albert Adamov, Nádražní'}];
+const offer={sourceUrl:'https://letaky.albert.cz/37hm_akcni_letak/page/1',validFrom:'2026-09-09',validTo:'2026-09-15'};
+const leaflet={viewUrl:'https://letaky.albert.cz/37hm_akcni_letak/',validityStartDateFormatted:'09.09.2026',validityEndDateFormatted:'15.09.2026',stores:[{localizedName:'Benešov, Červené Vršky'}]};
+const data={hypermarket:{leaflets:[leaflet]},supermarket:{leaflets:[]}};
+assert.deepEqual(albertCoverage([offer],data,branches)[0].applicableBranchIds,['albert-341']);
+assert.deepEqual(albertCoverage([{...offer,sourceUrl:'https://letaky.albert.cz/37sm_akcni_letak/page/1'}],data,branches)[0].applicableBranchIds,[]);
+assert.deepEqual(albertCoverage([{...offer,validTo:'2026-09-16'}],data,branches)[0].applicableBranchIds,[]);
+assert.throws(()=>albertCoverage([offer],{},branches));
+console.log('OK: official Albert publication, dates and named branches match; unrelated branches excluded');
+const {billaCoverage}=require('./branch-coverage.cjs');
+const page=values=>'<script id="__NUXT_DATA__">'+JSON.stringify(values)+'</script>';
+const billaPage=page(['Leták neplatí pro prodejny: BILLA Viva; BILLA Stop &amp; Shop; Praha: Radimova','https://view.publitas.com/1/2/pdfs/test.pdf']);
+const storesPage=page([{storeId:1,brand:2},'82-1','BILLA,',{storeId:4,brand:2},'82-2']);
+const billaBranches=[{id:'billa-82-1',retailer:'Billa',city:'Benešov'},{id:'billa-82-2',retailer:'Billa',city:'Praha 6'}];
+assert.deepEqual(billaCoverage([{flyerUrl:'https://view.publitas.com/1/2/pdfs/test.pdf#page=1'}],billaPage,storesPage,billaBranches)[0].applicableBranchIds,['billa-82-1']);
+assert.deepEqual(billaCoverage([{flyerUrl:'https://view.publitas.com/1/2/pdfs/other.pdf#page=1'}],billaPage,storesPage,billaBranches)[0].applicableBranchIds,[]);
+assert.throws(()=>billaCoverage([],page([]),storesPage,billaBranches));
+console.log('OK: BILLA current PDF, regular branch and excluded city; missing rules fail closed');
+
