@@ -18,4 +18,20 @@ assert.deepEqual(billaCoverage([{flyerUrl:'https://view.publitas.com/1/2/pdfs/te
 assert.deepEqual(billaCoverage([{flyerUrl:'https://view.publitas.com/1/2/pdfs/other.pdf#page=1'}],billaPage,storesPage,billaBranches)[0].applicableBranchIds,[]);
 assert.throws(()=>billaCoverage([],page([]),storesPage,billaBranches));
 console.log('OK: BILLA current PDF, regular branch and excluded city; missing rules fail closed');
+const {lidlCoverage,pennyCoverage}=require('./branch-coverage.cjs');
+const lidlOffer={flyerUrl:'https://assets.leaflets.schwarz/a.pdf#page=1',validFrom:'2026-09-10',validTo:'2026-09-13'};
+const flyer={pdfUrl:'https://assets.leaflets.schwarz/a.pdf',offerStartDate:'2026-09-10',offerEndDate:'2026-09-13',regions:[{type:'national',code:'0'}]};
+const overview=f=>({success:true,categories:[{subcategories:[{flyers:[f]}]}]});
+const lb=[{id:'lidl-benesov',retailer:'Lidl',name:'Lidl Benešov'}];
+assert.deepEqual(lidlCoverage([lidlOffer],overview(flyer),lb)[0].applicableBranchIds,['lidl-benesov']);
+for(const f of [{...flyer,regions:[]},{...flyer,regions:[{type:'regional',code:'1'}]},{...flyer,pdfUrl:'https://assets.leaflets.schwarz/other.pdf'},{...flyer,offerEndDate:'2026-09-12'}])assert.deepEqual(lidlCoverage([lidlOffer],overview(f),lb)[0].applicableBranchIds,[]);
+const pb=[{id:'penny-benesov',retailer:'Penny',city:'Benešov'},{id:'penny-praha',retailer:'Penny',city:'Praha 6'}];
+const base='https://files.rewe.co.at/PennyIntLeaflet/CZ/09_09_2026_zs/';
+const pages={1:'Produkt. Nabídka z této strany je pro vybrané prodejny omezena.',28:'PRO TYTO PRODEJNY JE NABÍDKA Z KAPACITNÍCH A JINÝCH LOGISTICKÝCH DŮVODŮ OMEZENA: PRAHA – UL. DĚLNICKÁ; BEROUN – TŘÍDA MÍRU. Chyby v tisku vyhrazeny.'};
+assert.deepEqual(pennyCoverage([{sourceUrl:base+'1/'}],pages,pb,base)[0].applicableBranchIds,['penny-benesov']);
+assert.deepEqual(pennyCoverage([{sourceUrl:base+'99/'}],pages,pb,base)[0].applicableBranchIds,[]);
+assert.throws(()=>pennyCoverage([],{},pb,base));
+console.log('OK: Lidl exact publication/date/national scope and PENNY exceptions exclude unrelated branches');
+
+assert.deepEqual(pennyCoverage([{sourceUrl:base+'2/'}],{...pages,2:'Běžná nabídka'},pb,base)[0].applicableBranchIds,['penny-benesov','penny-praha']);
 

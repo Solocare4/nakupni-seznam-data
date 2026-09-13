@@ -41,3 +41,44 @@ async function enrich(source,offers,branches){
 };
 module.exports={enrich,albertCoverage,billaCoverage};
 
+function plain(html){return String(html).replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(+n)).replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim();}
+function lidlCoverage(offers,overview,branches){
+ if(overview?.success!==true || !Array.isArray(overview.categories))throw Error('Lidl coverage unavailable');
+ const flyers=overview.categories.flatMap(c=>(c.subcategories||[]).flatMap(s=>s.flyers||[]));
+ const ids=branches.filter(b=>b.retailer==='Lidl'&&!/outlet/i.test(b.name)).map(b=>b.id);
+ return offers.map(o=>{const f=flyers.find(f=>f.pdfUrl===o.flyerUrl?.split('#')[0]);
+ const national=f?.regions?.length===1&&f.regions[0].type==='national'&&String(f.regions[0].code)==='0';
+ const valid=national&&/^\d{4}-\d{2}-\d{2}$/.test(f.offerStartDate)&&/^\d{4}-\d{2}-\d{2}$/.test(f.offerEndDate)&&o.validFrom>=f.offerStartDate&&o.validTo<=f.offerEndDate;
+ return {...o,applicableBranchIds:valid?ids:[],branchVerificationUrl:'https://www.lidl.cz/c/akcni-letak/s10008647'};});
+}
+function pennyCoverage(offers,pages,branches,base){
+ const texts=Object.fromEntries(Object.entries(pages).map(([n,h])=>[n,plain(h)]));
+ const terms=Object.values(texts).map(t=>t.match(/PRO TYTO PRODEJNY JE NABÍDKA Z KAPACITNÍCH A JINÝCH LOGISTICKÝCH DŮVODŮ OMEZENA:\s*(.*?)\s*Chyby v tisku/i)?.[1]).filter(Boolean);
+ if(terms.length!==1)throw Error('PENNY branch exceptions missing or ambiguous');
+ const cities=terms[0].split(';').map(t=>norm(t.split(/[\uF6BB–—]/)[0]));
+ if(cities.length<2||cities.some(c=>!c||c.includes(' ul.')))throw Error('PENNY exceptions changed');
+ // A city-level exclusion is deliberately conservative if street matching is ambiguous.
+ const allIds=branches.filter(b=>b.retailer==='Penny').map(b=>b.id);
+ const ids=branches.filter(b=>b.retailer==='Penny'&&!cities.some(c=>norm(b.city)===c||norm(b.city).startsWith(c+' '))).map(b=>b.id);
+ return offers.map(o=>{const suffix=o.sourceUrl?.startsWith(base)?o.sourceUrl.slice(base.length):'';const page=/^(\d+)\/$/.exec(suffix)?.[1];
+ const restricted=page&&/nabidka z teto strany je pro vybrane prodejny omezena/.test(norm(texts[page]));
+ return {...o,applicableBranchIds:page&&texts[page]?(restricted?ids:allIds):[],branchVerificationUrl:'https://www.penny.cz/nabidky/letaky'};});
+}
+const enrichExisting=enrich;
+enrich=async function(source,offers,branches){
+ const get=async url=>{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error(source+' coverage HTTP '+r.status);return r;};
+ if(source==='lidl'){const r=await get('https://endpoints.leaflets.schwarz/v4/overview?client_locale=lidl%2Fcs-CZ&region_id=0&store_id=0');return lidlCoverage(offers,await r.json(),branches);}
+ if(source==='penny'){
+  const landing=await(await get('https://www.penny.cz/nabidky/letaky')).text();
+  const bases=[...new Set(offers.map(o=>o.sourceUrl?.match(/^https:\/\/files\.rewe\.co\.at\/PennyIntLeaflet\/CZ\/\d{2}_\d{2}_\d{4}_zs\//)?.[0]).filter(Boolean))];
+  let result=offers.map(o=>({...o,applicableBranchIds:[],branchVerificationUrl:'https://www.penny.cz/nabidky/letaky'}));
+  for(const base of bases){if(!landing.replace(/\\u002F/g,'/').includes(base))continue;
+   const root=await(await get(base)).text();const nums=[...root.matchAll(/href=["'](?:\.\/)?(\d+)\/["']/g)].map(m=>+m[1]);const max=Math.max(...nums);
+   if(!Number.isInteger(max)||max<2||max>100)throw Error('PENNY page count unavailable');
+   const pages={};for(let start=1;start<=max;start+=5)await Promise.all(Array.from({length:Math.min(5,max-start+1)},(_,n)=>start+n).map(async n=>{pages[n]=await(await get(base+n+'/')).text()}));
+   const selected=result.filter(o=>o.sourceUrl?.startsWith(base));const verified=pennyCoverage(selected,pages,branches,base);const byId=new Map(verified.map(o=>[o.id,o]));result=result.map(o=>byId.get(o.id)||o);
+  }return result;
+ }
+ return enrichExisting(source,offers,branches);
+};
+module.exports={enrich,albertCoverage,billaCoverage,lidlCoverage,pennyCoverage};

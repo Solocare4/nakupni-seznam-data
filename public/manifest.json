@@ -2,9 +2,9 @@
   "version": 1,
   "catalogs": {
     "penny": {
-      "path": "catalogs/penny/de079f424f18cc3fc932dbb51803f2310ddc78a9f962d306e1463aa9d73609ea.json",
-      "catalogVersion": "de079f424f18cc3fc932dbb51803f2310ddc78a9f962d306e1463aa9d73609ea",
-      "generatedAt": "2026-09-12T17:04:48.944Z",
+      "path": "catalogs/penny/315e1e1fc7e30005be3298623feaa57db90465652b03375c302e1764e112fc9f.json",
+      "catalogVersion": "315e1e1fc7e30005be3298623feaa57db90465652b03375c302e1764e112fc9f",
+      "generatedAt": "2026-09-13T15:21:07.966Z",
       "validFrom": "2026-09-09",
       "validTo": "2026-09-15",
       "count": 305
@@ -18,9 +18,9 @@
       "count": 204
     },
     "lidl": {
-      "path": "catalogs/lidl/a8bfa5e2c1cb7f70b9b4118905ed6ffa05c334bd229917ced98376f08bdfd0c4.json",
-      "catalogVersion": "a8bfa5e2c1cb7f70b9b4118905ed6ffa05c334bd229917ced98376f08bdfd0c4",
-      "generatedAt": "2026-09-13T07:57:56.505Z",
+      "path": "catalogs/lidl/f7389a2c9005620851a87924996daef23f64a067f6b09366bf1508bf7ee9e4f9.json",
+      "catalogVersion": "f7389a2c9005620851a87924996daef23f64a067f6b09366bf1508bf7ee9e4f9",
+      "generatedAt": "2026-09-13T15:19:09.432Z",
       "validFrom": "2026-09-10",
       "validTo": "2026-09-13",
       "count": 94
