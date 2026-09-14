@@ -90,6 +90,7 @@ function repairTitle(value) {
 function plausibleTitle(value) {
   const title = repairTitle(value);
   const valueNormal = normal(title);
+  if(!/[a-z]{3}/.test(valueNormal)) return false;
 
   if (
     !title ||
@@ -618,7 +619,7 @@ function parsePack(
         quantity > 0 &&
         quantity <= 10000
       ) {
-        candidates.push({
+    candidates.push({
           quantity,
           unit:
             multi[3].toLowerCase(),
@@ -1193,7 +1194,8 @@ function comparableCatalog(catalog) {
   };
 }
 
-async function main() {
+async function main(options = {}) {
+  const BILLA_PAGE = options.pageUrl || 'https://www.billa.cz/letaky-billa/velky-letak-aktualni';
   console.log(
     'BILLA: hledám aktuální velký leták...'
   );
@@ -1292,6 +1294,7 @@ async function main() {
   );
 
   const candidates = [];
+  const publicationText=[];
 
   for (
     let pageNumber = 1;
@@ -1315,6 +1318,7 @@ async function main() {
             item.text
         );
 
+    publicationText.push(items.map(item=>item.text).join(' '));
     candidates.push(
       ...analyzePage(
         items,
@@ -1449,7 +1453,7 @@ async function main() {
    * Ochrana proti zásadní změně PDF.
    */
   if (
-    offers.length < 80 ||
+    offers.length < (options.minOffers ?? 80) ||
     offers.length > 700
   ) {
     throw new Error(
@@ -1475,6 +1479,8 @@ async function main() {
 
     partial: false,
   };
+
+  if(options.returnOnly) return {...catalog, publicationText:publicationText.join(' '), publicationSlug:slug, offers:catalog.offers.map(o=>({...o,id:o.id+'-'+slug,sourceUrl:BILLA_PAGE,storeName:options.label||o.storeName,description:'Cena z letáku BILLA. Klubové a množstevně podmíněné ceny nejsou zahrnuty.'}))};
 
   fs.mkdirSync(
     path.dirname(
@@ -1583,4 +1589,4 @@ if (require.main === module) main().catch(
     process.exitCode = 1;
   }
 );
-module.exports = { slugDates, repairTitle, plausibleTitle, conditionalText, clubText };
+module.exports = { fetchPublication:main, slugDates, repairTitle, plausibleTitle, conditionalText, clubText };

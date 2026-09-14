@@ -41,7 +41,7 @@ function restorePublicCatalog(value, source, storeId) {
                     !url.username &&
                     !url.password &&
                     url.hostname === 'www.billa.cz' &&
-                    (url.pathname === '/' || url.pathname.startsWith('/letaky-billa/') || url.pathname === '/akcni-letaky'));
+                    (url.pathname === '/' || url.pathname.startsWith('/letaky-billa/') || url.pathname === '/akcni-letaky' || url.pathname === '/letaky-billa' || /^\/akcni-letaky\/special-[a-z0-9-]+$/.test(url.pathname)));
             }
             catch {
                 return false;

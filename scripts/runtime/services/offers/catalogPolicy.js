@@ -8,7 +8,7 @@ function catalogDay(now = new Date()) {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Prague', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(now);
     return ['year', 'month', 'day'].map(type => parts.find(p => p.type === type).value).join('-');
 }
-const offerIdentity = (o) => [o.retailer, o.productName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(), o.quantity, o.unit, o.price, o.validFrom, o.validTo, o.loyaltyOnly ? o.loyaltyProgram : ''].join('|');
+const offerIdentity = (o) => [o.retailer, o.productName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(), o.quantity, o.unit, o.price, o.validFrom, o.validTo, o.loyaltyOnly ? o.loyaltyProgram : '', o.source === 'billa' ? o.sourceUrl ?? o.flyerUrl?.split('#')[0] : ''].join('|');
 exports.offerIdentity = offerIdentity;
 function resolveSourceRevisions(offers) {
     const revisions = new Map();
@@ -34,7 +34,7 @@ function mergeCatalog(current, incoming) {
         return { ...incoming, offers: resolveSourceRevisions(incoming.offers) };
     const oldRevision = current.pipelineVersion ?? 0;
     const newRevision = incoming.pipelineVersion ?? 0;
-    if (newRevision > oldRevision && incoming.offers[0]?.source === 'lidl')
+    if (newRevision > oldRevision && ['lidl', 'billa'].includes(incoming.offers[0]?.source ?? ''))
         return mergeCatalog(null, incoming);
     const day = catalogDay(new Date(incoming.fetchedAt));
     const retained = current.offers.filter(o => o.validTo >= day);

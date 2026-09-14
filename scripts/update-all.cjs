@@ -62,10 +62,10 @@ function generated(source) {
 async function main() {
   const failures=[];
   const only=process.argv.find(a=>a.startsWith('--only='))?.split('=')[1];
-  for(const source of ['penny','billa','lidl'].filter(s=>!only||s===only)) { try { generated(source); } catch(e){failures.push(String(e));console.error(String(e));} }
+  for(const source of ['penny','lidl'].filter(s=>!only||s===only)) { try { generated(source); } catch(e){failures.push(String(e));console.error(String(e));} }
   const branches = require('./branches.json');
   const all = process.argv.includes('--all-branches');
-  const jobs=[{key:'albert',run:()=>require('./albert-pdf.cjs').fetchAlbertPdfCatalog()}];
+  const jobs=[{key:'billa',run:()=>require('./billa-multi.cjs').fetchCatalog()},{key:'albert',run:()=>require('./albert-pdf.cjs').fetchAlbertPdfCatalog()}];
   for(const b of branches.filter(b=>b.retailer==='Kaufland'&&(all||['CZ3300','CZ3710'].includes(b.sourceStoreId)))) jobs.push({key:`kaufland/${b.sourceStoreId}`,run:()=>runtime('services/offers/kaufland/fetch').fetchKauflandCatalog({storeId:b.sourceStoreId,storeName:b.name,url:`https://prodejny.kaufland.cz/nabidka/prehled.storeName%3D${b.sourceStoreId}.html`})});
   for(const b of branches.filter(b=>b.retailer==='Globus'&&(all||['globus-cerny-most','globus-brno'].includes(b.id)))) {const storeId=b.id.replace('globus-',''); jobs.push({key:`globus/${storeId}`,run:()=>runtime('services/offers/globus/fetch').fetchGlobusCatalog({storeId,storeName:b.name})});}
   if(only) for(let i=jobs.length-1;i>=0;i--) if(!jobs[i].key.startsWith(only)) jobs.splice(i,1);
