@@ -18,18 +18,43 @@ async function enrichAlbert(source,offers,branches){
 }
 
 function nuxtValues(html){const m=html.match(/<script[^>]+id=["']__NUXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/);if(!m)throw Error('Missing public page data');return JSON.parse(m[1]);}
+
+function addressKey(value){return norm(value).replace(/\bnam\./g,'namesti').replace(/[^a-z0-9]/g,'');}
+function streetKey(value){return addressKey(norm(value).replace(/\s+\d+[a-z]?(?:\/\d+[a-z]?)?$/,''));}
+function sameStreet(street,rule){
+ if(streetKey(street)===streetKey(rule))return true;
+ const short=norm(rule).match(/^([a-z])\.\s*(.+)$/);
+ const full=norm(street).replace(/\s+\d+[a-z]?(?:\/\d+[a-z]?)?$/,'').split(/\s+/);
+ return Boolean(short&&full.length>1&&full[0].startsWith(short[1])&&addressKey(full.slice(1).join(' '))===addressKey(short[2]));
+}
+function billaExcludedStores(exceptions,stores){
+ const excluded=new Set();
+ for(const exception of exceptions.filter(s=>!s.startsWith('billa '))){
+  const [city,...parts]=exception.split(':');
+  const candidates=stores.filter(s=>{const c=norm(s.city);return c===city||c.startsWith(city+' ')||c.startsWith(city+'-');});
+  if(!parts.length){candidates.forEach(s=>excluded.add(s.id));continue;}
+  for(const location of parts.join(':').split(',').map(s=>s.trim()).filter(Boolean)){
+   const components=location.split(/\s+[–—]\s+/);
+   const matches=candidates.filter(s=>components.some(c=>sameStreet(s.street,c)||addressKey(s.name).includes(addressKey(c))) || (location==='letiste ruzyne' && norm(s.name).includes('letiste')));
+   // Named shopping centres distinguish two shops on the same street.
+   const named=components.length>1?matches.filter(s=>components.some(c=>addressKey(s.name).includes(addressKey(c)))):[];
+   (named.length?named:matches).forEach(s=>excluded.add(s.id));
+  }
+ }
+ return excluded;
+}
+
 function billaCoverage(offers,html,storeHtml,branches){
  const values=nuxtValues(html),rules=values.filter(v=>typeof v==='string'&&v.includes('Leták neplatí pro prodejny:'));
  if(rules.length!==1)throw Error('BILLA exceptions missing or ambiguous');
  const terms=norm(rules[0]).replace(/^.*letak neplati pro prodejny:\s*/,'');
  const exceptions=terms.split(';').map(s=>s.trim()).filter(Boolean);
  if(exceptions.length<3||!exceptions.some(s=>s.includes('billa viva'))||!exceptions.some(s=>s.includes('stop')))throw Error('BILLA exception format changed');
- // Exclude the entire named town when street identity cannot be proven. This
- // intentionally loses some coverage instead of admitting a listed exception.
- const excludedCities=exceptions.filter(s=>!s.startsWith('billa ')).map(s=>s.split(':')[0].trim());
- const stores=nuxtValues(storeHtml),regularIds=new Set(stores.filter(s=>s&&typeof s==='object'&&'storeId'in s&&norm(stores[s.brand])==='billa,').map(s=>'billa-'+String(stores[s.storeId]).toLowerCase()));
- if(!regularIds.size)throw Error('BILLA regular stores missing');
- const ids=branches.filter(b=>b.retailer==='Billa'&&regularIds.has(b.id)&&!excludedCities.some(c=>norm(b.city)===c||norm(b.city).startsWith(c+' '))).map(b=>b.id);
+ const stores=nuxtValues(storeHtml);
+ const regular=stores.filter(s=>s&&typeof s==='object'&&'storeId'in s&&norm(stores[s.brand])==='billa,').map(s=>({id:'billa-'+String(stores[s.storeId]).toLowerCase(),city:stores[s.city],street:stores[s.street],name:stores[s.displayName]}));
+ if(!regular.length||regular.some(s=>typeof s.city!=='string'||typeof s.street!=='string'||!s.street.trim()))throw Error('BILLA regular store addresses missing');
+ const excluded=billaExcludedStores(exceptions,regular);
+ const ids=branches.filter(b=>b.retailer==='Billa'&&regular.some(s=>s.id===b.id)&&!excluded.has(b.id)).map(b=>b.id);
  const pdfs=values.filter(v=>typeof v==='string'&&/^https:\/\/view\.publitas\.com\/\d+\/\d+\/pdfs\//.test(v)).map(v=>v.split('?')[0]);
  return offers.map(o=>({...o,applicableBranchIds:pdfs.includes(o.flyerUrl?.split('#')[0])?ids:[],branchVerificationUrl:'https://www.billa.cz/letaky-billa/velky-letak-aktualni'}));
 }
@@ -81,4 +106,4 @@ enrich=async function(source,offers,branches){
  }
  return enrichExisting(source,offers,branches);
 };
-module.exports={enrich,albertCoverage,billaCoverage,lidlCoverage,pennyCoverage};
+module.exports={enrich,albertCoverage,billaCoverage,lidlCoverage,pennyCoverage,billaExcludedStores};

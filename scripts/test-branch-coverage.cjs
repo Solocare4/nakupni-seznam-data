@@ -12,7 +12,7 @@ console.log('OK: official Albert publication, dates and named branches match; un
 const {billaCoverage}=require('./branch-coverage.cjs');
 const page=values=>'<script id="__NUXT_DATA__">'+JSON.stringify(values)+'</script>';
 const billaPage=page(['Leták neplatí pro prodejny: BILLA Viva; BILLA Stop &amp; Shop; Praha: Radimova','https://view.publitas.com/1/2/pdfs/test.pdf']);
-const storesPage=page([{storeId:1,brand:2},'82-1','BILLA,',{storeId:4,brand:2},'82-2']);
+const storesPage=page([{storeId:1,brand:2,city:5,street:6},'82-1','BILLA,',{storeId:4,brand:2,city:7,street:8},'82-2','Benešov','Tyršova 1','Praha 6','Radimova 2322/40']);
 const billaBranches=[{id:'billa-82-1',retailer:'Billa',city:'Benešov'},{id:'billa-82-2',retailer:'Billa',city:'Praha 6'}];
 assert.deepEqual(billaCoverage([{flyerUrl:'https://view.publitas.com/1/2/pdfs/test.pdf#page=1'}],billaPage,storesPage,billaBranches)[0].applicableBranchIds,['billa-82-1']);
 assert.deepEqual(billaCoverage([{flyerUrl:'https://view.publitas.com/1/2/pdfs/other.pdf#page=1'}],billaPage,storesPage,billaBranches)[0].applicableBranchIds,[]);
@@ -34,4 +34,10 @@ assert.throws(()=>pennyCoverage([],{},pb,base));
 console.log('OK: Lidl exact publication/date/national scope and PENNY exceptions exclude unrelated branches');
 
 assert.deepEqual(pennyCoverage([{sourceUrl:base+'2/'}],{...pages,2:'Běžná nabídka'},pb,base)[0].applicableBranchIds,['penny-benesov','penny-praha']);
+
+const {billaExcludedStores}=require('./branch-coverage.cjs');
+const bs=[{id:'radimova',city:'Praha 6',street:'Radimova 2322/40',name:'PRAHA MARKETA'}, {id:'petriny',city:'Praha 6',street:'Na Petřinách 1945/55',name:'PRAHA PETRINY'}, {id:'blox',city:'Praha Blox',street:'Evropská 2758/11',name:'PRAHA EVROPSKÁ BLOX'}, {id:'sarka',city:'Praha 6',street:'Evropská 695/73',name:'SARKA'}, {id:'opletal',city:'České Budějovice',street:'Jana Opletala 926/20',name:'BILLA'}, {id:'manes',city:'České Budějovice',street:'Mánesova 1948',name:'BILLA'}];
+assert.deepEqual([...billaExcludedStores(['praha: radimova, blox – evropska','ceske budejovice: j. opletala'],bs)].sort(),['blox','opletal','radimova']);
+assert.throws(()=>billaCoverage([],billaPage,page([{storeId:1,brand:2},'82-1','BILLA,']),billaBranches));
+console.log('OK: BILLA street exceptions, initials, named centres and missing-address guard');
 
