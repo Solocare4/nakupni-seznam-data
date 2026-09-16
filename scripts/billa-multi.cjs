@@ -7,7 +7,7 @@ async function get(url){const r=await fetch(url,{signal:AbortSignal.timeout(3000
 async function fetchCatalog(){
  const branches=require('./branches.json');
  const storesHtml=await get('https://www.billa.cz/prodejny');
- const largeUrl='https://www.billa.cz/letaky-billa/velky-letak-aktualni';
+ const largeUrl='https://www.billa.cz/letaky-billa?tab=letaky-billa/velky-letak';
  const largeHtml=await get(largeUrl);
  const smallUrl='https://www.billa.cz/letaky-billa?tab=letaky-billa/maly-letak';
  const smallHtml=await get(smallUrl);

@@ -61,7 +61,7 @@ function billaCoverage(offers,html,storeHtml,branches){
 
 async function enrich(source,offers,branches){
  if(source!=='billa')return enrichAlbert(source,offers,branches);
- const pages=await Promise.all(['https://www.billa.cz/letaky-billa/velky-letak-aktualni','https://www.billa.cz/prodejny'].map(async url=>{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('BILLA coverage HTTP '+r.status);return r.text()}));
+ const pages=await Promise.all(['https://www.billa.cz/letaky-billa?tab=letaky-billa/velky-letak','https://www.billa.cz/prodejny'].map(async url=>{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('BILLA coverage HTTP '+r.status);return r.text()}));
  const large=offers.filter(o=>o.branchVerificationUrl!=='https://www.billa.cz/letaky-billa');
  return [...billaCoverage(large,...pages,branches),...offers.filter(o=>o.branchVerificationUrl==='https://www.billa.cz/letaky-billa')];
 };

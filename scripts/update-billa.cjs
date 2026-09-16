@@ -1194,6 +1194,16 @@ function comparableCatalog(catalog) {
   };
 }
 
+function selectPublicationSlug(html, pageUrl) {
+  const url = new URL(pageUrl);
+  const kind = url.pathname.includes('/special-') ? url.pathname.split('/').at(-1) :
+    (url.searchParams.get('tab') || url.pathname).includes('maly-letak') ? 'maly-letak' : 'velky-letak';
+  const slugs = [...new Set([...html.matchAll(/https:\/\/view\.publitas\.com\/billa-cz\/([a-z0-9-]+)/gi)].map(m => m[1]))]
+    .filter(slug => slug.startsWith(kind + '-'));
+  if (slugs.length !== 1) throw new Error('BILLA: chybějící nebo nejednoznačný leták ' + kind);
+  return slugs[0];
+}
+
 async function main(options = {}) {
   const BILLA_PAGE = options.pageUrl || 'https://www.billa.cz/letaky-billa/velky-letak-aktualni';
   console.log(
@@ -1206,17 +1216,7 @@ async function main(options = {}) {
     )
   );
 
-  const match = html.match(
-    /https:\/\/view\.publitas\.com\/billa-cz\/([a-z0-9-]+)/i
-  );
-
-  if (!match) {
-    throw new Error(
-      'BILLA: na stránce nebyl nalezen aktuální Publitas leták.'
-    );
-  }
-
-  const slug = match[1];
+  const slug = selectPublicationSlug(html, BILLA_PAGE);
 
   const dates =
     slugDates(slug);
@@ -1589,4 +1589,4 @@ if (require.main === module) main().catch(
     process.exitCode = 1;
   }
 );
-module.exports = { fetchPublication:main, slugDates, repairTitle, plausibleTitle, conditionalText, clubText };
+module.exports = { fetchPublication:main, selectPublicationSlug, slugDates, repairTitle, plausibleTitle, conditionalText, clubText };
