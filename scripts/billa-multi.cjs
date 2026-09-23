@@ -5,6 +5,7 @@ const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLo
 const values=html=>JSON.parse(html.match(/<script[^>]+id="__NUXT_DATA__"[^>]*>([\s\S]*?)<\/script>/)[1]);
 async function get(url){const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('BILLA '+r.status);return r.text();}
 async function fetchCatalog(){
+ let skipped=0;
  const branches=require('./branches.json');
  const storesHtml=await get('https://www.billa.cz/prodejny');
  const largeUrl='https://www.billa.cz/letaky-billa?tab=letaky-billa/velky-letak';
@@ -28,11 +29,11 @@ async function fetchCatalog(){
   const special=await parser.fetchPublication({pageUrl:url,returnOnly:true,minOffers:1,label:'BILLA · místní speciál'});
   const city=url.split('special-')[1];const text=norm(special.publicationText);
   const matching=stores.filter(s=>norm(s.city)===norm(city)&&text.includes('ulice'+norm(s.street.replace(/\s+\d+[a-z]?(?:\/\d+[a-z]?)?$/,''))));
-  if(matching.length!==1)throw Error('BILLA special branch ambiguous: '+url);
-  if(!branches.some(b=>b.id===matching[0].id))throw Error('BILLA special branch missing in directory: '+matching[0].id);
+  if(matching.length!==1){ console.warn('BILLA: vynechán nejednoznačný místní speciál: '+url); skipped+=special.offers.length; continue; }
+  if(!branches.some(b=>b.id===matching[0].id)){ console.warn('BILLA: vynechána neověřená pobočka: '+matching[0].id); skipped+=special.offers.length; continue; }
   offers.push(...special.offers.map(o=>({...o,applicableBranchIds:[matching[0].id],branchVerificationUrl:'https://www.billa.cz/letaky-billa'})));
  }
- return {version:1,pipelineVersion:2,source:'billa',storeId:'cz',fetchedAt:new Date().toISOString(),offers,skipped:0,partial:false};
+ return {version:1,pipelineVersion:2,source:'billa',storeId:'cz',fetchedAt:new Date().toISOString(),offers,skipped,partial:skipped>0};
 }
 module.exports={fetchCatalog};
 
