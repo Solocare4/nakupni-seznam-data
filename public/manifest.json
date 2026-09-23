@@ -42,9 +42,9 @@
       "count": 554
     },
     "albert": {
-      "path": "catalogs/albert/04e0b952f3e9a772a1a0c56f07c40e3fa435f49f945fc714f8bded79fb741cbf.json",
-      "catalogVersion": "04e0b952f3e9a772a1a0c56f07c40e3fa435f49f945fc714f8bded79fb741cbf",
-      "generatedAt": "2026-09-23T06:47:31.550Z",
+      "path": "catalogs/albert/e80d451e8fce05b8e1fe29f323155191bdb9b80cba20345684ecdf81fbd4be89.json",
+      "catalogVersion": "e80d451e8fce05b8e1fe29f323155191bdb9b80cba20345684ecdf81fbd4be89",
+      "generatedAt": "2026-09-23T00:45:10.436Z",
       "validFrom": "2026-09-23",
       "validTo": "2026-09-29",
       "count": 560
@@ -1338,20 +1338,20 @@
       "count": 882
     },
     "globus/opava": {
-      "path": "catalogs/globus/opava/b33286b64ee9b8395f22c8ce918c8c16b678a72a9a736e9605aebdf3d7610497.json",
-      "catalogVersion": "b33286b64ee9b8395f22c8ce918c8c16b678a72a9a736e9605aebdf3d7610497",
-      "generatedAt": "2026-09-23T00:44:30.280Z",
+      "path": "catalogs/globus/opava/77849022cdad986312b857fb76f2bd2c48c110a7d7c2f1a47b4cf9bca4767396.json",
+      "catalogVersion": "77849022cdad986312b857fb76f2bd2c48c110a7d7c2f1a47b4cf9bca4767396",
+      "generatedAt": "2026-09-23T12:48:13.302Z",
       "validFrom": "2026-07-26",
       "validTo": "2026-10-27",
-      "count": 849
+      "count": 850
     },
     "globus/trmice": {
-      "path": "catalogs/globus/trmice/adad64407113126f2673d6d11806938b9e733546fa2a0272641eaef6fcaa4077.json",
-      "catalogVersion": "adad64407113126f2673d6d11806938b9e733546fa2a0272641eaef6fcaa4077",
-      "generatedAt": "2026-09-23T00:45:09.196Z",
+      "path": "catalogs/globus/trmice/d63f00e68fd363378551a32adeb5366349a1d8b4c480d98bda5e5561f19ad6c1.json",
+      "catalogVersion": "d63f00e68fd363378551a32adeb5366349a1d8b4c480d98bda5e5561f19ad6c1",
+      "generatedAt": "2026-09-23T12:49:13.555Z",
       "validFrom": "2026-07-28",
       "validTo": "2026-10-27",
-      "count": 886
+      "count": 887
     }
   }
 }
