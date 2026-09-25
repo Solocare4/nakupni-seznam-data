@@ -4,6 +4,7 @@ exports.clean = exports.object = void 0;
 exports.safeImage = safeImage;
 exports.restorePublicCatalog = restorePublicCatalog;
 exports.nuxtData = nuxtData;
+const productImages_1 = require("./productImages");
 const offerValidity_1 = require("../../utils/offerValidity");
 const object = (value) => value && typeof value === 'object' && !Array.isArray(value) ? value : {};
 exports.object = object;
@@ -12,6 +13,8 @@ exports.clean = clean;
 function safeImage(value, source) {
     if (typeof value !== 'string')
         return;
+    if ((0, productImages_1.isCatalogProductImage)(value))
+        return value;
     try {
         const url = new URL(value);
         const allowed = source === 'globus' ? ['gapi.globus.cz'] : ['images.cdn.europe-west1.gcp.commercetools.com'];

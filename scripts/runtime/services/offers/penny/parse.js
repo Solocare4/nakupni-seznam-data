@@ -2,8 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PENNY_URL = void 0;
 exports.categoryFor = categoryFor;
+exports.nuxtImages = nuxtImages;
 exports.parsePennyHtml = parsePennyHtml;
 exports.restorePennyCatalog = restorePennyCatalog;
+const productImages_1 = require("../productImages");
+const publicCatalog_1 = require("../publicCatalog");
 const offerValidity_1 = require("../../../utils/offerValidity");
 exports.PENNY_URL = 'https://www.penny.cz/nabidky?tab=akcni-polozky';
 const clean = (value) => typeof value === 'string'
@@ -94,29 +97,35 @@ function pack(value) {
         : null;
 }
 function nuxtImages(html) {
-    const script = html.match(/<script[^>]+id=["']__NUXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i)?.[1] ?? '';
     const images = new Map();
-    if (!script)
-        return images;
-    const pattern = /"(https:\\u002F\\u002Fimages\.cdn\.europe-west1\.gcp\.commercetools\.com\\u002F[^"\\]+(?:\\[^"\\]*)*)"[\s\S]{0,3500}?"([a-z0-9]+(?:-[a-z0-9]+)+-\d{8})"/g;
-    for (const match of script.matchAll(pattern)) {
-        try {
-            images.set(match[2], JSON.parse(`"${match[1]}"`));
+    try {
+        const { data, decode } = (0, publicCatalog_1.nuxtData)(html);
+        for (const entry of data) {
+            const node = object(entry);
+            if (typeof node.slug !== 'number' || typeof node.images !== 'number')
+                continue;
+            const slug = decode(node.slug);
+            const urls = decode(node.images);
+            if (typeof slug !== 'string' || !Array.isArray(urls))
+                continue;
+            const image = urls.find((url) => typeof url === 'string' && url.startsWith('https://images.cdn.europe-west1.gcp.commercetools.com/'));
+            if (image)
+                images.set(slug, image);
         }
-        catch {
-            // Obrázek není pro nabídku povinný.
-        }
+    }
+    catch {
+        // A missing optional image must not discard verified prices.
     }
     return images;
 }
 function parsePennyHtml(html, fetchedAt) {
     if (html.length > 10_000_000) {
-        throw new Error('Nabídka PENNY je příliš velká.');
+        throw new Error('Nabídka Penny Market je příliš velká.');
     }
     const marker = /<li\b[^>]*data-test=["']product-tile["'][^>]*>/gi;
     const starts = [...html.matchAll(marker)];
     if (!starts.length) {
-        throw new Error('PENNY změnilo podobu nabídky.');
+        throw new Error('Penny Market změnilo podobu nabídky.');
     }
     const images = nuxtImages(html);
     const offers = new Map();
@@ -203,8 +212,8 @@ function parsePennyHtml(html, fetchedAt) {
             validTo: dates[1],
             source: 'penny',
             sourceUrl: exports.PENNY_URL,
-            storeName: 'PENNY · celostátní nabídka',
-            description: 'Veřejná cena bez PENNY karty. Dostupnost se může lišit podle prodejny.',
+            storeName: 'Penny Market · celostátní nabídka',
+            description: 'Veřejná cena bez Penny Market karty. Dostupnost se může lišit podle prodejny.',
         };
         const old = price(oldText);
         if (Number.isFinite(old) &&
@@ -240,7 +249,7 @@ function parsePennyHtml(html, fetchedAt) {
         }
     }
     if (!offers.size) {
-        throw new Error('Nenalezeny žádné použitelné nabídky PENNY.');
+        throw new Error('Nenalezeny žádné použitelné nabídky Penny Market.');
     }
     return {
         version: 1,
@@ -308,7 +317,7 @@ function restorePennyCatalog(value) {
             typeof item.validTo ===
                 'string' &&
             (0, offerValidity_1.isOfferValid)(raw, item.validFrom) &&
-            (item.imageUrl === undefined ||
+            (item.imageUrl === undefined || (0, productImages_1.isCatalogProductImage)(item.imageUrl) ||
                 (typeof item.imageUrl ===
                     'string' &&
                     item.imageUrl.startsWith('https://images.cdn.europe-west1.gcp.commercetools.com/'))));

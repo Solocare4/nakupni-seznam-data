@@ -5,6 +5,8 @@ const root = path.resolve(__dirname, '..');
 const runtime = name => require(`./runtime/${name}.js`);
 const { mergeCatalog, catalogDay } = runtime('services/offers/catalogPolicy');
 const day = catalogDay();
+const { enrichPhotos, imageKey } = require('./data-product-images.cjs');
+const webPhotos = new Map();
 const validators = {
   kaufland: runtime('services/offers/kaufland/parse').restoreCatalog,
   penny: runtime('services/offers/penny/parse').restorePennyCatalog,
@@ -18,6 +20,7 @@ const read = file => { try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
 const manifest = read(path.join(publicDir, 'manifest.json')) ?? { version: 1, catalogs: {} };
 function atomic(file, value) { fs.mkdirSync(path.dirname(file), { recursive: true }); fs.writeFileSync(file + '.tmp', JSON.stringify(value, null, 2) + '\n'); fs.renameSync(file + '.tmp', file); }
 function publish(key, incoming) {
+  if (incoming?.offers) incoming = {...incoming, offers:enrichPhotos(incoming.offers).map(o => webPhotos.has(imageKey(o)) ? {...o,imageUrl:webPhotos.get(imageKey(o))} : o)};
   const source = key.split('/')[0], validate = validators[source];
   if (!validate(incoming)) throw Error(`${key}: invalid catalog`);
   if (!incoming.offers.some(o => o.validFrom <= day && o.validTo >= day)) throw Error(`${key}: no current offers`);
@@ -62,6 +65,10 @@ function generated(source) {
 async function main() {
   const failures=[];
   const only=process.argv.find(a=>a.startsWith('--only='))?.split('=')[1];
+  for (const source of ['penny','billa'].filter(s=>!only||s===only)) {
+    try { for (const [key,url] of await require('./data-web-photos.cjs').fetchPhotos(source)) webPhotos.set(key,url); }
+    catch (error) { console.warn(`${source}: optional web photos unavailable: ${error.message}`); }
+  }
   for(const source of ['penny','lidl'].filter(s=>!only||s===only)) { try { generated(source); } catch(e){failures.push(String(e));console.error(String(e));} }
   const branches = require('./branches.json');
   const all = process.argv.includes('--all-branches');
