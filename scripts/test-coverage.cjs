@@ -18,3 +18,7 @@ assert.ok(extractPage(page,dates,'39hm_akcni_letak').some(o=>o.quantity===10&&o.
 assert.equal(extractPage(page,{...dates,validTo:'2026-09-30'},'39hm_akcni_letak').length,0);
 console.log('OK: current and historic Penny URL formats retain branch coverage; Albert weekly footer retains dog food without extending validity');
 })().catch(e=>{console.error(e);process.exitCode=1});
+
+const {locateTitles,productBlocks}=require('./update-penny.cjs');
+const sourceText='SUŠENKY* 200 g 100 g 9,95 Kč JOGURT* 150 g 100 g 6,60 Kč';
+assert.deepEqual(productBlocks(sourceText,locateTitles(sourceText,[{text:'SUŠENKY'},{text:'JOGURT'}])).map(b=>b.text),['SUŠENKY* 200 g 100 g 9,95 Kč','JOGURT* 150 g 100 g 6,60 Kč']);

@@ -1,11 +1,25 @@
 {
   "source": "penny-generated",
-  "generatedAt": "2026-10-03T08:53:13.422Z",
+  "generatedAt": "2026-10-03T16:08:35.903Z",
   "leafletUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/",
   "validFrom": "2026-09-30",
   "validTo": "2026-10-06",
   "verification": "unit-price-arithmetic",
   "offers": [
+    {
+      "id": "penny-d78426ebbbc27cdd",
+      "retailer": "Penny",
+      "name": "BRAMBORY SALÁTOVÉ",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "1,5 kg",
+      "unitPriceText": "1 kg 13,27 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/2/",
+      "page": 2,
+      "verification": "unit-price-arithmetic"
+    },
     {
       "id": "penny-000b9328a391c8c6",
       "retailer": "Penny",
@@ -483,6 +497,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-ab4297d0e071607e",
+      "retailer": "Penny",
+      "name": "BRAMBOROVÝ KNEDLÍK",
+      "price": 32.9,
+      "currency": "CZK",
+      "packageText": "500 g",
+      "unitPriceText": "100 g 6,58 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/5/",
+      "page": 5,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-fe554f044698d486",
       "retailer": "Penny",
       "name": "DĚTSKÉ VLHČENÉ UBROUSKY ALOE VERA LINTEO",
@@ -539,6 +567,48 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-186ee1b301c44512",
+      "retailer": "Penny",
+      "name": "POMAZÁNKA",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "135 g",
+      "unitPriceText": "100 g 14,74 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/5/",
+      "page": 5,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-11d3e3b9c6b70438",
+      "retailer": "Penny",
+      "name": "POMAZÁNKA",
+      "price": 26.9,
+      "currency": "CZK",
+      "packageText": "125 g",
+      "unitPriceText": "100 g 21,52 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/5/",
+      "page": 5,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-e3c14fe85f81f620",
+      "retailer": "Penny",
+      "name": "RYBÍ SALÁT GRAN MARE",
+      "price": 18.9,
+      "currency": "CZK",
+      "packageText": "135 g",
+      "unitPriceText": "100 g 14 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/5/",
+      "page": 5,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-04296dab009dc692",
       "retailer": "Penny",
       "name": "SALÁT",
@@ -546,6 +616,20 @@
       "currency": "CZK",
       "packageText": "150 g",
       "unitPriceText": "100 g 10,60 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/5/",
+      "page": 5,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-d58a7d23a59b45b5",
+      "retailer": "Penny",
+      "name": "SENDVIČ",
+      "price": 39.9,
+      "currency": "CZK",
+      "packageText": "200 g",
+      "unitPriceText": "100 g 19,95 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/5/",
@@ -595,6 +679,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-b7aaaf88fb823763",
+      "retailer": "Penny",
+      "name": "VEJCE V ASPIKU",
+      "price": 24.9,
+      "currency": "CZK",
+      "packageText": "200 g",
+      "unitPriceText": "100 g 12,45 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/5/",
+      "page": 5,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-fdc0d96cbf6b8773",
       "retailer": "Penny",
       "name": "ZÁTKOVY VAJEČNÉ TĚSTOVINY",
@@ -616,6 +714,90 @@
       "currency": "CZK",
       "packageText": "200 g",
       "unitPriceText": "100 g 18,45 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-3495bf10f082de3d",
+      "retailer": "Penny",
+      "name": "COTTAGE CHEESE 5% MELINA",
+      "price": 16.9,
+      "currency": "CZK",
+      "packageText": "200 g",
+      "unitPriceText": "100 g 8,45 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-c413a64e412f40d4",
+      "retailer": "Penny",
+      "name": "DEZERT MONTE",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "150 g",
+      "unitPriceText": "100 g 13,27 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-84c13acd226202d4",
+      "retailer": "Penny",
+      "name": "GERVAIS",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "80 g",
+      "unitPriceText": "100 g 24,88 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-86a91708b59c1310",
+      "retailer": "Penny",
+      "name": "GRAND DESSERT",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "190 g",
+      "unitPriceText": "100 g 10,47 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-2402ec3625f459c2",
+      "retailer": "Penny",
+      "name": "JOGURT JOGOBELLA",
+      "price": 9.9,
+      "currency": "CZK",
+      "packageText": "150 g",
+      "unitPriceText": "100 g 6,60 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-bfb5435aefc3696d",
+      "retailer": "Penny",
+      "name": "JOGURT MÜLLER MIX",
+      "price": 12.9,
+      "currency": "CZK",
+      "packageText": "130 g",
+      "unitPriceText": "100 g 9,92 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
@@ -665,6 +847,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-98e95becd1c0f6de",
+      "retailer": "Penny",
+      "name": "MLÉČNÝ NÁPOJ MÜLLERMILCH",
+      "price": 15.9,
+      "currency": "CZK",
+      "packageText": "400 g",
+      "unitPriceText": "100 g 3,98 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-f3e968b9a1ab2ad1",
       "retailer": "Penny",
       "name": "ROSTLINNÝ TUK NA PEČENÍ PENNY",
@@ -679,6 +875,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-8957b81d466515a0",
+      "retailer": "Penny",
+      "name": "SÝR RICOTTA SAN FABIO",
+      "price": 24.9,
+      "currency": "CZK",
+      "packageText": "250 g",
+      "unitPriceText": "100 g 9,96 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-70ff2e58edf4d555",
       "retailer": "Penny",
       "name": "TAVENÝ SÝR PRÉSIDENT",
@@ -686,6 +896,48 @@
       "currency": "CZK",
       "packageText": "150 g",
       "unitPriceText": "100 g 17,93 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-ee77bf476099f656",
+      "retailer": "Penny",
+      "name": "TVAROH POLOTUČNÝ JIHOČESKÝ MADETA",
+      "price": 18.9,
+      "currency": "CZK",
+      "packageText": "250 g",
+      "unitPriceText": "100 g 7,56 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-c8f8c1556f88fcdc",
+      "retailer": "Penny",
+      "name": "TVAROHOVÝ MLS MÍŠA OLMA",
+      "price": 15.9,
+      "currency": "CZK",
+      "packageText": "130 g",
+      "unitPriceText": "100 g 12,23 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
+      "page": 6,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-80133ca945734110",
+      "retailer": "Penny",
+      "name": "TYČINKA KINDER MILK SLICE",
+      "price": 12.9,
+      "currency": "CZK",
+      "packageText": "28 g",
+      "unitPriceText": "100 g 46,07 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/6/",
@@ -742,6 +994,20 @@
       "currency": "CZK",
       "packageText": "350 g",
       "unitPriceText": "1 kg 185,43 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/7/",
+      "page": 7,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-efaeb326024a5ef1",
+      "retailer": "Penny",
+      "name": "LUČINA SVĚŽÍ ŽERVÉ",
+      "price": 36.9,
+      "currency": "CZK",
+      "packageText": "140 g",
+      "unitPriceText": "100 g 26,36 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/7/",
@@ -1001,6 +1267,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-42d121846c95d48e",
+      "retailer": "Penny",
+      "name": "KMOTRŮV KLOBÁSOVÝ SPECIÁL",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "75 g",
+      "unitPriceText": "100 g 26,53 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/9/",
+      "page": 9,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-b682f1a2c319ef65",
       "retailer": "Penny",
       "name": "KUŘECÍ PÁRKY",
@@ -1127,6 +1407,34 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-336e088529f80cfb",
+      "retailer": "Penny",
+      "name": "HEAT & EAT BOX MEI TAI",
+      "price": 59.9,
+      "currency": "CZK",
+      "packageText": "280 g",
+      "unitPriceText": "1 kg 213,93 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/10/",
+      "page": 10,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-e1730296f1d6a4aa",
+      "retailer": "Penny",
+      "name": "KORIANDR",
+      "price": 29.9,
+      "currency": "CZK",
+      "packageText": "50 g",
+      "unitPriceText": "1 kg 598 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/10/",
+      "page": 10,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-63b4e802b18cf5b6",
       "retailer": "Penny",
       "name": "MANGO PLÁTKY MEI TAI",
@@ -1134,6 +1442,20 @@
       "currency": "CZK",
       "packageText": "250 g",
       "unitPriceText": "1 kg 119,60 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/10/",
+      "page": 10,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-40ba41dde326acbd",
+      "retailer": "Penny",
+      "name": "NUDLE CHOW MEIN MEI TAI",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "250 g",
+      "unitPriceText": "1 kg 79,60 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/10/",
@@ -1155,6 +1477,34 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-bb0a2fb126f45863",
+      "retailer": "Penny",
+      "name": "POLÉVKA THAJSKÁ MEI TAI",
+      "price": 34.9,
+      "currency": "CZK",
+      "packageText": "400 ml",
+      "unitPriceText": "1 l 87,25 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/10/",
+      "page": 10,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-52a0a41099aeca21",
+      "retailer": "Penny",
+      "name": "RAMEN NUDLE MEI TAI",
+      "price": 26.9,
+      "currency": "CZK",
+      "packageText": "300 g",
+      "unitPriceText": "1 kg 89,67 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/10/",
+      "page": 10,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-8468c2869d0f70f7",
       "retailer": "Penny",
       "name": "SWEET CHILLI OMÁČKA MEI TAI",
@@ -1166,6 +1516,62 @@
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/10/",
       "page": 10,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-29950e4d2e45fa88",
+      "retailer": "Penny",
+      "name": "UDON, SOBA NUDLE MEI TAI",
+      "price": 29.9,
+      "currency": "CZK",
+      "packageText": "300 g",
+      "unitPriceText": "1 kg 99,67 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/10/",
+      "page": 10,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-f5d2f116fae961c9",
+      "retailer": "Penny",
+      "name": "ARAŠÍDY SLAY",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "125 g",
+      "unitPriceText": "100 g 15,92 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-5a20e8183a887848",
+      "retailer": "Penny",
+      "name": "BAMI GORENG S KUŘECÍM MASEM",
+      "price": 54.9,
+      "currency": "CZK",
+      "packageText": "350 g",
+      "unitPriceText": "1 kg 156,86 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-909143c0d66d10c8",
+      "retailer": "Penny",
+      "name": "GUMOVÉ BONBONY HELLO KITTY",
+      "price": 24.9,
+      "currency": "CZK",
+      "packageText": "175 g",
+      "unitPriceText": "100 g 14,23 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
       "verification": "unit-price-arithmetic"
     },
     {
@@ -1211,6 +1617,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-7318e36fa08eec23",
+      "retailer": "Penny",
+      "name": "KEŠU SLAY",
+      "price": 39.9,
+      "currency": "CZK",
+      "packageText": "125 g",
+      "unitPriceText": "100 g 31,92 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-5c9879248edf3c7e",
       "retailer": "Penny",
       "name": "KIMCHI HOT CHO CHI",
@@ -1218,6 +1638,34 @@
       "currency": "CZK",
       "packageText": "300 g",
       "unitPriceText": "1 kg 233 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-8946b6e752f0b7ff",
+      "retailer": "Penny",
+      "name": "KNEDLÍČKY GYOZA MEI TAI",
+      "price": 49.9,
+      "currency": "CZK",
+      "packageText": "400 g",
+      "unitPriceText": "1 kg 124,75 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-c2df4844caa6bee8",
+      "retailer": "Penny",
+      "name": "OBALOVANÉ KŘUPAVÉ CHILLI KREVETY MEI TAI",
+      "price": 79.9,
+      "currency": "CZK",
+      "packageText": "260 g",
+      "unitPriceText": "1 kg 307,31 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
@@ -1239,6 +1687,48 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-76a4fcb5237f557a",
+      "retailer": "Penny",
+      "name": "SRIRACHA MEI TAI",
+      "price": 59.9,
+      "currency": "CZK",
+      "packageText": "500 ml",
+      "unitPriceText": "1 l 119,80 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-c1ee5759dde1d9ce",
+      "retailer": "Penny",
+      "name": "SUSHI AKI |",
+      "price": 59.9,
+      "currency": "CZK",
+      "packageText": "166 g",
+      "unitPriceText": "1 kg 360,84 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-696cae3d259d2ca6",
+      "retailer": "Penny",
+      "name": "SUSHI TOSCHI",
+      "price": 69.9,
+      "currency": "CZK",
+      "packageText": "207 g",
+      "unitPriceText": "1 kg 337,68 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-7a344df43cc4c735",
       "retailer": "Penny",
       "name": "TYČINKY S PRASKACÍ ČOKOLÁDOU",
@@ -1246,6 +1736,20 @@
       "currency": "CZK",
       "packageText": "54 g",
       "unitPriceText": "100 g 55,37 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
+      "page": 11,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-7484ffc95a652a42",
+      "retailer": "Penny",
+      "name": "ZMRZLINA FRUIT LOLLY MANGO RIOS",
+      "price": 49.9,
+      "currency": "CZK",
+      "packageText": "12x 50 ml",
+      "unitPriceText": "1 l 83,17 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/11/",
@@ -1274,6 +1778,20 @@
       "currency": "CZK",
       "packageText": "400 g",
       "unitPriceText": "100 g 19,98 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/12/",
+      "page": 12,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-000ae97d6223ee26",
+      "retailer": "Penny",
+      "name": "CHUPA CHUPS MADS",
+      "price": 24.9,
+      "currency": "CZK",
+      "packageText": "45 g",
+      "unitPriceText": "100 g 55,33 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/12/",
@@ -2541,6 +3059,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-c3cbd4b90e1573de",
+      "retailer": "Penny",
+      "name": "ŠNEK PIZZOVÝ",
+      "price": 9.9,
+      "currency": "CZK",
+      "packageText": "69 g",
+      "unitPriceText": "100 g 14,35 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/17/",
+      "page": 17,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-aac590df774aaa53",
       "retailer": "Penny",
       "name": "TORTILLA CHIPS SALTO",
@@ -2594,6 +3126,20 @@
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/17/",
       "page": 17,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-0a8f1b9f05dd8ee4",
+      "retailer": "Penny",
+      "name": "BIRELL ACTIVE",
+      "price": 34.9,
+      "currency": "CZK",
+      "packageText": "1,5 l",
+      "unitPriceText": "1 l 23,27 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
+      "page": 18,
       "verification": "unit-price-arithmetic"
     },
     {
@@ -2653,6 +3199,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-e01ee64213696aef",
+      "retailer": "Penny",
+      "name": "KRUŠOVICE 10",
+      "price": 15.9,
+      "currency": "CZK",
+      "packageText": "0,5 l",
+      "unitPriceText": "1 l 31,80 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
+      "page": 18,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-1f6fc70d0fff592f",
       "retailer": "Penny",
       "name": "KRUŠOVICE 11",
@@ -2660,6 +3220,34 @@
       "currency": "CZK",
       "packageText": "0,5 l",
       "unitPriceText": "1 l 25,80 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
+      "page": 18,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-e5dde2f30db7100e",
+      "retailer": "Penny",
+      "name": "KRUŠOVICE KRÁLOVSKÝ LEŽÁK",
+      "price": 36.9,
+      "currency": "CZK",
+      "packageText": "1,5 l",
+      "unitPriceText": "1 l 24,60 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
+      "page": 18,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-2385d2ef33a29a89",
+      "retailer": "Penny",
+      "name": "MUSTANG HOŘKÝ",
+      "price": 16.9,
+      "currency": "CZK",
+      "packageText": "0,5 l",
+      "unitPriceText": "1 l 33,80 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
@@ -2681,6 +3269,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-8e20b0bf49fc148f",
+      "retailer": "Penny",
+      "name": "STAROPRAMEN",
+      "price": 16.9,
+      "currency": "CZK",
+      "packageText": "0,5 l",
+      "unitPriceText": "1 l 33,80 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
+      "page": 18,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-ccc1f1e692e6ddd0",
       "retailer": "Penny",
       "name": "STAROPRAMEN 10",
@@ -2695,6 +3297,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-6327b1edd394a9f1",
+      "retailer": "Penny",
+      "name": "SVIJANSKÝ MÁZ",
+      "price": 15.9,
+      "currency": "CZK",
+      "packageText": "0,5 l",
+      "unitPriceText": "1 l 31,80 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
+      "page": 18,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-796b788e4fb62ea2",
       "retailer": "Penny",
       "name": "VELKOPOPOVICKÝ KOZEL 10",
@@ -2702,6 +3318,20 @@
       "currency": "CZK",
       "packageText": "0,5 l",
       "unitPriceText": "1 l 25,80 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
+      "page": 18,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-3ef15b2d2711cf9a",
+      "retailer": "Penny",
+      "name": "VELKOPOPOVICKÝ KOZEL ČERNÝ",
+      "price": 15.9,
+      "currency": "CZK",
+      "packageText": "0,5 l",
+      "unitPriceText": "1 l 31,80 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/18/",
@@ -2856,6 +3486,20 @@
       "currency": "CZK",
       "packageText": "0,75 l",
       "unitPriceText": "1 l 59,87 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/19/",
+      "page": 19,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-a17cc572b2000169",
+      "retailer": "Penny",
+      "name": "MALIBU",
+      "price": 249.9,
+      "currency": "CZK",
+      "packageText": "0,7 l",
+      "unitPriceText": "1 l 357 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/19/",
@@ -3192,6 +3836,20 @@
       "currency": "CZK",
       "packageText": "200 g",
       "unitPriceText": "100 g 14,95 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/20/",
+      "page": 20,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-acf4eef914295eee",
+      "retailer": "Penny",
+      "name": "TULLAMORE DEW, TULLAMORE DEW HONEY",
+      "price": 269.9,
+      "currency": "CZK",
+      "packageText": "0,5 l",
+      "unitPriceText": "1 l 539,80 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/20/",
@@ -3549,6 +4207,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-9cef173cdecf99dd",
+      "retailer": "Penny",
+      "name": "KÁVA JIHLAVANKA STAROČESKÁ",
+      "price": 24.9,
+      "currency": "CZK",
+      "packageText": "70 g",
+      "unitPriceText": "100 g 35,57 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/22/",
+      "page": 22,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-3829c14056e6ebeb",
       "retailer": "Penny",
       "name": "KÁVOVÉ KAPSLE CASABLANCA",
@@ -3605,6 +4277,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-2ffa3a8d1d6ea395",
+      "retailer": "Penny",
+      "name": "COFFEE BREAK JOGURT EKOMILK",
+      "price": 14.9,
+      "currency": "CZK",
+      "packageText": "120 g",
+      "unitPriceText": "100 g 12,42 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/23/",
+      "page": 23,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-67c9ea2245fa93ea",
       "retailer": "Penny",
       "name": "COFFEE WHITENER CASABLANCA",
@@ -3626,6 +4312,20 @@
       "currency": "CZK",
       "packageText": "248 ml",
       "unitPriceText": "100 ml 11,25 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/23/",
+      "page": 23,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-180973a0092b9a1d",
+      "retailer": "Penny",
+      "name": "EISKAFFEE LIGHT",
+      "price": 19.9,
+      "currency": "CZK",
+      "packageText": "500 ml",
+      "unitPriceText": "100 ml 3,98 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/23/",
@@ -3703,6 +4403,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-99ef0a75d1cb36a0",
+      "retailer": "Penny",
+      "name": "MLÉKO KONDENZOVANÉ SALKO TATRA",
+      "price": 39.9,
+      "currency": "CZK",
+      "packageText": "397 g",
+      "unitPriceText": "1 kg 100,50 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/23/",
+      "page": 23,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-c37c0ceb73c2bbad",
       "retailer": "Penny",
       "name": "OPLATKY CAFÉ TIME/ENJOY",
@@ -3766,6 +4480,20 @@
       "currency": "CZK",
       "packageText": "1,4 kg",
       "unitPriceText": "1 kg 99,93 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/24/",
+      "page": 24,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-01ea32efd233e936",
+      "retailer": "Penny",
+      "name": "GRANULE PRO KOČKY S KUŘECÍM FRISKIES",
+      "price": 239.9,
+      "currency": "CZK",
+      "packageText": "4 kg",
+      "unitPriceText": "1 kg 59,98 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/24/",
@@ -3983,6 +4711,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-cb1b057537f67fb7",
+      "retailer": "Penny",
+      "name": "POCHOUTKY PRO PSY PAPKY",
+      "price": 14.9,
+      "currency": "CZK",
+      "packageText": "12 ks",
+      "unitPriceText": "1 ks 1,24 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/25/",
+      "page": 25,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-798f1b649ed1af61",
       "retailer": "Penny",
       "name": "STELIVO PRO KOČKY LOUISA",
@@ -4008,6 +4750,34 @@
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/25/",
       "page": 25,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-28cc516991a0b7d5",
+      "retailer": "Penny",
+      "name": "AVIVÁŽ TESORI D’ORIENTE",
+      "price": 89.9,
+      "currency": "CZK",
+      "packageText": "1160 ml",
+      "unitPriceText": "1 l 77,50 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/26/",
+      "page": 26,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-55803ed3bc6b191c",
+      "retailer": "Penny",
+      "name": "CILLIT BANG",
+      "price": 79.9,
+      "currency": "CZK",
+      "packageText": "900 ml",
+      "unitPriceText": "1 l 88,78 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/26/",
+      "page": 26,
       "verification": "unit-price-arithmetic"
     },
     {
@@ -4060,6 +4830,20 @@
       "currency": "CZK",
       "packageText": "750 ml",
       "unitPriceText": "1 l 186,53 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/26/",
+      "page": 26,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-04694b7b6bd93919",
+      "retailer": "Penny",
+      "name": "OSVĚŽOVAČ VZDUCHU AIR WICK",
+      "price": 89.9,
+      "currency": "CZK",
+      "packageText": "75 ml",
+      "unitPriceText": "100 ml 119,87 Kč",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/26/",
@@ -4361,6 +5145,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-ca95ed48f153a9cb",
+      "retailer": "Penny",
+      "name": "HOVĚZÍ KOSTKY NA GULÁŠ DOBRÉ MASO",
+      "price": 169.9,
+      "currency": "CZK",
+      "packageText": "600 g",
+      "unitPriceText": "1 kg 283,17 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/30/",
+      "page": 30,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-eec3b6d95b105c45",
       "retailer": "Penny",
       "name": "TVAROH TUČNÝ KARLOVA KORUNA",
@@ -4372,6 +5170,62 @@
       "validTo": "2026-10-06",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/30/",
       "page": 30,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-09325ae27c2fefe1",
+      "retailer": "Penny",
+      "name": "ZRAJÍCÍ SÝR MILKERIA",
+      "price": 39.9,
+      "currency": "CZK",
+      "packageText": "200 g",
+      "unitPriceText": "100 g 19,95 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/30/",
+      "page": 30,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-cc2f5f1f54ede9e2",
+      "retailer": "Penny",
+      "name": "BORŮVKY",
+      "price": 29.9,
+      "currency": "CZK",
+      "packageText": "125 g",
+      "unitPriceText": "1 kg 239,20 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/31/",
+      "page": 31,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-30e5caf9046e9408",
+      "retailer": "Penny",
+      "name": "CROISSANT MULTICEREÁLNÍ",
+      "price": 9.9,
+      "currency": "CZK",
+      "packageText": "66 g",
+      "unitPriceText": "100 g 15 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/31/",
+      "page": 31,
+      "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-3faf15d8fbb23f3d",
+      "retailer": "Penny",
+      "name": "DALAMÁNEK",
+      "price": 3.9,
+      "currency": "CZK",
+      "packageText": "70 g",
+      "unitPriceText": "100 g 5,57 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/31/",
+      "page": 31,
       "verification": "unit-price-arithmetic"
     },
     {
@@ -4473,6 +5327,20 @@
       "verification": "unit-price-arithmetic"
     },
     {
+      "id": "penny-47864ab01c272a45",
+      "retailer": "Penny",
+      "name": "KOBLIHA S OVOCNOU NÁPLNÍ",
+      "price": 5.9,
+      "currency": "CZK",
+      "packageText": "65 g",
+      "unitPriceText": "100 g 9,08 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/32/",
+      "page": 32,
+      "verification": "unit-price-arithmetic"
+    },
+    {
       "id": "penny-c963b3e0f920e759",
       "retailer": "Penny",
       "name": "MEDOVÝ PERNÍK ENJOY",
@@ -4569,6 +5437,20 @@
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/32/",
       "page": 32,
       "verification": "unit-price-arithmetic"
+    },
+    {
+      "id": "penny-a5c86000c4eb3e52",
+      "retailer": "Penny",
+      "name": "VEPŘOVÁ KRKOVICE DOBRÉ MASO",
+      "price": 64.9,
+      "currency": "CZK",
+      "packageText": "400 g",
+      "unitPriceText": "1 kg 162,25 Kč",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/32/",
+      "page": 32,
+      "verification": "unit-price-arithmetic"
     }
   ],
   "coverage": {
@@ -4584,18 +5466,96 @@
         "unresolved": 0,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": []
       },
       {
         "page": 2,
         "titles": 19,
         "located": 18,
         "blocks": 18,
-        "accepted": 2,
-        "unresolved": 16,
+        "accepted": 3,
+        "unresolved": 15,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "KUŘECÍ ZADNÍ ČTVRTKY",
+            "text": "KUŘECÍ ZADNÍ ČTVRTKY chlazené | cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "VEPŘOVÉ MĚLNĚNÉ MASO XXL",
+            "text": "VEPŘOVÉ MĚLNĚNÉ MASO XXL* 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "VEPŘOVÁ PEČENĚ",
+            "text": "VEPŘOVÁ PEČENĚ* balená ve vakuu | cena za 1 kg ilustrační fota FÍKY cena za 1 ks Platnost: 30. 9. – 6. 10. Platnost: 30. 9. – 6. 10.",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PÓREK",
+            "text": "PÓREK cena za 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "RAJČATA NA VĚTVIČCE",
+            "text": "RAJČATA NA VĚTVIČCE volná cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "JABLKA GOLDEN DELICIOUS",
+            "text": "JABLKA GOLDEN DELICIOUS skládaná, volná | cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "MRKEV",
+            "text": "MRKEV volná cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ČERVENÁ ŘEPA",
+            "text": "ČERVENÁ ŘEPA cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "MANGO",
+            "text": "MANGO zralé | 2 ks 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PETRŽEL KOŘENOVÁ",
+            "text": "PETRŽEL KOŘENOVÁ volná cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "CITRONY",
+            "text": "CITRONY volné cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "AVOKÁDO",
+            "text": "AVOKÁDO cena za 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "NEKTARINKY",
+            "text": "NEKTARINKY balené 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KAPIE ČERVENÁ",
+            "text": "KAPIE ČERVENÁ volná cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KRÁLIČÍ STEHNA S KOSTÍ",
+            "text": "KRÁLIČÍ STEHNA S KOSTÍ* mražená | 1 kg",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 3,
@@ -4606,7 +5566,29 @@
         "unresolved": 4,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "CHRYZANTÉMA MIX",
+            "text": "CHRYZANTÉMA MIX* různé druhy, přebal Flora Natura 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KYTICE GERBERA, ALSTROMÉRIE",
+            "text": "KYTICE GERBERA, ALSTROMÉRIE 1 svazek",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KYTICE RŮŽE",
+            "text": "KYTICE RŮŽE* barevný mix 1 svazek",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "CHRYZANTÉMY ŘEZANÉ",
+            "text": "CHRYZANTÉMY ŘEZANÉ* různé barvy 5 ks 1 svazek",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 4,
@@ -4617,40 +5599,148 @@
         "unresolved": 7,
         "suspicious": 1,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "ČERSTVÉ MLÉKO PLNOTUČNÉ",
+            "text": "ČERSTVÉ MLÉKO PLNOTUČNÉ 3,5%",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KARLOVA KORUNA",
+            "text": "KARLOVA KORUNA 1 l",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SÝR TYPU EMMENTALER BONI",
+            "text": "SÝR TYPU EMMENTALER BONI plátky 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SÝR CHEDDAR 50% BONI",
+            "text": "SÝR CHEDDAR 50% BONI plátky | 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SÝROVÉ NITĚ KARLOVA KORUNA",
+            "text": "SÝROVÉ NITĚ KARLOVA KORUNA neuzené, uzené 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KEFÍROVÉ MLÉKO KARLOVA KORUNA",
+            "text": "KEFÍROVÉ MLÉKO KARLOVA KORUNA nízkotučné 500 ml 100 ml 19,80 Kč",
+            "reason": "unmatched-price"
+          },
+          {
+            "name": "TRVANLIVÉ POLOTUČNÉ MLÉKO BEZ LAKTÓZY 1,5% BONI/ PRAGOLAKTOS",
+            "text": "TRVANLIVÉ POLOTUČNÉ MLÉKO BEZ LAKTÓZY 1,5% BONI/ PRAGOLAKTOS 1 l",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SÝR CHEDDAR 50% BONI",
+            "text": "SÝR CHEDDAR 50% BONI plátky, světlý 100 g 2022 150 g 500 g 400 g Nabídka platná od středy 30. 9. do úterý 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 5,
         "titles": 17,
         "located": 17,
         "blocks": 17,
-        "accepted": 9,
-        "unresolved": 8,
+        "accepted": 15,
+        "unresolved": 2,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "SUŠENKY OPAVIA",
+            "text": "SUŠENKY OPAVIA Koka, Esíčka 180/220 g 100 g 16,61/13,59 Kč Kč < 29,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KEČUP HEINZ",
+            "text": "KEČUP HEINZ* 1 kg < 69,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 6,
         "titles": 23,
         "located": 23,
         "blocks": 23,
-        "accepted": 7,
-        "unresolved": 16,
+        "accepted": 18,
+        "unresolved": 5,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "SÝR SEDLČANSKÝ HERMELÍN",
+            "text": "SÝR SEDLČANSKÝ HERMELÍN různé druhy | 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SÝR LEERDAMMER",
+            "text": "SÝR LEERDAMMER Original, plátky 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "JIHOČESKÝ EIDAM",
+            "text": "JIHOČESKÝ EIDAM přírodní, 45% t. v s., plátky | 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "NÁPOJ ACTIVIA",
+            "text": "NÁPOJ ACTIVIA různé druhy 270/280 g 100 g 7,37/7,11 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PROTEIN PLÁTKOVÝ SÝR PRÉSIDENT",
+            "text": "PROTEIN PLÁTKOVÝ SÝR PRÉSIDENT* 100 g",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 7,
         "titles": 17,
         "located": 16,
         "blocks": 16,
-        "accepted": 10,
-        "unresolved": 5,
+        "accepted": 11,
+        "unresolved": 4,
         "suspicious": 1,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "BYSTŘICKÁ POMAZÁNKA",
+            "text": "BYSTŘICKÁ POMAZÁNKA* natur | 200 g 100 g 9,95 Kč",
+            "reason": "unmatched-price"
+          },
+          {
+            "name": "100% ŠŤÁVA Z POMERANČE PENNY TO GO",
+            "text": "100% ŠŤÁVA Z POMERANČE PENNY TO GO 1 l",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "FLORA",
+            "text": "FLORA* 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "BAMBINO ORIGINAL",
+            "text": "BAMBINO ORIGINAL* 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SEDLČANSKÝ HERMELÍN PROTEIN",
+            "text": "SEDLČANSKÝ HERMELÍN PROTEIN* 100 g 1 kg 5MAX. ks nákup/den Nabídka platná od středy 30. 9. do úterý 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 8,
@@ -4661,51 +5751,181 @@
         "unresolved": 12,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "ŠUNKA ŘEZNÍKŮV TALÍŘ",
+            "text": "ŠUNKA ŘEZNÍKŮV TALÍŘ nejvyšší jakosti 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "LOVECKÝ SALÁM ŘEZNÍKŮV TALÍŘ",
+            "text": "LOVECKÝ SALÁM ŘEZNÍKŮV TALÍŘ krájený 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ŠUNKOVÝ SALÁM ŘEZNÍKŮV TALÍŘ",
+            "text": "ŠUNKOVÝ SALÁM ŘEZNÍKŮV TALÍŘ 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SALÁM VYSOČINA ŘEZNÍKŮV TALÍŘ",
+            "text": "SALÁM VYSOČINA ŘEZNÍKŮV TALÍŘ krájený 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KLADENSKÁ PEČENĚ ŘEZNÍKŮV TALÍŘ",
+            "text": "KLADENSKÁ PEČENĚ ŘEZNÍKŮV TALÍŘ krájená | 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ORAVSKÁ SLANINA ŘEZNÍKŮV TALÍŘ",
+            "text": "ORAVSKÁ SLANINA ŘEZNÍKŮV TALÍŘ cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "GOTHAJSKÝ SALÁM ŘEZNÍKŮV TALÍŘ",
+            "text": "GOTHAJSKÝ SALÁM ŘEZNÍKŮV TALÍŘ krájený 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KUŘECÍ ŠUNKA ŘEZNÍKŮV TALÍŘ",
+            "text": "KUŘECÍ ŠUNKA ŘEZNÍKŮV TALÍŘ nejvyšší jakosti 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PRAŽSKÁ ŠUNKA ŘEZNÍKŮV TALÍŘ",
+            "text": "PRAŽSKÁ ŠUNKA ŘEZNÍKŮV TALÍŘ nejvyšší jakosti 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PIVNÍ SALÁM",
+            "text": "PIVNÍ SALÁM krájený | 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SCHWARZWALDSKÁ ŠUNKA",
+            "text": "SCHWARZWALDSKÁ ŠUNKA krájená, 100 g vyrobeno ze 128 g masa 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "MISTROVSKÁ DUŠENÁ ŠUNKA SHAVED ŘEZNÍKŮV TALÍŘ",
+            "text": "MISTROVSKÁ DUŠENÁ ŠUNKA SHAVED ŘEZNÍKŮV TALÍŘ krájená | 100 g",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 9,
         "titles": 17,
         "located": 17,
         "blocks": 17,
-        "accepted": 12,
-        "unresolved": 5,
+        "accepted": 13,
+        "unresolved": 4,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "UZENÁ ROLOVANÁ PLEC ŘEZNÍKŮV TALÍŘ",
+            "text": "UZENÁ ROLOVANÁ PLEC ŘEZNÍKŮV TALÍŘ cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "UZENÁ KÝTA S KOSTÍ ŘEZNÍKŮV TALÍŘ",
+            "text": "UZENÁ KÝTA S KOSTÍ ŘEZNÍKŮV TALÍŘ cena za 1 kg ilustrační foto",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "DRŮBEŽÍ PÁRKY",
+            "text": "DRŮBEŽÍ PÁRKY 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KLOBÁSKY KMOTROVKY",
+            "text": "KLOBÁSKY KMOTROVKY* klasické, uherákové 100 g",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 10,
         "titles": 15,
         "located": 15,
         "blocks": 15,
-        "accepted": 4,
-        "unresolved": 11,
+        "accepted": 10,
+        "unresolved": 5,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "NUDLE SKLENĚNÉ MEI TAI",
+            "text": "NUDLE SKLENĚNÉ MEI TAI 100 g v nabídce také další druhy od 16,90 Kč < 14,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "RÝŽOVÝ PAPÍR MEI TAI",
+            "text": "RÝŽOVÝ PAPÍR MEI TAI* 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ZÁZVOR",
+            "text": "ZÁZVOR volný cena za 1 kg 79 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "HRUŠKA NASHI",
+            "text": "HRUŠKA NASHI cena za 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "POMELO",
+            "text": "POMELO cena za 1 ks velké cena za 100 g Nabídka platná od středy 30. 9. do úterý 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 11,
         "titles": 17,
         "located": 17,
         "blocks": 17,
-        "accepted": 6,
-        "unresolved": 11,
+        "accepted": 16,
+        "unresolved": 1,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "SUSHI MAKI",
+            "text": "SUSHI MAKI různé druhy 132–138 g 1 kg 378,03–361,59 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 12,
         "titles": 17,
         "located": 17,
         "blocks": 17,
-        "accepted": 14,
-        "unresolved": 3,
+        "accepted": 15,
+        "unresolved": 2,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "TRADIČNÍ OPLATKY KOLONÁDA OPAVIA",
+            "text": "TRADIČNÍ OPLATKY KOLONÁDA OPAVIA různé druhy | 140/92 g 100 g 20,64/31,41 Kč < 26,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "TYČINKA MARS, TWIX, SNICKERS, BOUNTY",
+            "text": "TYČINKA MARS, TWIX, SNICKERS, BOUNTY 50–57 g 100 g 29,80–26,14 Kč v limitované nabídce také další druhy za 14,90 Kč | < 11,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 13,
@@ -4716,7 +5936,14 @@
         "unresolved": 1,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "DĚTSKÉ CEREÁLIE CRIP CROP",
+            "text": "DĚTSKÉ CEREÁLIE CRIP CROP různé druhy 100/250 g 1 kg 199/79,60 Kč < 19,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 14,
@@ -4727,7 +5954,44 @@
         "unresolved": 7,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "MAGGI POLÉVKA PŘIDEJ VEJCE",
+            "text": "MAGGI POLÉVKA PŘIDEJ VEJCE různé druhy 32–48 g 1 kg 403,12–268,75 Kč < 12,40 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "POMAZÁNKA BŮČKOVÁ GUSTITO",
+            "text": "POMAZÁNKA BŮČKOVÁ GUSTITO 100 g | < 14,90 Kč v nabídce také Čertovy topinky Gustito 100 g za 17,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "INSTANTNÍ POLÉVKA GUSTITO",
+            "text": "INSTANTNÍ POLÉVKA GUSTITO různé druhy 60–64 g 1 kg 165–154,69 Kč | < 8,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PODRAVKA PŘÍSADA DO JÍDEL",
+            "text": "PODRAVKA PŘÍSADA DO JÍDEL 200 g + 25 % navíc 1 kg 99,60 Kč < 24,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "POLÉVKA DO HRNEČKU",
+            "text": "POLÉVKA DO HRNEČKU různé druhy 14–27 g 1 kg 635,71–329,63 Kč < 7,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SŮL KAMENNÁ S JÓDEM GUSTITO",
+            "text": "SŮL KAMENNÁ S JÓDEM GUSTITO 1 kg < 6,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SLUNEČNICOVÝ OLEJ PENNY",
+            "text": "SLUNEČNICOVÝ OLEJ PENNY 1 l < 24,90 Kč 4 ks 700 ml 3x 200 g Nabídka platná od středy 30. 9. do úterý 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 15,
@@ -4738,7 +6002,49 @@
         "unresolved": 8,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "CUKR MOUČKA KARLOVA KORUNA",
+            "text": "CUKR MOUČKA KARLOVA KORUNA 1 kg < 19,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "POLEVA CUKRÁŘSKÁ CARLA",
+            "text": "POLEVA CUKRÁŘSKÁ CARLA mléčná, tmavá 100 g < 14,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "HOLANDSKÉ KAKAO DR. OETKER",
+            "text": "HOLANDSKÉ KAKAO DR. OETKER 100 g < 47,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KYPŘICÍ PRÁŠEK, VANILÍNOVÝ CUKR DR. OETKER",
+            "text": "KYPŘICÍ PRÁŠEK, VANILÍNOVÝ CUKR DR. OETKER 5 ks v balení 60/100 g 1 kg 265/159 Kč < 12,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ČERVENÁ ŘEPA JARDINELLE",
+            "text": "ČERVENÁ ŘEPA JARDINELLE kostičky, plátky 670; 450/430 g 1 kg 55,33/57,91 Kč < 22,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ZELENINOVÁ SMĚS MORAVANKA, KUNOVJANKA",
+            "text": "ZELENINOVÁ SMĚS MORAVANKA, KUNOVJANKA 330/340 g; 175/170 g 1 kg 175,88/170,86 Kč < 27,90 Kč v nabídce také Hradišťanka Hamé 330/175 g za 29,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PERNERKA MOUKA BIO",
+            "text": "PERNERKA MOUKA BIO různé druhy 1 kg < 29,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PRO ZDRAVĚJŠÍ VAŘENÍ A PEČENÍ",
+            "text": "PRO ZDRAVĚJŠÍ VAŘENÍ A PEČENÍ BIO 750 g NOVINKA Nabídka platná od středy 30. 9. do úterý 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 16,
@@ -4749,51 +6055,111 @@
         "unresolved": 2,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "PIZZA",
+            "text": "PIZZA mražená | různé druhy 275–305 g | 1 kg 101,45–91,48 Kč < 29,90 Kč ilustrační foto",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "BRAMBOROVÉ HALUŠKY",
+            "text": "BRAMBOROVÉ HALUŠKY mražené | 1 kg < 44,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 17,
         "titles": 19,
         "located": 19,
         "blocks": 19,
-        "accepted": 14,
-        "unresolved": 5,
+        "accepted": 15,
+        "unresolved": 4,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "CYRILOVY BRAMBŮRKY",
+            "text": "CYRILOVY BRAMBŮRKY* solené, česnekové 100 g < 19,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "DUPETKY",
+            "text": "DUPETKY různé druhy 70/80 g 100 g 24,14/21,13 Kč < 16,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KREKRY TUC",
+            "text": "KREKRY TUC různé druhy 100 g < 16,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "POPCORN SOLTY",
+            "text": "POPCORN SOLTY vybrané druhy 100 g | < 9,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 18,
         "titles": 17,
         "located": 16,
         "blocks": 16,
-        "accepted": 8,
-        "unresolved": 8,
-        "suspicious": 0,
+        "accepted": 15,
+        "unresolved": 0,
+        "suspicious": 1,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "PILSNER URQUELL",
+            "text": "PILSNER URQUELL* světlý ležák | 6x 0,5 l 1 l 57,67 Kč | < 173 Kč",
+            "reason": "unmatched-price"
+          }
+        ]
       },
       {
         "page": 19,
         "titles": 23,
         "located": 23,
         "blocks": 23,
-        "accepted": 20,
-        "unresolved": 2,
+        "accepted": 21,
+        "unresolved": 1,
         "suspicious": 1,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "VELTLÍNSKÉ ZELENÉ, MÜLLER THURGAU, FRANKOVKA MODRÁ, MODRÝ PORTUGAL",
+            "text": "VELTLÍNSKÉ ZELENÉ, MÜLLER THURGAU, FRANKOVKA MODRÁ, MODRÝ PORTUGAL 1 l < 49,90 Kč v limitované nabídce také Risling Vlassky 0,75 l za 49,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "APEROL",
+            "text": "APEROL 11 % alk. | 0,7 l 1 l 342,71 Kč < 229,90 Kč 0,7 l 0,7 l 0,7 l 0,7 l 1 l 3 l 4 body navíc 1 ks = Nabídka platná od středy 30. 9. do úterý 6. 10. 2026 původem z Itálie původem ze Španělska Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "unmatched-price"
+          }
+        ]
       },
       {
         "page": 20,
         "titles": 19,
         "located": 19,
         "blocks": 19,
-        "accepted": 17,
-        "unresolved": 1,
+        "accepted": 18,
+        "unresolved": 0,
         "suspicious": 0,
         "conditionalSkipped": 1,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "JÄGERMEISTER",
+            "text": "JÄGERMEISTER* 35 % alk. 0,35 l | 1 l 428,29 Kč při koupi 1 ks cena 169,90 Kč od 2 ks cena 149,90Kč",
+            "reason": "purchase-condition"
+          }
+        ]
       },
       {
         "page": 21,
@@ -4804,62 +6170,193 @@
         "unresolved": 3,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "PURISSIMA DŽUS JABLKO 100% PET",
+            "text": "PURISSIMA DŽUS JABLKO 100% PET 1 l < 21,90 Kč v nabídce také další druhy od 24,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "MINERÁLNÍ VODA GEMERKA",
+            "text": "MINERÁLNÍ VODA GEMERKA 1,5 l | jemně perlivá, tichá 1 l 7,93 Kč < 11,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ČAJ TEA PARTY",
+            "text": "ČAJ TEA PARTY různé druhy 37,5/56,25 g 100 g 45,07/30,04 Kč < 16,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 22,
         "titles": 17,
         "located": 17,
         "blocks": 17,
-        "accepted": 10,
+        "accepted": 11,
         "unresolved": 6,
-        "suspicious": 1,
+        "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "BONBONIÉRA ORION",
+            "text": "BONBONIÉRA ORION* různé druhy | 144–158 g 100 g 41,16–37,91 Kč | < 59,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ZMRZLINA RIOS",
+            "text": "ZMRZLINA RIOS různé druhy | 1 l < 49,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KÁVA JIHLAVANKA STANDARD",
+            "text": "KÁVA JIHLAVANKA STANDARD mletá 1 kg < 189,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KÁVA CASABLANCA CREMA",
+            "text": "KÁVA CASABLANCA CREMA zrnková 1 kg < 229,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "EDUSCHO ESPRESSO INTENSO",
+            "text": "EDUSCHO ESPRESSO INTENSO* zrnková 1 kg < 299,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KÁVA CASABLANCA",
+            "text": "KÁVA CASABLANCA instantní, bez kofeinu 100 g < 74,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 23,
         "titles": 22,
         "located": 22,
         "blocks": 22,
-        "accepted": 11,
-        "unresolved": 10,
+        "accepted": 14,
+        "unresolved": 7,
         "suspicious": 0,
         "conditionalSkipped": 1,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "NÁPOJ ALPRO",
+            "text": "NÁPOJ ALPRO mandlový neslazený, sójový original 1 l < 44,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "CAPPUCCINO CASABLANCA",
+            "text": "CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SADA ČTECÍCH BRÝLÍ",
+            "text": "SADA ČTECÍCH BRÝLÍ* 1 balení < 99,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KŘÍŽOVKY",
+            "text": "KŘÍŽOVKY* s větším písmem, různá témata 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KRABIČKA NA LÉKY",
+            "text": "KRABIČKA NA LÉKY* plastová, 7denní 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "LOŽNÍ POVLEČENÍ",
+            "text": "LOŽNÍ POVLEČENÍ* mikrovláknové, 140 x 200 + 70 x 90 cm, různé vzory 1 balení",
+            "reason": "purchase-condition"
+          },
+          {
+            "name": "CHRÁNIČ MATRACE",
+            "text": "CHRÁNIČ MATRACE* nepropustný, 90 x 200 cm 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "POVLAK NA POLŠTÁŘEK",
+            "text": "POVLAK NA POLŠTÁŘEK* 40 x 40 cm, různé vzory 1 ks",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 24,
         "titles": 8,
         "located": 8,
         "blocks": 8,
-        "accepted": 7,
-        "unresolved": 1,
+        "accepted": 8,
+        "unresolved": 0,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": []
       },
       {
         "page": 25,
         "titles": 17,
         "located": 17,
         "blocks": 17,
-        "accepted": 11,
-        "unresolved": 6,
+        "accepted": 12,
+        "unresolved": 5,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "SALÁM PRO PSY HARYK",
+            "text": "SALÁM PRO PSY HARYK 1 kg < 21,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "GRANULE PRO KOČKY MICINKA",
+            "text": "GRANULE PRO KOČKY MICINKA 1 kg < 24,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "MISKA PRO PSA",
+            "text": "MISKA PRO PSA* nerezová v nabídce i 520 ml za 59,90 Kč 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "HRAČKA PRO PSA",
+            "text": "HRAČKA PRO PSA* např. uzel, míček, tahací provaz, různá provedení 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "JAZÝČKY ČOKOLÁDOVÉ CHOCO’LA",
+            "text": "JAZÝČKY ČOKOLÁDOVÉ CHOCO’LA 100 g < 39,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 26,
         "titles": 18,
         "located": 18,
         "blocks": 18,
-        "accepted": 13,
-        "unresolved": 5,
+        "accepted": 16,
+        "unresolved": 2,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "ARIEL",
+            "text": "ARIEL prášek 3,465 kg, gel 3,15 l, kapsle 50 ks 1 kg 95,21 Kč | 1 l 104,73 Kč, 1 ks 6,60 Kč | < 399,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PROSTŘEDEK NA MYTÍ POVRCHŮ SIDOLUX",
+            "text": "PROSTŘEDEK NA MYTÍ POVRCHŮ SIDOLUX 1 l < 34,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 27,
@@ -4870,7 +6367,39 @@
         "unresolved": 6,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "VÁNOČNÍ BALÍČEK BYLINNÉ MASTI",
+            "text": "VÁNOČNÍ BALÍČEK BYLINNÉ MASTI* 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "VÁNOČNÍ BALÍČEK BOHEMIA APOTÉKA LEVANDULE",
+            "text": "VÁNOČNÍ BALÍČEK BOHEMIA APOTÉKA LEVANDULE* 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "VÁNOČNÍ BALÍČEK DOVE",
+            "text": "VÁNOČNÍ BALÍČEK DOVE* Restoring 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "VÁNOČNÍ BALÍČEK DERMACOL PISTÁCIE",
+            "text": "VÁNOČNÍ BALÍČEK DERMACOL PISTÁCIE* 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "INKONTINENČNÍ VLOŽKY PAMELA",
+            "text": "INKONTINENČNÍ VLOŽKY PAMELA normal, extra 12/10 ks | 1 ks 4,99/5,99 Kč < 49,90 Kč v nabídce také slipové vložky 45 ks za 24,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KAPESNÍKY WIPPY",
+            "text": "KAPESNÍKY WIPPY 100 ks 4vrstvé 1 ks 0,23 Kč < 19,90 Kč",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 28,
@@ -4881,7 +6410,99 @@
         "unresolved": 18,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "DĚTSKÉ PYŽAMO",
+            "text": "DĚTSKÉ PYŽAMO* 100% bavlna, vel. 98–128, různé motivy 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SADA PONOŽEK",
+            "text": "SADA PONOŽEK* vel. 23–26 a 27–30, různé motivy 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SADA SPODNÍHO PRÁDLA",
+            "text": "SADA SPODNÍHO PRÁDLA* boxerky/kalhotky, vel. 3–6 let, různé motivy 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "DĚTSKÉ LOŽNÍ POVLEČENÍ",
+            "text": "DĚTSKÉ LOŽNÍ POVLEČENÍ* 100% bavlna, 140 x 200 cm + 90 x 70 cm, různé motivy 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "DĚTSKÁ LAMPIČKA",
+            "text": "DĚTSKÁ LAMPIČKA* plastová, výška cca 12–15 cm, vč. baterií 3x LR44, různá provedení 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "LÉTAJÍCÍ DRAK",
+            "text": "LÉTAJÍCÍ DRAK* 68 x 73 cm, s motivem Krtečka 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KOMIKS ČTYŘLÍSTEK",
+            "text": "KOMIKS ČTYŘLÍSTEK* Hrajeme si na školu či Hravé aktivity, vhodné pro děti 3–8 let 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "OMALOVÁNKY",
+            "text": "OMALOVÁNKY* včetně 12 minivoskovek, motiv Frozen, Spidey či Paw Patrol | 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "DESKOVÁ HRA",
+            "text": "DESKOVÁ HRA* např. Jurský svět či Stich, vhodné od 5 let 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "NÁSTĚNNÝ KALENDÁŘ",
+            "text": "NÁSTĚNNÝ KALENDÁŘ* vázanka, 12 x 48 cm, různé motivy v nabídce i 24 x 33 cm za 99,90 Kč 1 ks DIÁŘ* 14denní, různé barvy v nabídce i měsíční za 26,90 Kč 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PODZIMNÍ DEKORACE",
+            "text": "PODZIMNÍ DEKORACE* plastová/textilní, různá provedení | 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SVÍCEN DÝNĚ",
+            "text": "SVÍCEN DÝNĚ* keramický, 15 x 10 cm 1 ks v nabídce také 9 x 8 cm za 59,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SADA UBROUSKŮ",
+            "text": "SADA UBROUSKŮ* papírové, 3vrstvé, 33 x 33 cm, podzimní motivy 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PROSTÍRÁNÍ",
+            "text": "PROSTÍRÁNÍ* plastové, 28 x 43 cm, podzimní motivy 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "BOX NA KAPESNÍKY",
+            "text": "BOX NA KAPESNÍKY* plechový, 21,5 x 13 x 7 cm, podzimní motivy 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "DEKORAČNÍ ZVÍŘÁTKO",
+            "text": "DEKORAČNÍ ZVÍŘÁTKO* např. veverka, sova, ježek či liška, výška 3,5–7 cm 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "STOLNÍ KALENDÁŘ",
+            "text": "STOLNÍ KALENDÁŘ* český, týdenní, řádkový, cca 22 x 17 cm, různé motivy | 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SADA LED SVÍČEK",
+            "text": "SADA LED SVÍČEK* s časovačem, ø7,5 cm, výška: 10, 12,5 a 15 cm, šedá/béžová barva 1 balení 3 páry 3 ks 144 str. 12 str. 20 ks 3 ks Nabídka platná od středy 30. 9. do úterý 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 29,
@@ -4892,40 +6513,233 @@
         "unresolved": 16,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "CLONA NA ČELNÍ SKLO",
+            "text": "CLONA NA ČELNÍ SKLO* 150–200 x 70 cm, univ. celoroční využití 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "GOLA SADA",
+            "text": "GOLA SADA* 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "HASICÍ PŘÍSTROJ",
+            "text": "HASICÍ PŘÍSTROJ* práškový, pro typy požáru ABC 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PNEUMĚŘIČ",
+            "text": "PNEUMĚŘIČ* 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "MOTOROVÝ OLEJ",
+            "text": "MOTOROVÝ OLEJ* typ 5W-40 1 ks v nabídce také 10W-40 za 129,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "ALKOHOLTESTER",
+            "text": "ALKOHOLTESTER* digitální, se zvukovým signálem, aut. vypnutí, včetně 4 náhr. náústků, na 2x AAA baterie 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "UNIVERZÁLNÍ ČISTIČ",
+            "text": "UNIVERZÁLNÍ ČISTIČ* 1 ks v nabídce také čistič disků kol za 79,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SMĚS DO OSTŘIKOVAČŮ",
+            "text": "SMĚS DO OSTŘIKOVAČŮ* přechodová do -5°C 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "LED VÝSTRAŽNÝ TROJÚHELNÍK",
+            "text": "LED VÝSTRAŽNÝ TROJÚHELNÍK* nabíjení: micro-USB, dosvit až 20 m, plastový, 27 x 5 x 24,5 cm 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "STARTOVACÍ KABELY* 200 A, 7",
+            "text": "STARTOVACÍ KABELY* 200 A, 7 mm, 200 cm 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SADA UPÍNÁKŮ",
+            "text": "SADA UPÍNÁKŮ* 2x 100 cm 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SADA AUTOŽÁROVEK",
+            "text": "SADA AUTOŽÁROVEK* halogenové, homologace E4 typ H4 či H7 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "AUTOSTĚRAČ",
+            "text": "AUTOSTĚRAČ* vhodný pro většinu typů vozů díky spec. úchytu 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "POTAH NA VOLANT",
+            "text": "POTAH NA VOLANT* pro ø 37–38 cm, kožený, různé barvy ozdobné nitě 1 ks LANO* reflexní | 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "AUTOOSVĚŽOVAČ",
+            "text": "AUTOOSVĚŽOVAČ* různé vůně 1 ks < 59,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "UTĚRKA NA OKNA",
+            "text": "UTĚRKA NA OKNA* proti zamlžení skel, 34 x 31 cm | 1 ks 53dílná 2 ks 15 m 1 kg 7 bar 1 l 1 l 4 l 40–66 cm Nabídka platná od středy 30. 9. do úterý 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 30,
         "titles": 10,
         "located": 10,
         "blocks": 10,
-        "accepted": 1,
-        "unresolved": 9,
+        "accepted": 3,
+        "unresolved": 7,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "KÁVA JIHLAVANKA",
+            "text": "KÁVA JIHLAVANKA instantní, různé druhy 180/200 g 100 g 66,61/59,95 Kč < 109,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "TRVANLIVÉ JIHOČESKÉ MLÉKO",
+            "text": "TRVANLIVÉ JIHOČESKÉ MLÉKO* polotučné, 1,5 % tuku 1 l < 13,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PSTRUH DUHOVÝ",
+            "text": "PSTRUH DUHOVÝ* cena za 1 kg 199 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "DUŠENÁ ŠUNKA STANDARD ŘEZNÍKŮV TALÍŘ",
+            "text": "DUŠENÁ ŠUNKA STANDARD ŘEZNÍKŮV TALÍŘ 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "VEPŘOVÁ KÝTA",
+            "text": "VEPŘOVÁ KÝTA* bez kosti, ve vakuu cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "HOVĚZÍ SMĚS NA POLÉVKU DOBRÉ MASO",
+            "text": "HOVĚZÍ SMĚS NA POLÉVKU DOBRÉ MASO cena za 1 kg ilustrační foto ilustrační foto",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "SÝR EDAM 45% PLÁTKY MILKERIA",
+            "text": "SÝR EDAM 45% PLÁTKY MILKERIA 100 g ks 12 MAX. nákup/den CENA ZA 100 G Nabídka platí od pátku 2. 10. do neděle 4. 10. 2026 % PÁ SO NE JIŽ OD PÁTKU! SUPER VÍKEND Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 31,
         "titles": 18,
         "located": 18,
         "blocks": 18,
-        "accepted": 8,
-        "unresolved": 9,
+        "accepted": 11,
+        "unresolved": 6,
         "suspicious": 0,
         "conditionalSkipped": 1,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "TOPNÉ BRIKETY",
+            "text": "TOPNÉ BRIKETY* 1 balení",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "PŠENIČNÁ MOUKA",
+            "text": "PŠENIČNÁ MOUKA* vybrané druhy 1 kg < 9,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "CIBULE KUCHYŇSKÁ ŽLUTÁ",
+            "text": "CIBULE KUCHYŇSKÁ ŽLUTÁ volná cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "MANDARINKY",
+            "text": "MANDARINKY volné | cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "BLUMY TMAVÉ",
+            "text": "BLUMY TMAVÉ volné | cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "OKURKA SALÁTOVÁ",
+            "text": "OKURKA SALÁTOVÁ cena za 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "LEDOVÝ SALÁT",
+            "text": "LEDOVÝ SALÁT cena za 1 ks nákup/den ks 10 MAX. 6 ks / 16,65 Kč ZA 1 KS PŘI KOUPI BALENÍ 2 kg 8 8 kg VELKÉ KUSY min 300 g Nabídka platí od pátku 2. 10. do neděle 4. 10. 2026 % PÁ SO NE JIŽ OD PÁTKU! SUPER VÍKEND Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "purchase-condition"
+          }
+        ]
       },
       {
         "page": 32,
         "titles": 16,
         "located": 16,
         "blocks": 16,
-        "accepted": 7,
-        "unresolved": 9,
+        "accepted": 9,
+        "unresolved": 7,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "FILETY ZE SLEĎŮ",
+            "text": "FILETY ZE SLEĎŮ v tomatě, v oleji 175/170 g; 102/88 g 1 kg 244,12/282,95 Kč < 24,90 Kč",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "LOSOS UZENÝ KOUSKY",
+            "text": "LOSOS UZENÝ KOUSKY 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "MASO MORAVSKÉ UZENÉ ŘEZNÍKŮV TALÍŘ",
+            "text": "MASO MORAVSKÉ UZENÉ ŘEZNÍKŮV TALÍŘ cena za 1 kg ilustrační foto",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "STAROČESKÝ SALÁM POLOSUCHÝ",
+            "text": "STAROČESKÝ SALÁM POLOSUCHÝ 100 g",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "KEDLUBNA",
+            "text": "KEDLUBNA cena za 1 ks",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "BRAMBORY KONZUMNÍ POZDNÍ",
+            "text": "BRAMBORY KONZUMNÍ POZDNÍ volné cena za 1 kg",
+            "reason": "package-or-unit-price"
+          },
+          {
+            "name": "HRUŠKY BALENÉ",
+            "text": "HRUŠKY BALENÉ 1 kg 2 l 4 4 1 kg % PONDĚLÍ A ÚTERÝ SUPER POÚT Nabídka platí od pondělí 5. 10. do úterý 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       },
       {
         "page": 33,
@@ -4936,7 +6750,8 @@
         "unresolved": 0,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": []
       },
       {
         "page": 34,
@@ -4947,7 +6762,8 @@
         "unresolved": 0,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": []
       },
       {
         "page": 35,
@@ -4958,7 +6774,8 @@
         "unresolved": 0,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": []
       },
       {
         "page": 36,
@@ -4969,7 +6786,8 @@
         "unresolved": 0,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": []
       },
       {
         "page": 37,
@@ -4980,7 +6798,14 @@
         "unresolved": 1,
         "suspicious": 0,
         "conditionalSkipped": 0,
-        "invalidTitleSkipped": 0
+        "invalidTitleSkipped": 0,
+        "rejected": [
+          {
+            "name": "AVIVÁŽ SILAN",
+            "text": "AVIVÁŽ SILAN různé druhy 1,1/1,012 l 1 l 59/64,13 Kč < 59,90 Kč DALŠÍ SUPER NABÍDKA 30. 9. – 6. 10. 2026 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw",
+            "reason": "package-or-unit-price"
+          }
+        ]
       }
     ]
   }

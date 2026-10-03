@@ -1434,10 +1434,14 @@ function locateTitles(
   flatText,
   titles
 ) {
-  const upper =
-    normalizeSearch(
-      flatText
-    );
+  // Search normalization removes footnote stars. Keep source offsets so the
+  // resulting slices do not progressively truncate quantities and prices.
+  const offsets = [];
+  let upper = '';
+  for (let i = 0; i < flatText.length; i++) {
+    const normalized = flatText[i].replace(/\*/g, '').replace(/[‐-‒–—]/g, '-').toLocaleUpperCase('cs-CZ');
+    for (const character of normalized) { upper += character; offsets.push(i); }
+  }
 
   const located =
     [];
@@ -1551,7 +1555,7 @@ function locateTitles(
       title:
         title.text,
 
-      index,
+      index: offsets[index],
     });
 
     cursor =
@@ -2178,6 +2182,8 @@ async function processPage(
   let invalidTitleSkipped =
     0;
 
+  const rejected = [];
+
   for (
     const block of
     blocks
@@ -2193,6 +2199,7 @@ async function processPage(
       )
     ) {
       invalidTitleSkipped++;
+      rejected.push({name,text:block.text,reason:'invalid-title'});
 
       continue;
     }
@@ -2203,6 +2210,7 @@ async function processPage(
       )
     ) {
       conditionalSkipped++;
+      rejected.push({name,text:block.text,reason:'purchase-condition'});
 
       continue;
     }
@@ -2216,6 +2224,7 @@ async function processPage(
       !calculations.length
     ) {
       unresolved++;
+      rejected.push({name,text:block.text,reason:'package-or-unit-price'});
 
       continue;
     }
@@ -2260,6 +2269,7 @@ async function processPage(
         0.55
     ) {
       suspicious++;
+      rejected.push({name,text:block.text,reason:'unmatched-price'});
 
       continue;
     }
@@ -2320,6 +2330,7 @@ async function processPage(
     pageNumber,
 
     offers,
+    rejected,
 
     stats: {
       titles:
@@ -2560,7 +2571,7 @@ async function main() {
       'unit-price-arithmetic',
 
     offers,
-    coverage: { expectedPages: lastPage, processedPages: pageResults.length, pages: pageResults.map(p => ({page:p.pageNumber,...p.stats})) },
+    coverage: { expectedPages: lastPage, processedPages: pageResults.length, pages: pageResults.map(p => ({page:p.pageNumber,...p.stats,rejected:p.rejected ?? []})) },
   };
 
   fs.mkdirSync(
@@ -2695,4 +2706,4 @@ if (require.main === module) main().catch(
       1;
   }
 );
-module.exports = { parseGlobalValidity, unitInfo, invalidOfferName, unsafeCondition };
+module.exports = { parseGlobalValidity, unitInfo, invalidOfferName, unsafeCondition, locateTitles, productBlocks };
