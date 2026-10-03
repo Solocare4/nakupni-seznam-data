@@ -2,12 +2,12 @@
   "version": 1,
   "catalogs": {
     "penny": {
-      "path": "catalogs/penny/d770f9a6783ed870c665df79c6e8944de54b51bdd8c8e39fdb5de8736a532bcf.json",
-      "catalogVersion": "d770f9a6783ed870c665df79c6e8944de54b51bdd8c8e39fdb5de8736a532bcf",
-      "generatedAt": "2026-09-25T18:36:23.092Z",
-      "validFrom": "2026-09-23",
-      "validTo": "2026-09-29",
-      "count": 312
+      "path": "catalogs/penny/be63bbbda3b255d004a9afc72c98c6b10dd8a016ec38cb42e0d3e8f7e1905cbf.json",
+      "catalogVersion": "be63bbbda3b255d004a9afc72c98c6b10dd8a016ec38cb42e0d3e8f7e1905cbf",
+      "generatedAt": "2026-10-03T08:53:15.442Z",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "count": 326
     },
     "billa": {
       "path": "catalogs/billa/f25d5eeab4f974c5bb2da40315919d1881cc9dd948c8bff5759a2431f15a1218.json",
@@ -42,12 +42,12 @@
       "count": 482
     },
     "albert": {
-      "path": "catalogs/albert/8b2b7383ace08087e50e275ce2ed64988105c95b7be42eb66f318db73b087622.json",
-      "catalogVersion": "8b2b7383ace08087e50e275ce2ed64988105c95b7be42eb66f318db73b087622",
-      "generatedAt": "2026-09-30T00:44:29.566Z",
+      "path": "catalogs/albert/33fb6a81c3a619668a403e7773e47c878a39a622c3d72a05ebec455b318bc3d0.json",
+      "catalogVersion": "33fb6a81c3a619668a403e7773e47c878a39a622c3d72a05ebec455b318bc3d0",
+      "generatedAt": "2026-10-03T08:54:23.110Z",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
-      "count": 519
+      "count": 526
     },
     "globus/brno": {
       "path": "catalogs/globus/brno/283709082a5feca1463ad0ba90252895e4a0dce5e6e0b4f21282071ef5399258.json",

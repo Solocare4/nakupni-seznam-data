@@ -96,7 +96,7 @@ enrich=async function(source,offers,branches){
  if(source==='lidl'){const r=await get('https://endpoints.leaflets.schwarz/v4/overview?client_locale=lidl%2Fcs-CZ&region_id=0&store_id=0');return lidlCoverage(offers,await r.json(),branches);}
  if(source==='penny'){
   const landing=await(await get('https://www.penny.cz/nabidky/letaky')).text();
-  const bases=[...new Set(offers.map(o=>o.sourceUrl?.match(/^https:\/\/files\.rewe\.co\.at\/PennyIntLeaflet\/CZ\/\d{2}_\d{2}_\d{4}_zs\//)?.[0]).filter(Boolean))];
+  const bases=[...new Set(offers.map(o=>o.sourceUrl?.match(/^https:\/\/files\.rewe\.co\.at\/PennyIntLeaflet\/CZ\/\d{2}_\d{2}_\d{4}(?:_[a-z0-9]+)?\//i)?.[0]).filter(Boolean))];
   let result=offers.map(o=>({...o,applicableBranchIds:[],branchVerificationUrl:'https://www.penny.cz/nabidky/letaky'}));
   for(const base of bases){if(!landing.replace(/\\u002F/g,'/').includes(base))continue;
    const root=await(await get(base)).text();const nums=[...root.matchAll(/href=["'](?:\.\/)?(\d+)\/["']/g)].map(m=>+m[1]);const max=Math.max(...nums);

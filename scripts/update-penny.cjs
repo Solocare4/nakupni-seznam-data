@@ -227,7 +227,7 @@ function parseGlobalValidity(
 ) {
   const match =
     root.match(
-      /\/CZ\/(\d{2})_(\d{2})_(\d{4})_/
+      /\/CZ\/(\d{2})_(\d{2})_(\d{4})(?:_[a-z0-9]+)?\/$/i
     );
 
   if (!match) {
@@ -264,6 +264,10 @@ function parseGlobalValidity(
     new Date(
       from
     );
+
+  if (from.getUTCFullYear() !== year || from.getUTCMonth() !== month - 1 || from.getUTCDate() !== day) {
+    throw new Error('Neplatné datum PENNY letáku.');
+  }
 
   to.setUTCDate(
     to.getUTCDate() +
@@ -2418,11 +2422,16 @@ async function main() {
   const allOffers =
     [];
 
+  const overview = await fetchText(root);
+  const pageNumbers = [...overview.matchAll(/href=["'](?:\.\/)?(\d+)\/["']/g)].map(m => Number(m[1]));
+  const lastPage = Math.max(...pageNumbers);
+  if (!Number.isInteger(lastPage) || lastPage < 2 || lastPage > LAST_PAGE) throw new Error('Nelze ověřit počet stránek PENNY letáku.');
+
   for (
     let pageNumber =
       FIRST_PAGE;
     pageNumber <=
-      LAST_PAGE;
+      lastPage;
     pageNumber++
   ) {
     const result =
@@ -2432,7 +2441,7 @@ async function main() {
         globalValidity
       );
 
-    if (!result) { if (pageNumber === 1) continue; break; }
+    if (!result) throw new Error(`Chybí stránka ${pageNumber} z ${lastPage}; neúplný PENNY katalog nebyl uložen.`);
 
     pageResults.push(
       result
@@ -2551,6 +2560,7 @@ async function main() {
       'unit-price-arithmetic',
 
     offers,
+    coverage: { expectedPages: lastPage, processedPages: pageResults.length, pages: pageResults.map(p => ({page:p.pageNumber,...p.stats})) },
   };
 
   fs.mkdirSync(

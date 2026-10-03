@@ -67,8 +67,14 @@ function productBlocks(items, pageHeight) {
 
 function extractPage(page, dates, publication) {
   const text=clean(page.items.map(t=>t.t).join(' '));
+  // The standard footer repeats the weekly validity. It is not a shorter page promotion.
+  const withoutWeeklyFooter=normal(text).replace(/ceny vsech produktu plati pouze v terminu od (\d{1,2})\.\s*(\d{1,2})\.\s*do (\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4}),?\s*neni-li uvedeno jinak\.?/g,
+    (match,d1,m1,d2,m2,y)=>{
+      const iso=(d,m)=>`${y}-${m.padStart(2,'0')}-${d.padStart(2,'0')}`;
+      return iso(d1,m1)===dates.validFrom&&iso(d2,m2)===dates.validTo?'':match;
+    });
   // A page with a shorter promotion needs explicit product-region dates. Do not apply the weekly dates.
-  if (/plati\s+pouze|pouze\s+od|jen\s+od/.test(normal(text))) return [];
+  if (/plati\s+pouze|pouze\s+od|jen\s+od/.test(withoutWeeklyFooter)) return [];
   const prices=priceLabels(page.items);
   const blocks=productBlocks(page.items,page.height);
   const offers=[];
