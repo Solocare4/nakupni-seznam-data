@@ -22,3 +22,8 @@ console.log('OK: current and historic Penny URL formats retain branch coverage; 
 const {locateTitles,productBlocks}=require('./update-penny.cjs');
 const sourceText='SUŠENKY* 200 g 100 g 9,95 Kč JOGURT* 150 g 100 g 6,60 Kč';
 assert.deepEqual(productBlocks(sourceText,locateTitles(sourceText,[{text:'SUŠENKY'},{text:'JOGURT'}])).map(b=>b.text),['SUŠENKY* 200 g 100 g 9,95 Kč','JOGURT* 150 g 100 g 6,60 Kč']);
+
+const {parsePageValidity}=require('./update-penny.cjs');
+const week=parseGlobalValidity('https://files.rewe.co.at/PennyIntLeaflet/CZ/30_09_2026/');
+assert.equal(parsePageValidity('',week,'Nabídka platí od pondělí 5. 10. do úterý 6. 10. 2026').validFrom,'2026-10-05');
+assert.equal(parsePageValidity('',week,'SUPER VÍKEND JIŽ OD PÁTKU!').validTo,'2026-10-04');

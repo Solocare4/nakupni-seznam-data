@@ -342,8 +342,28 @@ function overlapsGlobal(
 
 function parsePageValidity(
   headerText,
-  globalValidity
+  globalValidity,
+  pageText = headerText
 ) {
+  // FlippingBook puts the visible heading after product text on some pages.
+  // Prefer the explicit page heading over unrelated campaign dates in the footer.
+  const fullText = clean(pageText);
+  const explicit = fullText.match(/Nabídka\s+platí\s+od\s+(?:[a-zá-ž]+\s+)?(\d{1,2})\.\s*(\d{1,2})\.\s+do\s+(?:[a-zá-ž]+\s+)?(\d{1,2})\.\s*(\d{1,2})\.(?:\s*(\d{4}))?/i);
+  if (explicit) {
+    const year = Number(explicit[5] || globalValidity.year);
+    const from = validDate(year, Number(explicit[2]), Number(explicit[1]));
+    const to = validDate(year, Number(explicit[4]), Number(explicit[3]));
+    if (from && to && from <= to && to - from < 10 * 86400000 && overlapsGlobal(from, to, globalValidity)) {
+      return { validFrom: toIsoDate(from), validTo: toIsoDate(to), source: 'page' };
+    }
+  }
+  // Continuation pages carry only the weekend heading, with no printed dates.
+  if (/SUPER\s*VÍKEND/i.test(fullText) && /JIŽ\s+OD\s+PÁTKU/i.test(fullText)) {
+    const start = new Date(`${globalValidity.validFrom}T00:00:00Z`);
+    start.setUTCDate(start.getUTCDate() + (5 - start.getUTCDay() + 7) % 7);
+    const end = new Date(start); end.setUTCDate(end.getUTCDate() + 2);
+    if (toIsoDate(end) <= globalValidity.validTo) return { validFrom: toIsoDate(start), validTo: toIsoDate(end), source: 'page' };
+  }
   const normalized =
     clean(
       headerText
@@ -2153,7 +2173,8 @@ async function processPage(
         0,
         3000
       ),
-      globalValidity
+      globalValidity,
+      flatText
     );
 
   const currentPrices =
@@ -2551,6 +2572,7 @@ async function main() {
     );
 
   const output = {
+    pipelineVersion: 1,
     source:
       'penny-generated',
 
@@ -2706,4 +2728,4 @@ if (require.main === module) main().catch(
       1;
   }
 );
-module.exports = { parseGlobalValidity, unitInfo, invalidOfferName, unsafeCondition, locateTitles, productBlocks };
+module.exports = { parseGlobalValidity, parsePageValidity, unitInfo, invalidOfferName, unsafeCondition, locateTitles, productBlocks };

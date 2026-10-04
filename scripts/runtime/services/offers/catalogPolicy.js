@@ -34,7 +34,7 @@ function mergeCatalog(current, incoming) {
         return { ...incoming, offers: resolveSourceRevisions(incoming.offers) };
     const oldRevision = current.pipelineVersion ?? 0;
     const newRevision = incoming.pipelineVersion ?? 0;
-    if (newRevision > oldRevision && ['lidl', 'billa'].includes(incoming.offers[0]?.source ?? ''))
+    if (newRevision > oldRevision && ['lidl', 'billa', 'penny'].includes(incoming.offers[0]?.source ?? ''))
         return mergeCatalog(null, incoming);
     const day = catalogDay(new Date(incoming.fetchedAt));
     const retained = current.offers.filter(o => o.validTo >= day);

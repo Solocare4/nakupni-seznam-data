@@ -30,7 +30,7 @@ function publish(key, incoming) {
   const old = validate(baseline) && (!key.includes('/') || key.endsWith('/'+baseline.storeId)) ? (validate(oldPublished) ? mergeCatalog(baseline, oldPublished) : baseline) : oldPublished;
   let final = mergeCatalog(validate(old), incoming);
   // A parser revision may intentionally remove unsafe rows; never reintroduce them.
-  if (source === 'lidl' && Number(incoming.pipelineVersion) > Number(old?.pipelineVersion ?? 0)) final = incoming;
+  if (['lidl','penny'].includes(source) && Number(incoming.pipelineVersion) > Number(old?.pipelineVersion ?? 0)) final = incoming;
   final.offers = final.offers.filter(o => o.validTo >= day).map(o => ({...o,currency:'CZK',branchSpecific:['kaufland','globus'].includes(source),...(['kaufland','globus'].includes(source)?{branchId:final.storeId}:{})}));
   if (!validate(final)) throw Error(`${key}: merged validation failed`);
   const catalogVersion = crypto.createHash('sha256').update(JSON.stringify(final.offers)).digest('hex');
@@ -58,7 +58,7 @@ function generated(source) {
   if(source==='penny' && data?.source==='penny-generated') {
     const convert=runtime('services/offers/penny/fetch').generatedOfferToOffer;
     const offers=data.offers.map(convert).filter(Boolean);
-    data={version:1,source:'penny',scope:'CZ',fetchedAt:data.generatedAt,offers,skipped:data.offers.length-offers.length};
+    data={version:1,source:'penny',scope:'CZ',pipelineVersion:data.pipelineVersion,fetchedAt:data.generatedAt,offers,skipped:data.offers.length-offers.length};
   }
   publish(source,data);
 }
