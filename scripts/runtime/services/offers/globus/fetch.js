@@ -7,7 +7,7 @@ async function fetchGlobusCatalog(store = parse_1.defaultGlobusStore) {
     const timer = setTimeout(() => controller.abort(), 120_000);
     const fetchedAt = new Date().toISOString();
     const url = (0, parse_1.globusUrl)(store);
-    const read = async (page) => {
+    const readOnce = async (page) => {
         const pageUrl = page === 1
             ? url
             : `${url}?page=${page}`;
@@ -23,6 +23,21 @@ async function fetchGlobusCatalog(store = parse_1.defaultGlobusStore) {
          * parseru přímo.
          */
         return (0, parse_1.parseGlobusHtml)(await response.text(), fetchedAt, store, page);
+    };
+    const failedPages = [];
+    const read = async (page) => {
+        let failure;
+        for (let attempt = 0; attempt < 3; attempt++) {
+            try {
+                return await readOnce(page);
+            }
+            catch (error) {
+                failure = error;
+                if (controller.signal.aborted)
+                    throw error;
+            }
+        }
+        throw failure;
     };
     try {
         const first = await read(1);
@@ -48,6 +63,10 @@ async function fetchGlobusCatalog(store = parse_1.defaultGlobusStore) {
             }, (_, index) => start +
                 index);
             const results = await Promise.allSettled(pages.map((page) => read(page)));
+            results.forEach((result, index) => {
+                if (result.status === 'rejected')
+                    failedPages.push(pages[index]);
+            });
             catalogs.push(...results.flatMap((result) => result.status === 'fulfilled' ? [result.value.catalog] : []));
         }
         const offers = [
@@ -65,6 +84,7 @@ async function fetchGlobusCatalog(store = parse_1.defaultGlobusStore) {
             offers,
             skipped,
             partial: catalogs.length < totalPages,
+            coverage: { expectedPages: totalPages, processedPages: catalogs.length, failedPages },
         };
         if (!(0, parse_1.restoreGlobusCatalog)(catalog)) {
             throw new Error('Globus: kompletní katalog neprošel kontrolou.');

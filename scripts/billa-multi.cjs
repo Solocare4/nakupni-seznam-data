@@ -1,6 +1,7 @@
 const fs=require('fs');
 const coverage=require('./branch-coverage.cjs');
 const parser=require('./update-billa.cjs');
+const {collectSpecials}=require('./billa-specials.cjs');
 const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const values=html=>JSON.parse(html.match(/<script[^>]+id="__NUXT_DATA__"[^>]*>([\s\S]*?)<\/script>/)[1]);
 async function get(url){const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('BILLA '+r.status);return r.text();}
@@ -15,6 +16,7 @@ async function fetchCatalog(){
  const large=await parser.fetchPublication({pageUrl:largeUrl,returnOnly:true});
  let offers=coverage.billaCoverage(large.offers,largeHtml,storesHtml,branches);
  const small=await parser.fetchPublication({pageUrl:smallUrl,returnOnly:true,minOffers:20,label:'BILLA · malý leták'});
+ skipped+=(large.skipped??0)+(small.skipped??0);
  const rule=values(smallHtml).find(v=>typeof v==='string'&&v.includes('Leták platí pro prodejny:'));
  if(!rule)throw Error('BILLA small leaflet scope missing');
  const terms=rule.replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/^.*letak plati pro prodejny:\s*/,'').trim().split(';').map(s=>s.trim().replace(/\.$/,''));
@@ -25,15 +27,10 @@ async function fetchCatalog(){
  offers.push(...small.offers.map(o=>({...o,applicableBranchIds:smallIds,branchVerificationUrl:'https://www.billa.cz/letaky-billa'})));
  const landing=await get('https://www.billa.cz/letaky-billa');
  const links=[...new Set([...landing.replace(/\\u002F/g,'/').matchAll(/(?:https:\/\/www.billa.cz)?(\/akcni-letaky\/special-[a-z0-9-]+)/g)].map(m=>'https://www.billa.cz'+m[1]))];
- for(const url of links){
-  const special=await parser.fetchPublication({pageUrl:url,returnOnly:true,minOffers:1,label:'BILLA · místní speciál'});
-  const city=url.split('special-')[1];const text=norm(special.publicationText);
-  const matching=stores.filter(s=>norm(s.city)===norm(city)&&text.includes('ulice'+norm(s.street.replace(/\s+\d+[a-z]?(?:\/\d+[a-z]?)?$/,''))));
-  if(matching.length!==1){ console.warn('BILLA: vynechán nejednoznačný místní speciál: '+url); skipped+=special.offers.length; continue; }
-  if(!branches.some(b=>b.id===matching[0].id)){ console.warn('BILLA: vynechána neověřená pobočka: '+matching[0].id); skipped+=special.offers.length; continue; }
-  offers.push(...special.offers.map(o=>({...o,applicableBranchIds:[matching[0].id],branchVerificationUrl:'https://www.billa.cz/letaky-billa'})));
- }
- return {version:1,pipelineVersion:2,source:'billa',storeId:'cz',fetchedAt:new Date().toISOString(),offers,skipped,partial:skipped>0};
+ const specials=await collectSpecials(links,stores,branches,options=>parser.fetchPublication(options));
+ offers.push(...specials.offers);skipped+=specials.skipped;
+ for(const issue of specials.issues)console.warn(`BILLA: ${issue.url}: ${issue.reason}`);
+ return {version:1,pipelineVersion:2,source:'billa',storeId:'cz',fetchedAt:new Date().toISOString(),offers,skipped,partial:specials.skipped>0||specials.issues.length>0,publicationIssues:specials.issues,publications:[large,small].map(p=>({slug:p.publicationSlug,accepted:p.offers.length,skipped:p.skipped}))};
 }
 module.exports={fetchCatalog};
 

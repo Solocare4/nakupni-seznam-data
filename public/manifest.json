@@ -10,12 +10,12 @@
       "count": 390
     },
     "billa": {
-      "path": "catalogs/billa/f25d5eeab4f974c5bb2da40315919d1881cc9dd948c8bff5759a2431f15a1218.json",
-      "catalogVersion": "f25d5eeab4f974c5bb2da40315919d1881cc9dd948c8bff5759a2431f15a1218",
-      "generatedAt": "2026-09-25T18:36:56.455Z",
-      "validFrom": "2026-09-23",
-      "validTo": "2026-09-29",
-      "count": 273
+      "path": "catalogs/billa/7e8a2a6c9df63cea6fdbd2aa966ecb2464b74bbd8aa1c99b5751407c5d532fda.json",
+      "catalogVersion": "7e8a2a6c9df63cea6fdbd2aa966ecb2464b74bbd8aa1c99b5751407c5d532fda",
+      "generatedAt": "2026-10-04T17:11:02.220Z",
+      "validFrom": "2026-09-30",
+      "validTo": "2026-10-06",
+      "count": 245
     },
     "lidl": {
       "path": "catalogs/lidl/0c1b9fd9f468419d55bfea27a3592a6c554a57fc83945f21c3dc085da5f23f38.json",
@@ -42,12 +42,12 @@
       "count": 482
     },
     "albert": {
-      "path": "catalogs/albert/33fb6a81c3a619668a403e7773e47c878a39a622c3d72a05ebec455b318bc3d0.json",
-      "catalogVersion": "33fb6a81c3a619668a403e7773e47c878a39a622c3d72a05ebec455b318bc3d0",
-      "generatedAt": "2026-10-03T08:54:23.110Z",
+      "path": "catalogs/albert/6ce3c16d755c2e130e51f815a3ac0c1408527522c403369e4b91f058786d021e.json",
+      "catalogVersion": "6ce3c16d755c2e130e51f815a3ac0c1408527522c403369e4b91f058786d021e",
+      "generatedAt": "2026-10-04T17:22:08.048Z",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-06",
-      "count": 526
+      "count": 531
     },
     "globus/brno": {
       "path": "catalogs/globus/brno/754ee147c8dbce9f5e57ad77f86cbce61c0720f242ee67682a61c31013080473.json",

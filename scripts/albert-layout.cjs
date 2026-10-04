@@ -65,29 +65,59 @@ function productBlocks(items, pageHeight) {
   return blocks;
 }
 
-function extractPage(page, dates, publication) {
+function datedLowerSection(page, dates) {
+  const width=Math.max(...page.items.map(t=>t.x+t.w));
+  const headers=page.items.filter(t=>normal(clean(t.t))==='plati'&&t.h>=20&&t.x<width*.3);
+  if(headers.length!==1)return null;
+  const header=headers[0];
+  if(!page.items.some(t=>normal(clean(t.t))==='pouze'&&t.h>=20&&Math.abs(t.x-header.x)<20&&t.y>header.y&&t.y-header.y<60))return null;
+  const found=page.items.flatMap(t=>{
+    if(Math.abs(t.y-header.y)>65||t.x<width*.55)return [];
+    const m=/^(\d{1,2})\s*\.\s*(\d{1,2})\s*\.\s*(\d{4})$/.exec(clean(t.t));
+    if(!m)return [];
+    const value=`${m[3]}-${m[2].padStart(2,'0')}-${m[1].padStart(2,'0')}`;
+    return Number.isFinite(Date.parse(value))&&new Date(value).toISOString().slice(0,10)===value?[value]:[];
+  });
+  const sorted=[...new Set(found)].sort();
+  if(sorted.length!==2||sorted[0]<dates.validFrom||sorted[1]>dates.validTo)return null;
+  return {y:header.y-header.h,dates:{validFrom:sorted[0],validTo:sorted[1]}};
+}
+
+function extractPage(page, dates, publication, audit) {
   const text=clean(page.items.map(t=>t.t).join(' '));
   // The standard footer repeats the weekly validity. It is not a shorter page promotion.
-  const withoutWeeklyFooter=normal(text).replace(/ceny vsech produktu plati pouze v terminu od (\d{1,2})\.\s*(\d{1,2})\.\s*do (\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4}),?\s*neni-li uvedeno jinak\.?/g,
+  let withoutWeeklyFooter=normal(text).replace(/ceny vsech produktu plati pouze v terminu od (\d{1,2})\.\s*(\d{1,2})\.\s*do (\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4}),?\s*neni-li uvedeno jinak\.?/g,
     (match,d1,m1,d2,m2,y)=>{
       const iso=(d,m)=>`${y}-${m.padStart(2,'0')}-${d.padStart(2,'0')}`;
       return iso(d1,m1)===dates.validFrom&&iso(d2,m2)===dates.validTo?'':match;
     });
+  const staffedCounter=/tato nabidka plati pouze pro prodejny s obsluhovanym usekem\./.test(withoutWeeklyFooter);
+  if(staffedCounter)withoutWeeklyFooter=withoutWeeklyFooter.replace(/\*?tato nabidka plati pouze pro prodejny s obsluhovanym usekem\./g,'');
+  const lower=datedLowerSection(page,dates);
+  if(lower)withoutWeeklyFooter=withoutWeeklyFooter.replace(/plati\s+pouze/,'');
   // A page with a shorter promotion needs explicit product-region dates. Do not apply the weekly dates.
-  if (/plati\s+pouze|pouze\s+od|jen\s+od/.test(withoutWeeklyFooter)) return [];
-  const prices=priceLabels(page.items);
+  const record=(block,reason)=>audit?.({page:page.number,name:block.name,text:block.text,x:block.x,y:block.y,reason});
   const blocks=productBlocks(page.items,page.height);
+  if (/plati\s+pouze|pouze\s+od|jen\s+od/.test(withoutWeeklyFooter)) {
+    blocks.forEach(block=>record(block,'regional-validity-required'));
+    if(!blocks.length)record({name:'',text,x:0,y:0},'page-review-required');
+    return [];
+  }
+  const prices=priceLabels(page.items);
+  if(!blocks.length)record({name:'',text,x:0,y:0},'page-review-required');
   const offers=[];
   for(const block of blocks) {
+    if(staffedCounter&&block.name.includes('*')){record(block,'store-feature-required');continue;}
+    const productDates=lower&&block.y>=lower.y?lower.dates:dates;
     const condition=normal(block.text);
-    if(/pri\s+(koupi|nakupu)|kupon|\d+\s*\+\s*\d+|body navic|od\s+\d+\s*(ks|kus)|plati do/.test(condition))continue;
+    if(/pri\s+(koupi|nakupu)|kupon|\d+\s*\+\s*\d+|body navic|od\s+\d+\s*(ks|kus)|plati do/.test(condition)){record(block,'purchase-condition');continue;}
     const pack=packageInfo(block.text);
-    if(!pack)continue;
-    const rates=[...block.text.matchAll(/(\d+(?:[,.]\d+)?)\s*(kg|g|ml|l|ks)\s*=\s*(\d+(?:[,.]\d+)?)\s*Kč(?:\s*(bez Aplikace))?/gi)];
+    if(!pack){record(block,'package');continue;}
+    const rates=[...block.text.matchAll(/(\d+(?:[,.]\d+)?)\s*(kg|g|ml|l|ks)\s*(?:=|od)\s*(\d+(?:[,.]\d+)?)\s*Kč(?:\s*(bez Aplikace))?/gi)];
     const publicRate = rates.find(r=>r[4]) ?? (!/aplikac/i.test(block.text) && rates.length===1 ? rates[0] : null);
     const explicit=[...block.text.matchAll(/(?:^|•)\s*(\d+(?:[,.]\d+)?)\s*Kč(?=\s*(?:•|$))/gi)].map(m=>number(m[1]));
-    if(!publicRate && (explicit.length!==1 || /aplikac/i.test(block.text)))continue;
-    if(publicRate && dimension(pack.unit)!==dimension(publicRate[2].toLowerCase()))continue;
+    if(!publicRate && (explicit.length!==1 || /aplikac/i.test(block.text))){record(block,'public-price');continue;}
+    if(publicRate && dimension(pack.unit)!==dimension(publicRate[2].toLowerCase())){record(block,'unit-mismatch');continue;}
     const nearby=prices.filter(p=>p.x>=block.x-60 && p.x<=block.x+Math.max(block.w,110)+30 && p.y>=block.y-100 && p.y<=block.end+125);
     const matching=nearby.filter(p=>{
       if(!publicRate)return Math.abs(p.price-explicit[0])<0.001;
@@ -97,17 +127,18 @@ function extractPage(page, dates, publication) {
       return actual<=printed+0.0051 && actual>=printed-0.0101;
     });
     const values=[...new Set(matching.map(p=>p.price))];
-    if(values.length!==1)continue;
+    if(values.length!==1){record(block,'printed-price-match');continue;}
     const slug=normal(block.name).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,100);
-    const key=`${slug}-${pack.quantity}${pack.unit}`;
+    const key=`${slug}-${pack.quantity}${pack.unit}${pack.packageQuantityUnknown ? '-variant-'+normal(pack.packageText).replace(/[^a-z0-9]+/g,'-') : ''}`;
     offers.push({id:`albert-${publication}-${key}`,productKey:`albert-${key}`,retailer:'Albert',productName:block.name,
-      category:'pantry',subcategory:'',price:values[0],...pack,...dates,source:'albert',
+      category:'pantry',subcategory:'',price:values[0],...pack,...(pack.packageQuantityUnknown?{quantity:1,unit:'ks'}:{}),...productDates,source:'albert',
       sourceUrl:`https://letaky.albert.cz/${publication}/page/${page.number}`,
       storeName:publication.includes('hm_')?'Albert hypermarket · celostátní leták':'Albert supermarket · celostátní leták',
       description:'Cena bez aplikace ověřená podle polohy v PDF a uvedeného balení. Nabídka platí pro uvedený formát prodejny.',
       verification:'pdf-layout-v1'});
+    record(block,'accepted');
   }
   return offers;
 }
 
-module.exports={extractPage,packageInfo,priceLabels,productBlocks};
+module.exports={extractPage,packageInfo,priceLabels,productBlocks,datedLowerSection};
