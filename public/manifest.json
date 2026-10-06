@@ -42,9 +42,9 @@
       "count": 1026
     },
     "albert": {
-      "path": "catalogs/albert/db323dae3c038cd1d4340d6287a86d5a2d1c7e3fff04fa5d3ab847fe86ae7169.json",
-      "catalogVersion": "db323dae3c038cd1d4340d6287a86d5a2d1c7e3fff04fa5d3ab847fe86ae7169",
-      "generatedAt": "2026-10-06T00:52:36.791Z",
+      "path": "catalogs/albert/4114abac9317f9049f2da5f361ab4dd24b8a11bc108477db8b3a4d79d8b666bb.json",
+      "catalogVersion": "4114abac9317f9049f2da5f361ab4dd24b8a11bc108477db8b3a4d79d8b666bb",
+      "generatedAt": "2026-10-05T18:49:02.842Z",
       "validFrom": "2026-09-30",
       "validTo": "2026-10-13",
       "count": 1026
@@ -1306,12 +1306,12 @@
       "count": 720
     },
     "globus/olomouc": {
-      "path": "catalogs/globus/olomouc/c7ea50adc8250ebf3462c45fdcb1d46586ab75b6b2714de57363e08f5a747042.json",
-      "catalogVersion": "c7ea50adc8250ebf3462c45fdcb1d46586ab75b6b2714de57363e08f5a747042",
-      "generatedAt": "2026-10-06T00:52:15.305Z",
+      "path": "catalogs/globus/olomouc/36275762a78f90fb6d56ca2ec50f3b35a2d03820db45eeed1873571a57c190be.json",
+      "catalogVersion": "36275762a78f90fb6d56ca2ec50f3b35a2d03820db45eeed1873571a57c190be",
+      "generatedAt": "2026-10-06T06:49:43.870Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 725
+      "count": 726
     },
     "globus/jenisov": {
       "path": "catalogs/globus/jenisov/f84946ac1401aab31db28acf33fe7c7be05310024358971fff6ed3ce81a17e81.json",
@@ -1322,12 +1322,12 @@
       "count": 752
     },
     "globus/pardubice": {
-      "path": "catalogs/globus/pardubice/ba0bb4fb790440b1be13fa8c4bda6b2c6083ae7c7cbe38d6f399386b8614d644.json",
-      "catalogVersion": "ba0bb4fb790440b1be13fa8c4bda6b2c6083ae7c7cbe38d6f399386b8614d644",
-      "generatedAt": "2026-10-06T00:52:36.189Z",
+      "path": "catalogs/globus/pardubice/37ffa5e1a8d5582eae7a06880c40bb7a2470dddb81eeac7165f8736e9695cced.json",
+      "catalogVersion": "37ffa5e1a8d5582eae7a06880c40bb7a2470dddb81eeac7165f8736e9695cced",
+      "generatedAt": "2026-10-06T06:50:15.335Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 742
+      "count": 743
     },
     "globus/ostrava": {
       "path": "catalogs/globus/ostrava/8db5edf050037069b9af86e65ff4cf6677a49aea0f8b0608370f41ef75a3adc8.json",
