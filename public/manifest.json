@@ -18,9 +18,9 @@
       "count": 305
     },
     "lidl": {
-      "path": "catalogs/lidl/1ce6134978252868a8edba69861cb742b395cea50059ca73929223f9d4560129.json",
-      "catalogVersion": "1ce6134978252868a8edba69861cb742b395cea50059ca73929223f9d4560129",
-      "generatedAt": "2026-10-07T00:49:11.284Z",
+      "path": "catalogs/lidl/3284df67e3e99c686000e406f2227f812dda9ad29f393eb1ab132c529e20d917.json",
+      "catalogVersion": "3284df67e3e99c686000e406f2227f812dda9ad29f393eb1ab132c529e20d917",
+      "generatedAt": "2026-10-07T18:43:33.482Z",
       "validFrom": "2026-10-05",
       "validTo": "2026-10-11",
       "count": 84
@@ -42,9 +42,9 @@
       "count": 563
     },
     "albert": {
-      "path": "catalogs/albert/547bd86894f7b40dc6ef088913307754f32ec0f1e5bebb2c20fde748d14489d3.json",
-      "catalogVersion": "547bd86894f7b40dc6ef088913307754f32ec0f1e5bebb2c20fde748d14489d3",
-      "generatedAt": "2026-10-07T00:54:04.699Z",
+      "path": "catalogs/albert/ed19cb7c135e7a73b9c943130de61b21a60d01570c45dc50a56319eadb8bb844.json",
+      "catalogVersion": "ed19cb7c135e7a73b9c943130de61b21a60d01570c45dc50a56319eadb8bb844",
+      "generatedAt": "2026-10-07T06:53:14.306Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-10-13",
       "count": 495
@@ -1306,12 +1306,12 @@
       "count": 783
     },
     "globus/olomouc": {
-      "path": "catalogs/globus/olomouc/034933b29f8ac361af1f66dea5868afe7b4c27a0ec4e8fda9334f965f1839ef7.json",
-      "catalogVersion": "034933b29f8ac361af1f66dea5868afe7b4c27a0ec4e8fda9334f965f1839ef7",
-      "generatedAt": "2026-10-07T12:53:38.543Z",
+      "path": "catalogs/globus/olomouc/c4fe1ff9d57793a3ee747c2b2c5cd9cde202a918d051b17d7e0070fb50d62b80.json",
+      "catalogVersion": "c4fe1ff9d57793a3ee747c2b2c5cd9cde202a918d051b17d7e0070fb50d62b80",
+      "generatedAt": "2026-10-07T18:49:55.750Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 783
+      "count": 784
     },
     "globus/jenisov": {
       "path": "catalogs/globus/jenisov/6087b7e9067c0531faea8f7d1b9a67d5e0a95cca63bebf3c7c1982ff35c5d601.json",
