@@ -18,12 +18,12 @@
       "count": 305
     },
     "lidl": {
-      "path": "catalogs/lidl/8f6cffc52573420ceaef8d2a1631e8e7d0f87f1c57d8c64a9e77f992df6f2cf8.json",
-      "catalogVersion": "8f6cffc52573420ceaef8d2a1631e8e7d0f87f1c57d8c64a9e77f992df6f2cf8",
-      "generatedAt": "2026-10-08T00:54:40.663Z",
+      "path": "catalogs/lidl/55627f1a33b0651aa38831c1e2e58839e1988d8d1da9960a6ffccb4e68abfe40.json",
+      "catalogVersion": "55627f1a33b0651aa38831c1e2e58839e1988d8d1da9960a6ffccb4e68abfe40",
+      "generatedAt": "2026-10-08T12:54:10.182Z",
       "validFrom": "2026-10-05",
       "validTo": "2026-10-11",
-      "count": 130
+      "count": 132
     },
     "kaufland/CZ3710": {
       "path": "catalogs/kaufland/CZ3710/5bffe079295c229183cd14af8f6cf1404de1381fdf8fe0dbda01c290695bb1e9.json",
@@ -42,9 +42,9 @@
       "count": 563
     },
     "albert": {
-      "path": "catalogs/albert/ed19cb7c135e7a73b9c943130de61b21a60d01570c45dc50a56319eadb8bb844.json",
-      "catalogVersion": "ed19cb7c135e7a73b9c943130de61b21a60d01570c45dc50a56319eadb8bb844",
-      "generatedAt": "2026-10-07T06:53:14.306Z",
+      "path": "catalogs/albert/547bd86894f7b40dc6ef088913307754f32ec0f1e5bebb2c20fde748d14489d3.json",
+      "catalogVersion": "547bd86894f7b40dc6ef088913307754f32ec0f1e5bebb2c20fde748d14489d3",
+      "generatedAt": "2026-10-07T00:54:04.699Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-10-13",
       "count": 495
@@ -1290,12 +1290,12 @@
       "count": 781
     },
     "globus/chomutov": {
-      "path": "catalogs/globus/chomutov/b5e9e6aea51a19939f93dae63ecfb6299819bb572ca5ca3c069208bbb56e85d3.json",
-      "catalogVersion": "b5e9e6aea51a19939f93dae63ecfb6299819bb572ca5ca3c069208bbb56e85d3",
-      "generatedAt": "2026-10-07T12:52:06.043Z",
+      "path": "catalogs/globus/chomutov/fea4f415fbca98057574847f3f6b0353ebfaa5151a3f6f79b8c538cfc9588746.json",
+      "catalogVersion": "fea4f415fbca98057574847f3f6b0353ebfaa5151a3f6f79b8c538cfc9588746",
+      "generatedAt": "2026-10-08T12:51:00.046Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 782
+      "count": 785
     },
     "globus/liberec": {
       "path": "catalogs/globus/liberec/7963331191d75802d689235184dfcc9df55b38fd42a79998ae69414cf3caea6c.json",
