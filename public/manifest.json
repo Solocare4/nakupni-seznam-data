@@ -10,17 +10,17 @@
       "count": 356
     },
     "billa": {
-      "path": "catalogs/billa/fb93f32ccc1858f1b0479ac2543f8604b6d4b36825533535dd4b335e52f91a0a.json",
-      "catalogVersion": "fb93f32ccc1858f1b0479ac2543f8604b6d4b36825533535dd4b335e52f91a0a",
-      "generatedAt": "2026-10-08T00:49:22.851Z",
+      "path": "catalogs/billa/b2bec83db7445e2ea78334eec65576482a378afef0062e5a54dc0ec71531a28b.json",
+      "catalogVersion": "b2bec83db7445e2ea78334eec65576482a378afef0062e5a54dc0ec71531a28b",
+      "generatedAt": "2026-10-09T00:51:37.849Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-10-13",
       "count": 305
     },
     "lidl": {
-      "path": "catalogs/lidl/55627f1a33b0651aa38831c1e2e58839e1988d8d1da9960a6ffccb4e68abfe40.json",
-      "catalogVersion": "55627f1a33b0651aa38831c1e2e58839e1988d8d1da9960a6ffccb4e68abfe40",
-      "generatedAt": "2026-10-08T12:54:10.182Z",
+      "path": "catalogs/lidl/1e3507e15cb553782aea2053e7f10d4cac8abacc6fc327713bb5c0e0ecc54bc8.json",
+      "catalogVersion": "1e3507e15cb553782aea2053e7f10d4cac8abacc6fc327713bb5c0e0ecc54bc8",
+      "generatedAt": "2026-10-09T00:51:28.076Z",
       "validFrom": "2026-10-05",
       "validTo": "2026-10-11",
       "count": 132
@@ -42,9 +42,9 @@
       "count": 563
     },
     "albert": {
-      "path": "catalogs/albert/ed19cb7c135e7a73b9c943130de61b21a60d01570c45dc50a56319eadb8bb844.json",
-      "catalogVersion": "ed19cb7c135e7a73b9c943130de61b21a60d01570c45dc50a56319eadb8bb844",
-      "generatedAt": "2026-10-07T06:53:14.306Z",
+      "path": "catalogs/albert/547bd86894f7b40dc6ef088913307754f32ec0f1e5bebb2c20fde748d14489d3.json",
+      "catalogVersion": "547bd86894f7b40dc6ef088913307754f32ec0f1e5bebb2c20fde748d14489d3",
+      "generatedAt": "2026-10-07T00:54:04.699Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-10-13",
       "count": 495
@@ -1258,12 +1258,12 @@
       "count": 793
     },
     "globus/ceske-budejovice": {
-      "path": "catalogs/globus/ceske-budejovice/bae645d8829ba2f88e8b6c9c1a34c65cc893b5c9241bfef311423557ae80bd19.json",
-      "catalogVersion": "bae645d8829ba2f88e8b6c9c1a34c65cc893b5c9241bfef311423557ae80bd19",
-      "generatedAt": "2026-10-08T18:47:55.080Z",
+      "path": "catalogs/globus/ceske-budejovice/b8dd965b29f86b9798a3f65bb7fa76f7c65fc75cbb6022331ef23e9297d10dc1.json",
+      "catalogVersion": "b8dd965b29f86b9798a3f65bb7fa76f7c65fc75cbb6022331ef23e9297d10dc1",
+      "generatedAt": "2026-10-09T00:55:14.836Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 781
+      "count": 780
     },
     "globus/praha-zlicin": {
       "path": "catalogs/globus/praha-zlicin/59682db4664b3ccb93728f5a4ff22344bbcf18324344f8e29ca9c3b173bbb008.json",
@@ -1290,9 +1290,9 @@
       "count": 781
     },
     "globus/chomutov": {
-      "path": "catalogs/globus/chomutov/e2ffda03c1a3bb60a6672fb8af738e9850e6aa1840e45b03c5e6ff6ae02b0906.json",
-      "catalogVersion": "e2ffda03c1a3bb60a6672fb8af738e9850e6aa1840e45b03c5e6ff6ae02b0906",
-      "generatedAt": "2026-10-08T18:47:56.086Z",
+      "path": "catalogs/globus/chomutov/446502bb37e274c373973cbc62844ffdf19ee9c35bb20efa36fcc0608573f47f.json",
+      "catalogVersion": "446502bb37e274c373973cbc62844ffdf19ee9c35bb20efa36fcc0608573f47f",
+      "generatedAt": "2026-10-09T00:55:14.179Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
       "count": 785
@@ -1306,9 +1306,9 @@
       "count": 784
     },
     "globus/olomouc": {
-      "path": "catalogs/globus/olomouc/ff4997482e50f4b4b0b8d0d52acfa97d4132b7615ac8aa805a9d77c9da3e4728.json",
-      "catalogVersion": "ff4997482e50f4b4b0b8d0d52acfa97d4132b7615ac8aa805a9d77c9da3e4728",
-      "generatedAt": "2026-10-08T18:49:51.059Z",
+      "path": "catalogs/globus/olomouc/892d837dac10a369717cb21a92748cf58763118e665582e08504319d985c72e0.json",
+      "catalogVersion": "892d837dac10a369717cb21a92748cf58763118e665582e08504319d985c72e0",
+      "generatedAt": "2026-10-09T00:57:01.864Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
       "count": 787
