@@ -2,12 +2,12 @@
   "version": 1,
   "catalogs": {
     "penny": {
-      "path": "catalogs/penny/fbc80ac921ea2b05a591cdf2daf91c6d0277cc14cb7f5df00d56e9b29b870874.json",
-      "catalogVersion": "fbc80ac921ea2b05a591cdf2daf91c6d0277cc14cb7f5df00d56e9b29b870874",
-      "generatedAt": "2026-10-07T00:54:08.754Z",
+      "path": "catalogs/penny/db809c2adcc3704fc9749378962dee81bebe28a09e6da14a022733cf16e86827.json",
+      "catalogVersion": "db809c2adcc3704fc9749378962dee81bebe28a09e6da14a022733cf16e86827",
+      "generatedAt": "2026-10-11T22:09:51.142Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-10-13",
-      "count": 356
+      "count": 344
     },
     "billa": {
       "path": "catalogs/billa/5adeefe056ec4ba2869f3c15f40db0cdc6b141a515792b7072785836187722b0.json",
@@ -18,33 +18,33 @@
       "count": 305
     },
     "lidl": {
-      "path": "catalogs/lidl/551e2d4b0a00de0f59c8e31cf685d04b3b953f7b0743c9cadbbf279887b69709.json",
-      "catalogVersion": "551e2d4b0a00de0f59c8e31cf685d04b3b953f7b0743c9cadbbf279887b69709",
-      "generatedAt": "2026-10-09T12:56:39.969Z",
-      "validFrom": "2026-10-05",
-      "validTo": "2026-10-11",
-      "count": 133
+      "path": "catalogs/lidl/6774c5e40f3394dc578af2b76721dd6066df502031770dbd06e1c1066b09f9eb.json",
+      "catalogVersion": "6774c5e40f3394dc578af2b76721dd6066df502031770dbd06e1c1066b09f9eb",
+      "generatedAt": "2026-10-11T22:15:09.698Z",
+      "validFrom": "2026-10-12",
+      "validTo": "2026-10-18",
+      "count": 84
     },
     "kaufland/CZ3710": {
-      "path": "catalogs/kaufland/CZ3710/1d8619fdaaa8c45506830c2ebf17e72b0a2520736aecf3d4744853cbfbfb68cb.json",
-      "catalogVersion": "1d8619fdaaa8c45506830c2ebf17e72b0a2520736aecf3d4744853cbfbfb68cb",
-      "generatedAt": "2026-10-11T06:02:20.858Z",
+      "path": "catalogs/kaufland/CZ3710/64f584023d09452b3e92e837a6049587d9a0c83f8d1d18d0d741e9ec1c3241ec.json",
+      "catalogVersion": "64f584023d09452b3e92e837a6049587d9a0c83f8d1d18d0d741e9ec1c3241ec",
+      "generatedAt": "2026-10-11T22:10:04.708Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3300": {
-      "path": "catalogs/kaufland/CZ3300/7fa7f662a397878c6f6e302d146236f4ca8c58ad0d892828ac45152d01e205f4.json",
-      "catalogVersion": "7fa7f662a397878c6f6e302d146236f4ca8c58ad0d892828ac45152d01e205f4",
-      "generatedAt": "2026-10-10T12:46:46.921Z",
+      "path": "catalogs/kaufland/CZ3300/57b38f11e0effd770f787d75c33712c97cfdd44346f0b4af3507667cbd861426.json",
+      "catalogVersion": "57b38f11e0effd770f787d75c33712c97cfdd44346f0b4af3507667cbd861426",
+      "generatedAt": "2026-10-11T22:11:27.777Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 589
+      "count": 564
     },
     "albert": {
-      "path": "catalogs/albert/547bd86894f7b40dc6ef088913307754f32ec0f1e5bebb2c20fde748d14489d3.json",
-      "catalogVersion": "547bd86894f7b40dc6ef088913307754f32ec0f1e5bebb2c20fde748d14489d3",
-      "generatedAt": "2026-10-07T00:54:04.699Z",
+      "path": "catalogs/albert/ed19cb7c135e7a73b9c943130de61b21a60d01570c45dc50a56319eadb8bb844.json",
+      "catalogVersion": "ed19cb7c135e7a73b9c943130de61b21a60d01570c45dc50a56319eadb8bb844",
+      "generatedAt": "2026-10-07T06:53:14.306Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-10-13",
       "count": 495
@@ -66,1180 +66,1180 @@
       "count": 782
     },
     "kaufland/CZ2210": {
-      "path": "catalogs/kaufland/CZ2210/e635f555b95c86ebf456e3fa902096be729cd7b37316599b62911cfbbc186493.json",
-      "catalogVersion": "e635f555b95c86ebf456e3fa902096be729cd7b37316599b62911cfbbc186493",
-      "generatedAt": "2026-10-11T06:02:33.941Z",
+      "path": "catalogs/kaufland/CZ2210/050b7cd206468d6c04b810022b2841ca74514654a2cf8e50ca25d7de0a095bce.json",
+      "catalogVersion": "050b7cd206468d6c04b810022b2841ca74514654a2cf8e50ca25d7de0a095bce",
+      "generatedAt": "2026-10-11T22:10:17.335Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ7000": {
-      "path": "catalogs/kaufland/CZ7000/783b32f30458848e7acf49ce7abb72232de27941b93c3071c36a5d5737d41971.json",
-      "catalogVersion": "783b32f30458848e7acf49ce7abb72232de27941b93c3071c36a5d5737d41971",
-      "generatedAt": "2026-10-10T12:45:42.489Z",
+      "path": "catalogs/kaufland/CZ7000/2db072b46118eeebc869c1b37ac2ec5d4911eed0406bc35502441066b1264e18.json",
+      "catalogVersion": "2db072b46118eeebc869c1b37ac2ec5d4911eed0406bc35502441066b1264e18",
+      "generatedAt": "2026-10-11T22:10:19.817Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ5700": {
-      "path": "catalogs/kaufland/CZ5700/d9b02f07729ab3b4ef74afe9d3d6a7f050736c698628f8c7b09df893deef8ee4.json",
-      "catalogVersion": "d9b02f07729ab3b4ef74afe9d3d6a7f050736c698628f8c7b09df893deef8ee4",
-      "generatedAt": "2026-10-11T06:02:32.643Z",
+      "path": "catalogs/kaufland/CZ5700/746caa2435475a872fc2e18e3b9746db0b35a4caae7a038af73843c29b0bd0e3.json",
+      "catalogVersion": "746caa2435475a872fc2e18e3b9746db0b35a4caae7a038af73843c29b0bd0e3",
+      "generatedAt": "2026-10-11T22:10:17.529Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4910": {
-      "path": "catalogs/kaufland/CZ4910/e2da8ab7052164c2f3f2dca1c9671b76af933c4ec05207af407d7acd56760b52.json",
-      "catalogVersion": "e2da8ab7052164c2f3f2dca1c9671b76af933c4ec05207af407d7acd56760b52",
-      "generatedAt": "2026-10-10T12:45:40.473Z",
+      "path": "catalogs/kaufland/CZ4910/bbe3b9ac07e6309a02c51bab38da1d5d18b179248304fa60f31b063ad2434d2a.json",
+      "catalogVersion": "bbe3b9ac07e6309a02c51bab38da1d5d18b179248304fa60f31b063ad2434d2a",
+      "generatedAt": "2026-10-11T22:10:17.402Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6100": {
-      "path": "catalogs/kaufland/CZ6100/c3ccff49dd105f1f0aef6876aeda46812fb0e7f48932eb21a1c6fb546e04aa02.json",
-      "catalogVersion": "c3ccff49dd105f1f0aef6876aeda46812fb0e7f48932eb21a1c6fb546e04aa02",
-      "generatedAt": "2026-10-10T12:45:44.078Z",
+      "path": "catalogs/kaufland/CZ6100/61919df81cec0a652e3d5fb40e928d8013f95187c5e05a87ea2e91dfbf78fd2a.json",
+      "catalogVersion": "61919df81cec0a652e3d5fb40e928d8013f95187c5e05a87ea2e91dfbf78fd2a",
+      "generatedAt": "2026-10-11T22:10:21.453Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 590
+      "count": 565
     },
     "kaufland/CZ1950": {
-      "path": "catalogs/kaufland/CZ1950/68fa26a72b75c308176d535b83972e727fdc9ee2b2bd90fed87b68473d34b5ad.json",
-      "catalogVersion": "68fa26a72b75c308176d535b83972e727fdc9ee2b2bd90fed87b68473d34b5ad",
-      "generatedAt": "2026-10-10T12:45:40.845Z",
+      "path": "catalogs/kaufland/CZ1950/a504fb7d4cc305ca85e3ee415d81f96d6e4c164be4f3f6d576915a77ddf03619.json",
+      "catalogVersion": "a504fb7d4cc305ca85e3ee415d81f96d6e4c164be4f3f6d576915a77ddf03619",
+      "generatedAt": "2026-10-11T22:10:19.725Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5110": {
-      "path": "catalogs/kaufland/CZ5110/74b267e17379db5e470ebfb78bed18214d3b7ccf6a717a72cd429ba2750f81ec.json",
-      "catalogVersion": "74b267e17379db5e470ebfb78bed18214d3b7ccf6a717a72cd429ba2750f81ec",
-      "generatedAt": "2026-10-11T06:02:35.124Z",
+      "path": "catalogs/kaufland/CZ5110/d0118a9b1676202a8d15e780306929d48358165a1e35d1e21603b7de38ff30c2.json",
+      "catalogVersion": "d0118a9b1676202a8d15e780306929d48358165a1e35d1e21603b7de38ff30c2",
+      "generatedAt": "2026-10-11T22:10:19.898Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3110": {
-      "path": "catalogs/kaufland/CZ3110/b30934e2e7637974a0a1a5b89749dfa195bc673c0115275f52372019c3799ff9.json",
-      "catalogVersion": "b30934e2e7637974a0a1a5b89749dfa195bc673c0115275f52372019c3799ff9",
-      "generatedAt": "2026-10-10T12:45:44.484Z",
+      "path": "catalogs/kaufland/CZ3110/22c71bfa3868beb9ec45d81c39f77046b7f72a0a370cbcd78e1e260142c52f3c.json",
+      "catalogVersion": "22c71bfa3868beb9ec45d81c39f77046b7f72a0a370cbcd78e1e260142c52f3c",
+      "generatedAt": "2026-10-11T22:10:22.116Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ5710": {
-      "path": "catalogs/kaufland/CZ5710/0d59e44a6e59f211ac38e2a055cacf8e74fec8336e34dc851d9b5e94167e6a2d.json",
-      "catalogVersion": "0d59e44a6e59f211ac38e2a055cacf8e74fec8336e34dc851d9b5e94167e6a2d",
-      "generatedAt": "2026-10-11T06:02:39.693Z",
+      "path": "catalogs/kaufland/CZ5710/f3ed9aeef22c8bd71842090da17685c22d33fadc4fcd45002c1c3c75d8d1fddc.json",
+      "catalogVersion": "f3ed9aeef22c8bd71842090da17685c22d33fadc4fcd45002c1c3c75d8d1fddc",
+      "generatedAt": "2026-10-11T22:10:24.469Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4310": {
-      "path": "catalogs/kaufland/CZ4310/3590bd82483b83034a4136621014cd6cf8eb292dfef076956a923804a10715a5.json",
-      "catalogVersion": "3590bd82483b83034a4136621014cd6cf8eb292dfef076956a923804a10715a5",
-      "generatedAt": "2026-10-10T12:45:43.249Z",
+      "path": "catalogs/kaufland/CZ4310/463d368e3de5c2afe30e3ea8ed2d02ddccdd461be283dee42846463b783eb8aa.json",
+      "catalogVersion": "463d368e3de5c2afe30e3ea8ed2d02ddccdd461be283dee42846463b783eb8aa",
+      "generatedAt": "2026-10-11T22:10:22.060Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ6110": {
-      "path": "catalogs/kaufland/CZ6110/13ab44abfab4d18e0dba8eb1c76238dbf918dd4814f38bc8a8243c72969f4754.json",
-      "catalogVersion": "13ab44abfab4d18e0dba8eb1c76238dbf918dd4814f38bc8a8243c72969f4754",
-      "generatedAt": "2026-10-10T12:45:48.623Z",
+      "path": "catalogs/kaufland/CZ6110/c44f3f658bbcdc005fe1ab2ae5213b98dd4b7b8ad650c04c2500b58fc605f2a8.json",
+      "catalogVersion": "c44f3f658bbcdc005fe1ab2ae5213b98dd4b7b8ad650c04c2500b58fc605f2a8",
+      "generatedAt": "2026-10-11T22:10:27.219Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ5600": {
-      "path": "catalogs/kaufland/CZ5600/adbd6226673bc9c8e511847a91492488e70dc1a7855a31b2bbfce863e03b40bd.json",
-      "catalogVersion": "adbd6226673bc9c8e511847a91492488e70dc1a7855a31b2bbfce863e03b40bd",
-      "generatedAt": "2026-10-11T06:02:39.622Z",
+      "path": "catalogs/kaufland/CZ5600/fafe8ae0d725152fe76af5fb757c219ec6b2e09beca281b3fc1cfd89202c8660.json",
+      "catalogVersion": "fafe8ae0d725152fe76af5fb757c219ec6b2e09beca281b3fc1cfd89202c8660",
+      "generatedAt": "2026-10-11T22:10:24.885Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 580
+      "count": 556
     },
     "kaufland/CZ7300": {
-      "path": "catalogs/kaufland/CZ7300/fcbc0a65efecbbf52409e1ccef85539963ff6e1d79bdb2d11cbc29d2f0a7f730.json",
-      "catalogVersion": "fcbc0a65efecbbf52409e1ccef85539963ff6e1d79bdb2d11cbc29d2f0a7f730",
-      "generatedAt": "2026-10-10T12:45:45.303Z",
+      "path": "catalogs/kaufland/CZ7300/6e0067a28b41cdb86335cb6b874ec292d6484d2cc2852ad8dd2cbd42b0b11274.json",
+      "catalogVersion": "6e0067a28b41cdb86335cb6b874ec292d6484d2cc2852ad8dd2cbd42b0b11274",
+      "generatedAt": "2026-10-11T22:10:24.338Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 581
+      "count": 557
     },
     "kaufland/CZ4050": {
-      "path": "catalogs/kaufland/CZ4050/1b21bd8ce55b84ed328e71ee5430fbdb56dcea27fcdf926d131c177f9520f8d0.json",
-      "catalogVersion": "1b21bd8ce55b84ed328e71ee5430fbdb56dcea27fcdf926d131c177f9520f8d0",
-      "generatedAt": "2026-10-10T12:45:47.419Z",
+      "path": "catalogs/kaufland/CZ4050/350e350daa1097c063fb8331df152abeaa266de17c31d0257463ecde8ec58880.json",
+      "catalogVersion": "350e350daa1097c063fb8331df152abeaa266de17c31d0257463ecde8ec58880",
+      "generatedAt": "2026-10-11T22:10:27.261Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2300": {
-      "path": "catalogs/kaufland/CZ2300/e5ad01943e624b5704267728d36937d1ab9d25bae3a9d35849541961ca0dbcb2.json",
-      "catalogVersion": "e5ad01943e624b5704267728d36937d1ab9d25bae3a9d35849541961ca0dbcb2",
-      "generatedAt": "2026-10-10T12:45:47.354Z",
+      "path": "catalogs/kaufland/CZ2300/85054fa1552a04d5c1c78880596d3f8fece6417b628b9f6605733eaac51c29f0.json",
+      "catalogVersion": "85054fa1552a04d5c1c78880596d3f8fece6417b628b9f6605733eaac51c29f0",
+      "generatedAt": "2026-10-11T22:10:27.149Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6010": {
-      "path": "catalogs/kaufland/CZ6010/7e07318c56fae6bd004cbe9d5150bd8e15f4852bd916868ff8fdfa2bc5f4ea87.json",
-      "catalogVersion": "7e07318c56fae6bd004cbe9d5150bd8e15f4852bd916868ff8fdfa2bc5f4ea87",
-      "generatedAt": "2026-10-11T06:02:43.264Z",
+      "path": "catalogs/kaufland/CZ6010/d9e3dfd0a1999b9520b665cd07d7164dd240d056ade1ba53f94637126480da08.json",
+      "catalogVersion": "d9e3dfd0a1999b9520b665cd07d7164dd240d056ade1ba53f94637126480da08",
+      "generatedAt": "2026-10-11T22:10:29.463Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6400": {
-      "path": "catalogs/kaufland/CZ6400/c6432f22bc9347357441a184041706ed9589a3d517ef39ec4933780abf58a082.json",
-      "catalogVersion": "c6432f22bc9347357441a184041706ed9589a3d517ef39ec4933780abf58a082",
-      "generatedAt": "2026-10-10T12:45:50.220Z",
+      "path": "catalogs/kaufland/CZ6400/6695334c7f4ec116e505dc6a538894ed40c2dada331c15a228b9df26345ef404.json",
+      "catalogVersion": "6695334c7f4ec116e505dc6a538894ed40c2dada331c15a228b9df26345ef404",
+      "generatedAt": "2026-10-11T22:10:28.677Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5750": {
-      "path": "catalogs/kaufland/CZ5750/eca5c8b935a9342679258d07fdb20396448ee0f09e53a02e60bffd8ab4c7cc86.json",
-      "catalogVersion": "eca5c8b935a9342679258d07fdb20396448ee0f09e53a02e60bffd8ab4c7cc86",
-      "generatedAt": "2026-10-10T12:45:50.565Z",
+      "path": "catalogs/kaufland/CZ5750/effb06bc20bdd1996ee963c3a834bff9eedbe221bbb192deeba9585902329aef.json",
+      "catalogVersion": "effb06bc20bdd1996ee963c3a834bff9eedbe221bbb192deeba9585902329aef",
+      "generatedAt": "2026-10-11T22:10:29.525Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1500": {
-      "path": "catalogs/kaufland/CZ1500/10364ceb75600795bd929cc779e9b120a62366305550aba3c21dddab6c4ab589.json",
-      "catalogVersion": "10364ceb75600795bd929cc779e9b120a62366305550aba3c21dddab6c4ab589",
-      "generatedAt": "2026-10-11T06:02:44.312Z",
+      "path": "catalogs/kaufland/CZ1500/bac1ee068445f6fc5eab616651674672de0ead23acd7cc99fe7da130adad65ba.json",
+      "catalogVersion": "bac1ee068445f6fc5eab616651674672de0ead23acd7cc99fe7da130adad65ba",
+      "generatedAt": "2026-10-11T22:10:31.796Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4410": {
-      "path": "catalogs/kaufland/CZ4410/ddaec5fd20fca7a73d6845c590767259d23e8472c4910ae34d231fbb739819b9.json",
-      "catalogVersion": "ddaec5fd20fca7a73d6845c590767259d23e8472c4910ae34d231fbb739819b9",
-      "generatedAt": "2026-10-11T06:02:43.510Z",
+      "path": "catalogs/kaufland/CZ4410/5d5e6026b4148430c1605df7e0611a1ea5235a48d99106d46da2a3b3a08a9d61.json",
+      "catalogVersion": "5d5e6026b4148430c1605df7e0611a1ea5235a48d99106d46da2a3b3a08a9d61",
+      "generatedAt": "2026-10-11T22:10:30.831Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3210": {
-      "path": "catalogs/kaufland/CZ3210/484be89b431d10b14977e4a0a27f8fbe5f947259fabe084b90df56d24e5d1f7e.json",
-      "catalogVersion": "484be89b431d10b14977e4a0a27f8fbe5f947259fabe084b90df56d24e5d1f7e",
-      "generatedAt": "2026-10-11T06:02:45.666Z",
+      "path": "catalogs/kaufland/CZ3210/0cf668f77176478684696e3b492522c49b25dc5d281639376051e99adb92d6a4.json",
+      "catalogVersion": "0cf668f77176478684696e3b492522c49b25dc5d281639376051e99adb92d6a4",
+      "generatedAt": "2026-10-11T22:10:31.731Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2500": {
-      "path": "catalogs/kaufland/CZ2500/04b962cae72ccd1027d2989a4493304a9ee24fbcd1a225ee03e545d94228d3c0.json",
-      "catalogVersion": "04b962cae72ccd1027d2989a4493304a9ee24fbcd1a225ee03e545d94228d3c0",
-      "generatedAt": "2026-10-10T12:45:53.318Z",
+      "path": "catalogs/kaufland/CZ2500/09dcbc4d7ed2ebd0970c89cefed28ba89dce4eb0b2a042cba84dc8192acd09e0.json",
+      "catalogVersion": "09dcbc4d7ed2ebd0970c89cefed28ba89dce4eb0b2a042cba84dc8192acd09e0",
+      "generatedAt": "2026-10-11T22:10:33.153Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ6500": {
-      "path": "catalogs/kaufland/CZ6500/6ff5bbb00359e313fec83d21b317960b9c302f86a96681e5f3a797f8265df16d.json",
-      "catalogVersion": "6ff5bbb00359e313fec83d21b317960b9c302f86a96681e5f3a797f8265df16d",
-      "generatedAt": "2026-10-10T12:45:56.793Z",
+      "path": "catalogs/kaufland/CZ6500/da8574f5aee3bc1730bb3fe49d1d9a9e7a66099035d39b977d4ecc2922efb695.json",
+      "catalogVersion": "da8574f5aee3bc1730bb3fe49d1d9a9e7a66099035d39b977d4ecc2922efb695",
+      "generatedAt": "2026-10-11T22:10:35.476Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ3200": {
-      "path": "catalogs/kaufland/CZ3200/c349fe92cd28675b5f92eb51983d83575d084a083862f8fb49d0d61b5afaa5da.json",
-      "catalogVersion": "c349fe92cd28675b5f92eb51983d83575d084a083862f8fb49d0d61b5afaa5da",
-      "generatedAt": "2026-10-10T12:45:54.458Z",
+      "path": "catalogs/kaufland/CZ3200/4e45b0756b495e7e9bcd95049f622344827f259e1ccaec2c74ed97f630846d8d.json",
+      "catalogVersion": "4e45b0756b495e7e9bcd95049f622344827f259e1ccaec2c74ed97f630846d8d",
+      "generatedAt": "2026-10-11T22:10:34.106Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4200": {
-      "path": "catalogs/kaufland/CZ4200/b4f067dc76551b86a0305daa1a4c16dd3f62fa60608388675f73572742b9569d.json",
-      "catalogVersion": "b4f067dc76551b86a0305daa1a4c16dd3f62fa60608388675f73572742b9569d",
-      "generatedAt": "2026-10-10T12:45:54.723Z",
+      "path": "catalogs/kaufland/CZ4200/9230844cdab5e1d49ba15ac69bdfba89a65dd648d95fdff28729d3aae225b768.json",
+      "catalogVersion": "9230844cdab5e1d49ba15ac69bdfba89a65dd648d95fdff28729d3aae225b768",
+      "generatedAt": "2026-10-11T22:10:33.954Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4710": {
-      "path": "catalogs/kaufland/CZ4710/dab7255726751088f3803f87f75515f7fc128c9302b41ffad4978ef25e250444.json",
-      "catalogVersion": "dab7255726751088f3803f87f75515f7fc128c9302b41ffad4978ef25e250444",
-      "generatedAt": "2026-10-10T12:45:56.740Z",
+      "path": "catalogs/kaufland/CZ4710/fea3055af1039db1c84c02738dc7292f7b139ead62ccf70ec7c05b6722ce0a8c.json",
+      "catalogVersion": "fea3055af1039db1c84c02738dc7292f7b139ead62ccf70ec7c05b6722ce0a8c",
+      "generatedAt": "2026-10-11T22:10:36.204Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5950": {
-      "path": "catalogs/kaufland/CZ5950/33089e0eab86ad51705806841467add5b16b4c3a414e048813f07afaae4ca234.json",
-      "catalogVersion": "33089e0eab86ad51705806841467add5b16b4c3a414e048813f07afaae4ca234",
-      "generatedAt": "2026-10-11T06:02:50.370Z",
+      "path": "catalogs/kaufland/CZ5950/79b4e5e31414a1bdcfb46cf3c6ab9faf45993e11a9fc472afeeeffdac4ad688c.json",
+      "catalogVersion": "79b4e5e31414a1bdcfb46cf3c6ab9faf45993e11a9fc472afeeeffdac4ad688c",
+      "generatedAt": "2026-10-11T22:10:36.482Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 582
+      "count": 558
     },
     "kaufland/CZ5300": {
-      "path": "catalogs/kaufland/CZ5300/c32d468597e1cf360fdcbaf628f439bb3b0a58b59ed20db90013ce0f513abe11.json",
-      "catalogVersion": "c32d468597e1cf360fdcbaf628f439bb3b0a58b59ed20db90013ce0f513abe11",
-      "generatedAt": "2026-10-10T12:45:56.622Z",
+      "path": "catalogs/kaufland/CZ5300/57a6144fc3eaa97eaa618a890a36ff3aef3a251da54581ee94ee190ba245e8a2.json",
+      "catalogVersion": "57a6144fc3eaa97eaa618a890a36ff3aef3a251da54581ee94ee190ba245e8a2",
+      "generatedAt": "2026-10-11T22:10:36.258Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ4350": {
-      "path": "catalogs/kaufland/CZ4350/f22ae04f52b4fdf87edccfa653c2defc4d9cb60b839fe8f8fff883bd834b2efb.json",
-      "catalogVersion": "f22ae04f52b4fdf87edccfa653c2defc4d9cb60b839fe8f8fff883bd834b2efb",
-      "generatedAt": "2026-10-11T06:02:53.046Z",
+      "path": "catalogs/kaufland/CZ4350/114e47efadd57006564b77da22c8c9bc0a3ab473a7a4990f37fb25ac078fa2f1.json",
+      "catalogVersion": "114e47efadd57006564b77da22c8c9bc0a3ab473a7a4990f37fb25ac078fa2f1",
+      "generatedAt": "2026-10-11T22:10:39.085Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4600": {
-      "path": "catalogs/kaufland/CZ4600/f7b237006c7fcbe3de6da94507520bee5ab2a3a67e8cf48986bbcda8c82689c6.json",
-      "catalogVersion": "f7b237006c7fcbe3de6da94507520bee5ab2a3a67e8cf48986bbcda8c82689c6",
-      "generatedAt": "2026-10-11T06:02:51.595Z",
+      "path": "catalogs/kaufland/CZ4600/1772279b5da9b7da4bb93de64a9d906651982a97d6e10708b3a95f2a375e053e.json",
+      "catalogVersion": "1772279b5da9b7da4bb93de64a9d906651982a97d6e10708b3a95f2a375e053e",
+      "generatedAt": "2026-10-11T22:10:37.658Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2110": {
-      "path": "catalogs/kaufland/CZ2110/488dc155477509877143d8231ea4392f60598c5342590c37ff1be2f906fda123.json",
-      "catalogVersion": "488dc155477509877143d8231ea4392f60598c5342590c37ff1be2f906fda123",
-      "generatedAt": "2026-10-10T12:45:58.215Z",
+      "path": "catalogs/kaufland/CZ2110/f8f9dcdfd4aae4b20383bd4ad85306592ad7bff816172155376603a08cec04cd.json",
+      "catalogVersion": "f8f9dcdfd4aae4b20383bd4ad85306592ad7bff816172155376603a08cec04cd",
+      "generatedAt": "2026-10-11T22:10:37.602Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4850": {
-      "path": "catalogs/kaufland/CZ4850/9458c787e7bae25893b1203a5c6dc79a72d5fde21e716ba863879ec54cb3949f.json",
-      "catalogVersion": "9458c787e7bae25893b1203a5c6dc79a72d5fde21e716ba863879ec54cb3949f",
-      "generatedAt": "2026-10-10T12:46:00.832Z",
+      "path": "catalogs/kaufland/CZ4850/ed573445247b0967403eebb30b086667591eab2ca0b880249f64a5739c107f9a.json",
+      "catalogVersion": "ed573445247b0967403eebb30b086667591eab2ca0b880249f64a5739c107f9a",
+      "generatedAt": "2026-10-11T22:10:39.887Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ7110": {
-      "path": "catalogs/kaufland/CZ7110/66aa89c1630b1613f7f399c840c60088b1de6ede7da4d37063e9c20fd7d87a0b.json",
-      "catalogVersion": "66aa89c1630b1613f7f399c840c60088b1de6ede7da4d37063e9c20fd7d87a0b",
-      "generatedAt": "2026-10-10T12:46:02.800Z",
+      "path": "catalogs/kaufland/CZ7110/01cbf21dfb395f01ad00380ceff3a37f315494bb2dde7704fe6d1d3002b5552b.json",
+      "catalogVersion": "01cbf21dfb395f01ad00380ceff3a37f315494bb2dde7704fe6d1d3002b5552b",
+      "generatedAt": "2026-10-11T22:10:41.413Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 580
+      "count": 556
     },
     "kaufland/CZ1100": {
-      "path": "catalogs/kaufland/CZ1100/751be345eba117d871c7756fc6e83a941c9add5af9fe175981972c7ac30b27e6.json",
-      "catalogVersion": "751be345eba117d871c7756fc6e83a941c9add5af9fe175981972c7ac30b27e6",
-      "generatedAt": "2026-10-11T06:02:51.855Z",
+      "path": "catalogs/kaufland/CZ1100/6e5addccb8e389eb905e171d73ca32b96d37c3e88f34aff99dfd5611b8fcd495.json",
+      "catalogVersion": "6e5addccb8e389eb905e171d73ca32b96d37c3e88f34aff99dfd5611b8fcd495",
+      "generatedAt": "2026-10-11T22:10:39.032Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2610": {
-      "path": "catalogs/kaufland/CZ2610/60910c7656dfa4c1bb584de12942de3c88c3c5b87945a21402c40822479cedd3.json",
-      "catalogVersion": "60910c7656dfa4c1bb584de12942de3c88c3c5b87945a21402c40822479cedd3",
-      "generatedAt": "2026-10-11T06:02:53.296Z",
+      "path": "catalogs/kaufland/CZ2610/51e3a87697491e79cc90260379c69e79617c497b3bd96e1fdbdd0c37c9c5eddf.json",
+      "catalogVersion": "51e3a87697491e79cc90260379c69e79617c497b3bd96e1fdbdd0c37c9c5eddf",
+      "generatedAt": "2026-10-11T22:10:41.314Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1400": {
-      "path": "catalogs/kaufland/CZ1400/b99bdbe0a3e5e90d608ef1f0e9a6784d9c0195354d1148a11aa6e07941abc305.json",
-      "catalogVersion": "b99bdbe0a3e5e90d608ef1f0e9a6784d9c0195354d1148a11aa6e07941abc305",
-      "generatedAt": "2026-10-10T12:46:02.938Z",
+      "path": "catalogs/kaufland/CZ1400/eea020cde9108c7ed926f23b4ff0aae97f98a1475ad5a8515f9489d544812b9e.json",
+      "catalogVersion": "eea020cde9108c7ed926f23b4ff0aae97f98a1475ad5a8515f9489d544812b9e",
+      "generatedAt": "2026-10-11T22:10:42.123Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ3700": {
-      "path": "catalogs/kaufland/CZ3700/a3ae04cf872f517816cd3fa1ec7562a81f1806dee485b326e6e3511c56c4165e.json",
-      "catalogVersion": "a3ae04cf872f517816cd3fa1ec7562a81f1806dee485b326e6e3511c56c4165e",
-      "generatedAt": "2026-10-11T06:02:59.902Z",
+      "path": "catalogs/kaufland/CZ3700/bb06a50fff1e7a1c1119f32c13bb48ad36402467fa31282839983d461b1c6429.json",
+      "catalogVersion": "bb06a50fff1e7a1c1119f32c13bb48ad36402467fa31282839983d461b1c6429",
+      "generatedAt": "2026-10-11T22:10:43.498Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ1850": {
-      "path": "catalogs/kaufland/CZ1850/35c01e2f5be806f5c1e992c73095371da0a24f66787b2dc187b78d621e96fd92.json",
-      "catalogVersion": "35c01e2f5be806f5c1e992c73095371da0a24f66787b2dc187b78d621e96fd92",
-      "generatedAt": "2026-10-11T06:02:57.550Z",
+      "path": "catalogs/kaufland/CZ1850/29d9af0d7f5d99e2646684b20a85adfda18f3d5b9b6b603026d9282960a7bd41.json",
+      "catalogVersion": "29d9af0d7f5d99e2646684b20a85adfda18f3d5b9b6b603026d9282960a7bd41",
+      "generatedAt": "2026-10-11T22:10:44.311Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5410": {
-      "path": "catalogs/kaufland/CZ5410/a3cc3e4c8a301b3cf0df12e00fa8126b2c0a5dbbef0707080f1995c550e36db7.json",
-      "catalogVersion": "a3cc3e4c8a301b3cf0df12e00fa8126b2c0a5dbbef0707080f1995c550e36db7",
-      "generatedAt": "2026-10-11T06:03:02.133Z",
+      "path": "catalogs/kaufland/CZ5410/29aa42cb0b8f4837dbe56eedcf584892b3da686ecd4ff132758b27dcf270a2fc.json",
+      "catalogVersion": "29aa42cb0b8f4837dbe56eedcf584892b3da686ecd4ff132758b27dcf270a2fc",
+      "generatedAt": "2026-10-11T22:10:46.528Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6810": {
-      "path": "catalogs/kaufland/CZ6810/8c39da28798f6168d27d07709edaad73ec7ac545d63fabe4610e50abc6028f34.json",
-      "catalogVersion": "8c39da28798f6168d27d07709edaad73ec7ac545d63fabe4610e50abc6028f34",
-      "generatedAt": "2026-10-11T06:02:56.410Z",
+      "path": "catalogs/kaufland/CZ6810/ef8730efb48269ee303b619a2b6490d2fcb1787cf5fc6499a295f8be0c794019.json",
+      "catalogVersion": "ef8730efb48269ee303b619a2b6490d2fcb1787cf5fc6499a295f8be0c794019",
+      "generatedAt": "2026-10-11T22:10:43.606Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3500": {
-      "path": "catalogs/kaufland/CZ3500/d3676a24950eb18408dca29254d321f3677aca304074f44fab341c759fd4a7b9.json",
-      "catalogVersion": "d3676a24950eb18408dca29254d321f3677aca304074f44fab341c759fd4a7b9",
-      "generatedAt": "2026-10-10T12:46:06.736Z",
+      "path": "catalogs/kaufland/CZ3500/879aaaefbf4488b89ea5bfa728601bde2ce2c80f385a257be2332740f17f48fe.json",
+      "catalogVersion": "879aaaefbf4488b89ea5bfa728601bde2ce2c80f385a257be2332740f17f48fe",
+      "generatedAt": "2026-10-11T22:10:46.579Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ5910": {
-      "path": "catalogs/kaufland/CZ5910/ff4a1075373b5e3623465ef45df78cd4572100764f3050895ffbdd0f87065bfe.json",
-      "catalogVersion": "ff4a1075373b5e3623465ef45df78cd4572100764f3050895ffbdd0f87065bfe",
-      "generatedAt": "2026-10-11T06:03:01.531Z",
+      "path": "catalogs/kaufland/CZ5910/6c8884519f8ce9dce9ba8eea911908f96a0c29c1faeb0720bfa955706cde9841.json",
+      "catalogVersion": "6c8884519f8ce9dce9ba8eea911908f96a0c29c1faeb0720bfa955706cde9841",
+      "generatedAt": "2026-10-11T22:10:45.727Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ6600": {
-      "path": "catalogs/kaufland/CZ6600/bbbac469882945b14136974dcbb2c284c18ebeac83e00a745e6baf67277731a3.json",
-      "catalogVersion": "bbbac469882945b14136974dcbb2c284c18ebeac83e00a745e6baf67277731a3",
-      "generatedAt": "2026-10-11T06:03:03.607Z",
+      "path": "catalogs/kaufland/CZ6600/cfb76c5cffceb781da130de48a70c6539258fcfd952db85de640a74445b58731.json",
+      "catalogVersion": "cfb76c5cffceb781da130de48a70c6539258fcfd952db85de640a74445b58731",
+      "generatedAt": "2026-10-11T22:10:48.043Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3800": {
-      "path": "catalogs/kaufland/CZ3800/14f3c26bef0099f2913fda165a659f210ae64e25918f3dbaeea1233ea8006487.json",
-      "catalogVersion": "14f3c26bef0099f2913fda165a659f210ae64e25918f3dbaeea1233ea8006487",
-      "generatedAt": "2026-10-10T12:46:09.665Z",
+      "path": "catalogs/kaufland/CZ3800/1d8cefcddfa06623cbc3873a68e26a600c10a7fa97b4df9ab0e691b1b3f46a2d.json",
+      "catalogVersion": "1d8cefcddfa06623cbc3873a68e26a600c10a7fa97b4df9ab0e691b1b3f46a2d",
+      "generatedAt": "2026-10-11T22:10:49.575Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ7700": {
-      "path": "catalogs/kaufland/CZ7700/42467626ea4b031b6f92bdb653c1eb7eefcd224cc24d17fc6ea80d14bbf9cc95.json",
-      "catalogVersion": "42467626ea4b031b6f92bdb653c1eb7eefcd224cc24d17fc6ea80d14bbf9cc95",
-      "generatedAt": "2026-10-10T12:46:07.697Z",
+      "path": "catalogs/kaufland/CZ7700/56b800c744e3da7f7d2eeb3f468dc66a4d81213c589304850678e6878b8f2ce5.json",
+      "catalogVersion": "56b800c744e3da7f7d2eeb3f468dc66a4d81213c589304850678e6878b8f2ce5",
+      "generatedAt": "2026-10-11T22:10:47.970Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3100": {
-      "path": "catalogs/kaufland/CZ3100/5cace3fe21b104f2d28062372e572e768223b4ea0374566d056e240903aafa4b.json",
-      "catalogVersion": "5cace3fe21b104f2d28062372e572e768223b4ea0374566d056e240903aafa4b",
-      "generatedAt": "2026-10-10T12:46:07.628Z",
+      "path": "catalogs/kaufland/CZ3100/0dbeb05f8ba5b700dc78510fcc8c4b4ac797452bcf79ae37220e6f99cbd5ef0c.json",
+      "catalogVersion": "0dbeb05f8ba5b700dc78510fcc8c4b4ac797452bcf79ae37220e6f99cbd5ef0c",
+      "generatedAt": "2026-10-11T22:10:48.222Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1800": {
-      "path": "catalogs/kaufland/CZ1800/67e3530758aa972272df98852a3c993bda1b9a76395f9f6bfefd67d09b715423.json",
-      "catalogVersion": "67e3530758aa972272df98852a3c993bda1b9a76395f9f6bfefd67d09b715423",
-      "generatedAt": "2026-10-11T06:03:05.102Z",
+      "path": "catalogs/kaufland/CZ1800/c340a871252a562ff11479aa32065cba00f4b27fa9ba4ff6e4a0289069dc43c6.json",
+      "catalogVersion": "c340a871252a562ff11479aa32065cba00f4b27fa9ba4ff6e4a0289069dc43c6",
+      "generatedAt": "2026-10-11T22:10:49.630Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6700": {
-      "path": "catalogs/kaufland/CZ6700/6786315fdea39bcf0f40dd21ba094ff464e494f812a02dcaa2971dbbab21a2f6.json",
-      "catalogVersion": "6786315fdea39bcf0f40dd21ba094ff464e494f812a02dcaa2971dbbab21a2f6",
-      "generatedAt": "2026-10-11T06:03:03.922Z",
+      "path": "catalogs/kaufland/CZ6700/77a33984977e48348907b253acb8ccdb1e1e32e16d89ddfe7b799ec7f41fd211.json",
+      "catalogVersion": "77a33984977e48348907b253acb8ccdb1e1e32e16d89ddfe7b799ec7f41fd211",
+      "generatedAt": "2026-10-11T22:10:49.679Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3900": {
-      "path": "catalogs/kaufland/CZ3900/a9d7a32fab38db9fb6173164c2cd8e1b87aa4f202b9c85b994adfb09219d8c34.json",
-      "catalogVersion": "a9d7a32fab38db9fb6173164c2cd8e1b87aa4f202b9c85b994adfb09219d8c34",
-      "generatedAt": "2026-10-11T06:03:05.421Z",
+      "path": "catalogs/kaufland/CZ3900/4037585dc90ca256db27b0e8048a917a4bd66d4ff9393113450e4ed7641f373a.json",
+      "catalogVersion": "4037585dc90ca256db27b0e8048a917a4bd66d4ff9393113450e4ed7641f373a",
+      "generatedAt": "2026-10-11T22:10:51.152Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ4700": {
-      "path": "catalogs/kaufland/CZ4700/75fd3c63e4419ff6b43a1a6dccdf31053a4c57b031af575b67f09954031de8e2.json",
-      "catalogVersion": "75fd3c63e4419ff6b43a1a6dccdf31053a4c57b031af575b67f09954031de8e2",
-      "generatedAt": "2026-10-10T12:46:13.738Z",
+      "path": "catalogs/kaufland/CZ4700/49a78a7730f399cae46e9472bb2310db8478ade15d9f2a3004feb9883e439fe1.json",
+      "catalogVersion": "49a78a7730f399cae46e9472bb2310db8478ade15d9f2a3004feb9883e439fe1",
+      "generatedAt": "2026-10-11T22:10:53.283Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ5800": {
-      "path": "catalogs/kaufland/CZ5800/7110114e20f31606a7988072565e57165d82e1ec56a9622076eb97123512571e.json",
-      "catalogVersion": "7110114e20f31606a7988072565e57165d82e1ec56a9622076eb97123512571e",
-      "generatedAt": "2026-10-10T12:46:09.865Z",
+      "path": "catalogs/kaufland/CZ5800/aafa90c6bdccc7724fc00bb594330cc0a6dd1d22aa3db2ac5507d6cd8fae1e49.json",
+      "catalogVersion": "aafa90c6bdccc7724fc00bb594330cc0a6dd1d22aa3db2ac5507d6cd8fae1e49",
+      "generatedAt": "2026-10-11T22:10:51.794Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6800": {
-      "path": "catalogs/kaufland/CZ6800/a3e38adab8a86aed5f14ba94386f1b7502053a53a82f494c3029adca8ed5f513.json",
-      "catalogVersion": "a3e38adab8a86aed5f14ba94386f1b7502053a53a82f494c3029adca8ed5f513",
-      "generatedAt": "2026-10-10T12:46:11.806Z",
+      "path": "catalogs/kaufland/CZ6800/4361d531a499fc53998dfad2aaf82ab5069f8018e3d71a882b2e053cc10b4411.json",
+      "catalogVersion": "4361d531a499fc53998dfad2aaf82ab5069f8018e3d71a882b2e053cc10b4411",
+      "generatedAt": "2026-10-11T22:10:51.078Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6310": {
-      "path": "catalogs/kaufland/CZ6310/474ccd7d0aa871ef6969395d8c817cdfb1b263c2aef19e15f75f9b5892e33159.json",
-      "catalogVersion": "474ccd7d0aa871ef6969395d8c817cdfb1b263c2aef19e15f75f9b5892e33159",
-      "generatedAt": "2026-10-11T06:03:09.281Z",
+      "path": "catalogs/kaufland/CZ6310/b56dde31278f75b97e7a4cbfc5f8fa4c5544eb9dd88a7db7328e918c1bcefb7a.json",
+      "catalogVersion": "b56dde31278f75b97e7a4cbfc5f8fa4c5544eb9dd88a7db7328e918c1bcefb7a",
+      "generatedAt": "2026-10-11T22:10:54.640Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2650": {
-      "path": "catalogs/kaufland/CZ2650/0ea6eb468dc77c9b2c5ecf1a5cf1f856bfc2345843acb636998a5d4bcfa6c983.json",
-      "catalogVersion": "0ea6eb468dc77c9b2c5ecf1a5cf1f856bfc2345843acb636998a5d4bcfa6c983",
-      "generatedAt": "2026-10-10T12:46:12.084Z",
+      "path": "catalogs/kaufland/CZ2650/4716b06b91a602a86aa3868a06d67753eb912ac36c71acc82a99630c09c98057.json",
+      "catalogVersion": "4716b06b91a602a86aa3868a06d67753eb912ac36c71acc82a99630c09c98057",
+      "generatedAt": "2026-10-11T22:10:53.137Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ6900": {
-      "path": "catalogs/kaufland/CZ6900/38c48840a775c4f919157092c10ec31d420635b507b213615b08fcdc7eff38f7.json",
-      "catalogVersion": "38c48840a775c4f919157092c10ec31d420635b507b213615b08fcdc7eff38f7",
-      "generatedAt": "2026-10-11T13:08:53.090Z",
+      "path": "catalogs/kaufland/CZ6900/fe467ea21f4775dc82146cf4820d83c4c327508fbcdee088b841c770c330abc5.json",
+      "catalogVersion": "fe467ea21f4775dc82146cf4820d83c4c327508fbcdee088b841c770c330abc5",
+      "generatedAt": "2026-10-11T22:10:53.232Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ1150": {
-      "path": "catalogs/kaufland/CZ1150/d2c7e7c4f2910ac80f598abc83948e097c73f7575643fb7d4d15dabe0f103943.json",
-      "catalogVersion": "d2c7e7c4f2910ac80f598abc83948e097c73f7575643fb7d4d15dabe0f103943",
-      "generatedAt": "2026-10-11T06:03:09.394Z",
+      "path": "catalogs/kaufland/CZ1150/b05f341a1869861ad872131d02e4f58571a778866b2857c66b35162b90763d1f.json",
+      "catalogVersion": "b05f341a1869861ad872131d02e4f58571a778866b2857c66b35162b90763d1f",
+      "generatedAt": "2026-10-11T22:10:54.691Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2100": {
-      "path": "catalogs/kaufland/CZ2100/457d32bee5d71c73a62ca04774ae53eb00a1e5484d6f2c1d363a78d5124eaece.json",
-      "catalogVersion": "457d32bee5d71c73a62ca04774ae53eb00a1e5484d6f2c1d363a78d5124eaece",
-      "generatedAt": "2026-10-10T12:46:19.385Z",
+      "path": "catalogs/kaufland/CZ2100/783359c1b56109d47953a90ad6da3ae4c87cd6ab3eb4bddcd68241acd1254da4.json",
+      "catalogVersion": "783359c1b56109d47953a90ad6da3ae4c87cd6ab3eb4bddcd68241acd1254da4",
+      "generatedAt": "2026-10-11T22:10:56.969Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3410": {
-      "path": "catalogs/kaufland/CZ3410/0098ec17e2d7c17c473b4727203577b2347392c242249f3d9b58b36efa1bc69f.json",
-      "catalogVersion": "0098ec17e2d7c17c473b4727203577b2347392c242249f3d9b58b36efa1bc69f",
-      "generatedAt": "2026-10-10T12:46:15.381Z",
+      "path": "catalogs/kaufland/CZ3410/a309c231d96d6843a46d6c9b27996887f43de09cf3a327f773d0a5cf10ddacf7.json",
+      "catalogVersion": "a309c231d96d6843a46d6c9b27996887f43de09cf3a327f773d0a5cf10ddacf7",
+      "generatedAt": "2026-10-11T22:10:55.484Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1110": {
-      "path": "catalogs/kaufland/CZ1110/8421f1abc36e062e6d3f9077853e5fd4fd6cebb01eeb3f22dbae4860b847df7b.json",
-      "catalogVersion": "8421f1abc36e062e6d3f9077853e5fd4fd6cebb01eeb3f22dbae4860b847df7b",
-      "generatedAt": "2026-10-11T06:03:11.340Z",
+      "path": "catalogs/kaufland/CZ1110/dc5f48dea8511a6d439fa25f0a86442937d808fe274266a388fafa26a9d84401.json",
+      "catalogVersion": "dc5f48dea8511a6d439fa25f0a86442937d808fe274266a388fafa26a9d84401",
+      "generatedAt": "2026-10-11T22:10:56.917Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ7100": {
-      "path": "catalogs/kaufland/CZ7100/dc6c80cba17c0db087a5c4511eb3f14f90953180c3a64afe4ff71acdfec086c7.json",
-      "catalogVersion": "dc6c80cba17c0db087a5c4511eb3f14f90953180c3a64afe4ff71acdfec086c7",
-      "generatedAt": "2026-10-11T06:03:10.449Z",
+      "path": "catalogs/kaufland/CZ7100/34e9505a214b009fd71a65684866d5c20fafceeda407a248896a6e5d1bea183e.json",
+      "catalogVersion": "34e9505a214b009fd71a65684866d5c20fafceeda407a248896a6e5d1bea183e",
+      "generatedAt": "2026-10-11T22:10:57.815Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1210": {
-      "path": "catalogs/kaufland/CZ1210/2ce52a1d1cfac2a1b05e6b2137156e94c5dd4419b3afa1995ceb0540a596688a.json",
-      "catalogVersion": "2ce52a1d1cfac2a1b05e6b2137156e94c5dd4419b3afa1995ceb0540a596688a",
-      "generatedAt": "2026-10-10T12:46:23.019Z",
+      "path": "catalogs/kaufland/CZ1210/75ae6bb857a50ca08a7a528dd393165c66c17dae678e88b53b6c4b304430420a.json",
+      "catalogVersion": "75ae6bb857a50ca08a7a528dd393165c66c17dae678e88b53b6c4b304430420a",
+      "generatedAt": "2026-10-11T22:10:59.147Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ2310": {
-      "path": "catalogs/kaufland/CZ2310/aa3508abc68a765129f28c9e78ea9c285caeb8e5dd939f02dd8225b5db9e4eb3.json",
-      "catalogVersion": "aa3508abc68a765129f28c9e78ea9c285caeb8e5dd939f02dd8225b5db9e4eb3",
-      "generatedAt": "2026-10-11T06:03:14.725Z",
+      "path": "catalogs/kaufland/CZ2310/55b105a055a1da8298c5823b050e555d97b91c62b8463c8b2711fdcea3bf16bc.json",
+      "catalogVersion": "55b105a055a1da8298c5823b050e555d97b91c62b8463c8b2711fdcea3bf16bc",
+      "generatedAt": "2026-10-11T22:11:01.421Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ1310": {
-      "path": "catalogs/kaufland/CZ1310/ffc320c6c5d887ee415dce4496c5cf04a1ba72dc9d0efc06eddcc2df5371e99e.json",
-      "catalogVersion": "ffc320c6c5d887ee415dce4496c5cf04a1ba72dc9d0efc06eddcc2df5371e99e",
-      "generatedAt": "2026-10-11T06:03:14.413Z",
+      "path": "catalogs/kaufland/CZ1310/7d9e680204cc905d4bc999ba5a7f21c88e163fe3d9b3a5bea1d1d4c236a78558.json",
+      "catalogVersion": "7d9e680204cc905d4bc999ba5a7f21c88e163fe3d9b3a5bea1d1d4c236a78558",
+      "generatedAt": "2026-10-11T22:11:00.040Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4950": {
-      "path": "catalogs/kaufland/CZ4950/f09cc6941dd2c2bac5e4fc3e5581abcaf5ff1b4d6665863d0fb18e20102a702e.json",
-      "catalogVersion": "f09cc6941dd2c2bac5e4fc3e5581abcaf5ff1b4d6665863d0fb18e20102a702e",
-      "generatedAt": "2026-10-11T06:03:13.973Z",
+      "path": "catalogs/kaufland/CZ4950/9ae2ace46e0582d230ea2f26af786a705b387ffd88168952cf3be587e479b160.json",
+      "catalogVersion": "9ae2ace46e0582d230ea2f26af786a705b387ffd88168952cf3be587e479b160",
+      "generatedAt": "2026-10-11T22:10:59.203Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ4750": {
-      "path": "catalogs/kaufland/CZ4750/ceb7947de1e7e423c4b36395510760c8aad77ad9fb277c47780ca0039403714b.json",
-      "catalogVersion": "ceb7947de1e7e423c4b36395510760c8aad77ad9fb277c47780ca0039403714b",
-      "generatedAt": "2026-10-10T12:46:26.940Z",
+      "path": "catalogs/kaufland/CZ4750/6debf70e60760b4aa032265a3f506af844980f8cf7342cd526c3d497242e705a.json",
+      "catalogVersion": "6debf70e60760b4aa032265a3f506af844980f8cf7342cd526c3d497242e705a",
+      "generatedAt": "2026-10-11T22:11:03.725Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1900": {
-      "path": "catalogs/kaufland/CZ1900/3c3fe3e917003ff72e28681ed98c937db15cf4c983d32bad2ce7e128106cdf89.json",
-      "catalogVersion": "3c3fe3e917003ff72e28681ed98c937db15cf4c983d32bad2ce7e128106cdf89",
-      "generatedAt": "2026-10-11T06:03:14.666Z",
+      "path": "catalogs/kaufland/CZ1900/276839749b9bf15c3901de61126e7396b671a439bade7c9f2767fae43a4e64da.json",
+      "catalogVersion": "276839749b9bf15c3901de61126e7396b671a439bade7c9f2767fae43a4e64da",
+      "generatedAt": "2026-10-11T22:11:02.023Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 588
+      "count": 563
     },
     "kaufland/CZ7800": {
-      "path": "catalogs/kaufland/CZ7800/ae7fd7d56fb1cd870a58b59da7cb9d15fa19f2bac29cfe8baa23a8abe05f8827.json",
-      "catalogVersion": "ae7fd7d56fb1cd870a58b59da7cb9d15fa19f2bac29cfe8baa23a8abe05f8827",
-      "generatedAt": "2026-10-10T12:46:24.587Z",
+      "path": "catalogs/kaufland/CZ7800/ad0f7123cb70ae84d93a89309d2348c97b2ee4beda081e32df6d73a65b1db542.json",
+      "catalogVersion": "ad0f7123cb70ae84d93a89309d2348c97b2ee4beda081e32df6d73a65b1db542",
+      "generatedAt": "2026-10-11T22:11:02.361Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ7010": {
-      "path": "catalogs/kaufland/CZ7010/99beb0c79f71ce329d9b456237256bd2d4ab525ef073840c2a800a2f16d3dd84.json",
-      "catalogVersion": "99beb0c79f71ce329d9b456237256bd2d4ab525ef073840c2a800a2f16d3dd84",
-      "generatedAt": "2026-10-11T06:03:17.911Z",
+      "path": "catalogs/kaufland/CZ7010/cf4005f45b76824733262988fc2e2923480e3fa244972c4f138e8b67e11d5487.json",
+      "catalogVersion": "cf4005f45b76824733262988fc2e2923480e3fa244972c4f138e8b67e11d5487",
+      "generatedAt": "2026-10-11T22:11:06.279Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1410": {
-      "path": "catalogs/kaufland/CZ1410/6f546acc1cf58162eb8858b7a06909d9815343b9a10e2a247d73c46a495fbd6c.json",
-      "catalogVersion": "6f546acc1cf58162eb8858b7a06909d9815343b9a10e2a247d73c46a495fbd6c",
-      "generatedAt": "2026-10-11T06:03:15.045Z",
+      "path": "catalogs/kaufland/CZ1410/a65e5a443c972bf90a12cadec45d410a361fec70dcb0e2f08def070da77dba62.json",
+      "catalogVersion": "a65e5a443c972bf90a12cadec45d410a361fec70dcb0e2f08def070da77dba62",
+      "generatedAt": "2026-10-11T22:11:03.768Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1600": {
-      "path": "catalogs/kaufland/CZ1600/e3e19eb9cc136779b9fa6b1659c238b51b16415cc11576977a6351e763c85eb5.json",
-      "catalogVersion": "e3e19eb9cc136779b9fa6b1659c238b51b16415cc11576977a6351e763c85eb5",
-      "generatedAt": "2026-10-11T06:03:16.570Z",
+      "path": "catalogs/kaufland/CZ1600/0242214418ea5cb2c89c4905b60933922bd583720f9664996c79b09cba753987.json",
+      "catalogVersion": "0242214418ea5cb2c89c4905b60933922bd583720f9664996c79b09cba753987",
+      "generatedAt": "2026-10-11T22:11:04.831Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5200": {
-      "path": "catalogs/kaufland/CZ5200/37cf322e501559d6984c21e1a837a256a71f2ba1305db198b827537c8ac0ce36.json",
-      "catalogVersion": "37cf322e501559d6984c21e1a837a256a71f2ba1305db198b827537c8ac0ce36",
-      "generatedAt": "2026-10-10T12:46:28.393Z",
+      "path": "catalogs/kaufland/CZ5200/b686baa4bf941a2d52cef46974623fee5e863769ac5aa78968aae35dc7046e14.json",
+      "catalogVersion": "b686baa4bf941a2d52cef46974623fee5e863769ac5aa78968aae35dc7046e14",
+      "generatedAt": "2026-10-11T22:11:07.037Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ5900": {
-      "path": "catalogs/kaufland/CZ5900/fa3219d16562d9fc94135a2a8253f3343c2d819fd2a89031b1d5b041104afa4a.json",
-      "catalogVersion": "fa3219d16562d9fc94135a2a8253f3343c2d819fd2a89031b1d5b041104afa4a",
-      "generatedAt": "2026-10-10T12:46:29.243Z",
+      "path": "catalogs/kaufland/CZ5900/7f99f269d6e303ea1e942014b300352cf31f209d8f396b3f78bd26b353cd0c18.json",
+      "catalogVersion": "7f99f269d6e303ea1e942014b300352cf31f209d8f396b3f78bd26b353cd0c18",
+      "generatedAt": "2026-10-11T22:11:08.402Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ5010": {
-      "path": "catalogs/kaufland/CZ5010/adf11809c432a7b15ce10cceb891c0b23ce5157e868c88967a75a794fa56824a.json",
-      "catalogVersion": "adf11809c432a7b15ce10cceb891c0b23ce5157e868c88967a75a794fa56824a",
-      "generatedAt": "2026-10-11T06:03:18.023Z",
+      "path": "catalogs/kaufland/CZ5010/91a1516c223321c690af0555818aa2dcdddf7344e454999f9150e08feecbdb11.json",
+      "catalogVersion": "91a1516c223321c690af0555818aa2dcdddf7344e454999f9150e08feecbdb11",
+      "generatedAt": "2026-10-11T22:11:06.192Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3350": {
-      "path": "catalogs/kaufland/CZ3350/1cc676485ae0587f915cf001575da58fc8ec248c3ac0d9bb03ccdddba3e2460f.json",
-      "catalogVersion": "1cc676485ae0587f915cf001575da58fc8ec248c3ac0d9bb03ccdddba3e2460f",
-      "generatedAt": "2026-10-10T12:46:29.982Z",
+      "path": "catalogs/kaufland/CZ3350/ef35de2238ca541eece899c74a38d20c16353510a6f2ec9709cccef30d50043f.json",
+      "catalogVersion": "ef35de2238ca541eece899c74a38d20c16353510a6f2ec9709cccef30d50043f",
+      "generatedAt": "2026-10-11T22:11:08.582Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 589
+      "count": 564
     },
     "kaufland/CZ3600": {
-      "path": "catalogs/kaufland/CZ3600/0e83d0dcb07392c547e62d185cda092bc1e347023627aff3e53b99341c57fae2.json",
-      "catalogVersion": "0e83d0dcb07392c547e62d185cda092bc1e347023627aff3e53b99341c57fae2",
-      "generatedAt": "2026-10-10T12:46:30.436Z",
+      "path": "catalogs/kaufland/CZ3600/59e89126e27f8609eb7aca46bd8ee3093bec9be8d58ffd65173529620fa435ef.json",
+      "catalogVersion": "59e89126e27f8609eb7aca46bd8ee3093bec9be8d58ffd65173529620fa435ef",
+      "generatedAt": "2026-10-11T22:11:08.530Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ7210": {
-      "path": "catalogs/kaufland/CZ7210/5405fe849ac0d79d70f1f2040b8b5e70e1ef6b7d14d9f6e626213c2f5c2b8148.json",
-      "catalogVersion": "5405fe849ac0d79d70f1f2040b8b5e70e1ef6b7d14d9f6e626213c2f5c2b8148",
-      "generatedAt": "2026-10-10T12:46:30.815Z",
+      "path": "catalogs/kaufland/CZ7210/91fd8eb8e449e705d580670c08df9ac6d551e0b6ed2bf51cb659254b273ce536.json",
+      "catalogVersion": "91fd8eb8e449e705d580670c08df9ac6d551e0b6ed2bf51cb659254b273ce536",
+      "generatedAt": "2026-10-11T22:11:10.809Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ1700": {
-      "path": "catalogs/kaufland/CZ1700/035643b2b1f3d703a277c33735772f7c193f27bf45c2ba9d76b466bdbe3d7208.json",
-      "catalogVersion": "035643b2b1f3d703a277c33735772f7c193f27bf45c2ba9d76b466bdbe3d7208",
-      "generatedAt": "2026-10-10T12:46:30.640Z",
+      "path": "catalogs/kaufland/CZ1700/3f1b4a5623f6456b48160885ea9ce84ce1399e117ce3f52f0a50c9eba82c9f77.json",
+      "catalogVersion": "3f1b4a5623f6456b48160885ea9ce84ce1399e117ce3f52f0a50c9eba82c9f77",
+      "generatedAt": "2026-10-11T22:11:09.928Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5400": {
-      "path": "catalogs/kaufland/CZ5400/fa2e537ef296ed21b963fb2e79e3f765e1bb4a0b978289a82601a033cee9eb27.json",
-      "catalogVersion": "fa2e537ef296ed21b963fb2e79e3f765e1bb4a0b978289a82601a033cee9eb27",
-      "generatedAt": "2026-10-10T12:46:33.887Z",
+      "path": "catalogs/kaufland/CZ5400/8e20f0c0d3f21dc732d19511abac406a6cddb9266eef048f3217ab982edee270.json",
+      "catalogVersion": "8e20f0c0d3f21dc732d19511abac406a6cddb9266eef048f3217ab982edee270",
+      "generatedAt": "2026-10-11T22:11:12.970Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5610": {
-      "path": "catalogs/kaufland/CZ5610/5cb27ab95c2373b384c3f87a8402a3de4c7b0ff76d2ed544a4b1c25ff164e536.json",
-      "catalogVersion": "5cb27ab95c2373b384c3f87a8402a3de4c7b0ff76d2ed544a4b1c25ff164e536",
-      "generatedAt": "2026-10-10T12:46:31.858Z",
+      "path": "catalogs/kaufland/CZ5610/ff6ee67dcde9c2ca7baa2b6823aae878b43e96a2af2fa0532fcbdbfe70e08c8f.json",
+      "catalogVersion": "ff6ee67dcde9c2ca7baa2b6823aae878b43e96a2af2fa0532fcbdbfe70e08c8f",
+      "generatedAt": "2026-10-11T22:11:10.006Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 580
+      "count": 556
     },
     "kaufland/CZ1010": {
-      "path": "catalogs/kaufland/CZ1010/25a7daa1111f3c9d0fa3ca5dee448c3939b79ef988a6a2e6e1e4182ff45edd01.json",
-      "catalogVersion": "25a7daa1111f3c9d0fa3ca5dee448c3939b79ef988a6a2e6e1e4182ff45edd01",
-      "generatedAt": "2026-10-10T12:46:33.587Z",
+      "path": "catalogs/kaufland/CZ1010/ec617b0cd15ffe554f9348951dd8f93e6bcccdfb808b625900255e2b4eaed88c.json",
+      "catalogVersion": "ec617b0cd15ffe554f9348951dd8f93e6bcccdfb808b625900255e2b4eaed88c",
+      "generatedAt": "2026-10-11T22:11:12.243Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1000": {
-      "path": "catalogs/kaufland/CZ1000/afbe7726e1194c387b4c3da6c2909404a1a3042c5d600fd5f9ef0066ce6e2df2.json",
-      "catalogVersion": "afbe7726e1194c387b4c3da6c2909404a1a3042c5d600fd5f9ef0066ce6e2df2",
-      "generatedAt": "2026-10-10T12:46:33.819Z",
+      "path": "catalogs/kaufland/CZ1000/59aa994a462642a720f650ac44f4f16d08a4d592d0a643bcfe71be67a4c7b47d.json",
+      "catalogVersion": "59aa994a462642a720f650ac44f4f16d08a4d592d0a643bcfe71be67a4c7b47d",
+      "generatedAt": "2026-10-11T22:11:12.383Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 589
+      "count": 564
     },
     "kaufland/CZ1250": {
-      "path": "catalogs/kaufland/CZ1250/af9bad68b328efd273ade362f3f8a257c0586dc2acb702057711a66e49a70840.json",
-      "catalogVersion": "af9bad68b328efd273ade362f3f8a257c0586dc2acb702057711a66e49a70840",
-      "generatedAt": "2026-10-11T06:03:28.459Z",
+      "path": "catalogs/kaufland/CZ1250/437bde39ced6f2390a8be940ebe3cc74834fe5e099613ede4073da261af89fc9.json",
+      "catalogVersion": "437bde39ced6f2390a8be940ebe3cc74834fe5e099613ede4073da261af89fc9",
+      "generatedAt": "2026-10-11T22:11:14.377Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1300": {
-      "path": "catalogs/kaufland/CZ1300/371c641acc4da9f4f1e7bf0ff6b36ae6d29ff0990e981c004846490f584888bf.json",
-      "catalogVersion": "371c641acc4da9f4f1e7bf0ff6b36ae6d29ff0990e981c004846490f584888bf",
-      "generatedAt": "2026-10-10T12:46:36.373Z",
+      "path": "catalogs/kaufland/CZ1300/50d658bbfe4ae313b61438ac87db5c80bbedbbf428da01fb3dbba6c44a64c1aa.json",
+      "catalogVersion": "50d658bbfe4ae313b61438ac87db5c80bbedbbf428da01fb3dbba6c44a64c1aa",
+      "generatedAt": "2026-10-11T22:11:15.813Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6410": {
-      "path": "catalogs/kaufland/CZ6410/858890eadee346a97dabdc24d85384a9c6b2421615e9e80c4e1874ee3cadc71c.json",
-      "catalogVersion": "858890eadee346a97dabdc24d85384a9c6b2421615e9e80c4e1874ee3cadc71c",
-      "generatedAt": "2026-10-10T12:46:35.308Z",
+      "path": "catalogs/kaufland/CZ6410/11daae5660ed1f17a938f2e5985460564cff903d8b39f75b2638288ca504cbb6.json",
+      "catalogVersion": "11daae5660ed1f17a938f2e5985460564cff903d8b39f75b2638288ca504cbb6",
+      "generatedAt": "2026-10-11T22:11:14.314Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ7200": {
-      "path": "catalogs/kaufland/CZ7200/fa6a62e53af48dad914db2f77f7014c1b4c2235cb39b49e34a3eb08af0046b9f.json",
-      "catalogVersion": "fa6a62e53af48dad914db2f77f7014c1b4c2235cb39b49e34a3eb08af0046b9f",
-      "generatedAt": "2026-10-10T12:46:34.090Z",
+      "path": "catalogs/kaufland/CZ7200/1f2a03719a0bead3e87c135d0793266fc45aea05f41b9b144ca9245959e48576.json",
+      "catalogVersion": "1f2a03719a0bead3e87c135d0793266fc45aea05f41b9b144ca9245959e48576",
+      "generatedAt": "2026-10-11T22:11:14.421Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ1510": {
-      "path": "catalogs/kaufland/CZ1510/fcb87d4c80b39781f28e6eef29b960a612646c87426d3eddc984d222dfcd7737.json",
-      "catalogVersion": "fcb87d4c80b39781f28e6eef29b960a612646c87426d3eddc984d222dfcd7737",
-      "generatedAt": "2026-10-10T12:46:38.401Z",
+      "path": "catalogs/kaufland/CZ1510/c5bf070403551e75f7f250f19b0376fd5e10feeb2035e43bbd86015c1a5eb801.json",
+      "catalogVersion": "c5bf070403551e75f7f250f19b0376fd5e10feeb2035e43bbd86015c1a5eb801",
+      "generatedAt": "2026-10-11T22:11:17.977Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3010": {
-      "path": "catalogs/kaufland/CZ3010/ce94a2d73a849cd5584ece7ee78115e0e07de64ef3c3c01f026735ba2d5f883e.json",
-      "catalogVersion": "ce94a2d73a849cd5584ece7ee78115e0e07de64ef3c3c01f026735ba2d5f883e",
-      "generatedAt": "2026-10-11T06:03:28.978Z",
+      "path": "catalogs/kaufland/CZ3010/1516b5d5db3cbe99c011d82aeb61f57f5c1b54ecd3d2ed760ccdcd10a7275d4d.json",
+      "catalogVersion": "1516b5d5db3cbe99c011d82aeb61f57f5c1b54ecd3d2ed760ccdcd10a7275d4d",
+      "generatedAt": "2026-10-11T22:11:15.848Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2410": {
-      "path": "catalogs/kaufland/CZ2410/82f1c9cdba1718077371e2480c9a795787fa522426907ee43236d68b2955ca69.json",
-      "catalogVersion": "82f1c9cdba1718077371e2480c9a795787fa522426907ee43236d68b2955ca69",
-      "generatedAt": "2026-10-11T06:03:29.708Z",
+      "path": "catalogs/kaufland/CZ2410/88d8a978559506a0de5f3e5338b01df86f46c61d71d0c89d412523d3d50d088c.json",
+      "catalogVersion": "88d8a978559506a0de5f3e5338b01df86f46c61d71d0c89d412523d3d50d088c",
+      "generatedAt": "2026-10-11T22:11:16.653Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ2200": {
-      "path": "catalogs/kaufland/CZ2200/81edbe81439f559a24ecf27fcae951e5517786b09ea19fb4da8d2983ff582525.json",
-      "catalogVersion": "81edbe81439f559a24ecf27fcae951e5517786b09ea19fb4da8d2983ff582525",
-      "generatedAt": "2026-10-10T12:46:38.459Z",
+      "path": "catalogs/kaufland/CZ2200/94e062290f59b64c4f820bd3ed1ec049e0d7a4bbb5fcc2f4195c542d1b091e56.json",
+      "catalogVersion": "94e062290f59b64c4f820bd3ed1ec049e0d7a4bbb5fcc2f4195c542d1b091e56",
+      "generatedAt": "2026-10-11T22:11:18.029Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ3150": {
-      "path": "catalogs/kaufland/CZ3150/ab108b0e301452c877c2bdcf2757f5d02f2a7af8095a152c1e030c9516f000e6.json",
-      "catalogVersion": "ab108b0e301452c877c2bdcf2757f5d02f2a7af8095a152c1e030c9516f000e6",
-      "generatedAt": "2026-10-11T06:03:32.207Z",
+      "path": "catalogs/kaufland/CZ3150/673c21490bc462762e31ac173ba28e1a3c44ddddc18dd19b93b2807820e89725.json",
+      "catalogVersion": "673c21490bc462762e31ac173ba28e1a3c44ddddc18dd19b93b2807820e89725",
+      "generatedAt": "2026-10-11T22:11:20.302Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ5050": {
-      "path": "catalogs/kaufland/CZ5050/6866598cfbb873852539d0b7527716a7c80034d2047dd6d6bf83106be5a53a1f.json",
-      "catalogVersion": "6866598cfbb873852539d0b7527716a7c80034d2047dd6d6bf83106be5a53a1f",
-      "generatedAt": "2026-10-10T12:46:39.266Z",
+      "path": "catalogs/kaufland/CZ5050/c1abfa31eaa2ab6c2e39602d9306b8059a158962b910066cec6267e142fd4123.json",
+      "catalogVersion": "c1abfa31eaa2ab6c2e39602d9306b8059a158962b910066cec6267e142fd4123",
+      "generatedAt": "2026-10-11T22:11:18.834Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2710": {
-      "path": "catalogs/kaufland/CZ2710/a6b3a8ca2e8cbe7a0d6b7c73d810ed218b4c8cd5a6939af6c6f4873fa75dce78.json",
-      "catalogVersion": "a6b3a8ca2e8cbe7a0d6b7c73d810ed218b4c8cd5a6939af6c6f4873fa75dce78",
-      "generatedAt": "2026-10-10T12:46:39.920Z",
+      "path": "catalogs/kaufland/CZ2710/59661ba81e3697605ec208029334dd405983b2b198894f4fc26d921f30132c3d.json",
+      "catalogVersion": "59661ba81e3697605ec208029334dd405983b2b198894f4fc26d921f30132c3d",
+      "generatedAt": "2026-10-11T22:11:20.260Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ7810": {
-      "path": "catalogs/kaufland/CZ7810/73494f6f7e16d4d27e934feba97cc16d4ba055599e5dfd433fb95c76c10a8907.json",
-      "catalogVersion": "73494f6f7e16d4d27e934feba97cc16d4ba055599e5dfd433fb95c76c10a8907",
-      "generatedAt": "2026-10-10T12:46:41.487Z",
+      "path": "catalogs/kaufland/CZ7810/3466c48f0d7c59156cebaa4e902f9c850fb60febdd85463a3388288519ab550f.json",
+      "catalogVersion": "3466c48f0d7c59156cebaa4e902f9c850fb60febdd85463a3388288519ab550f",
+      "generatedAt": "2026-10-11T22:11:21.887Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ3910": {
-      "path": "catalogs/kaufland/CZ3910/9717f451d5712187c7d8332149354f656cafde88e8ca54b432cfe6cacd04b5ce.json",
-      "catalogVersion": "9717f451d5712187c7d8332149354f656cafde88e8ca54b432cfe6cacd04b5ce",
-      "generatedAt": "2026-10-10T12:46:40.085Z",
+      "path": "catalogs/kaufland/CZ3910/1556e1c99c7de4ea5c227af0c55397eca9d2970e014097c8b168e1a60a8b29f9.json",
+      "catalogVersion": "1556e1c99c7de4ea5c227af0c55397eca9d2970e014097c8b168e1a60a8b29f9",
+      "generatedAt": "2026-10-11T22:11:20.479Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 588
+      "count": 563
     },
     "kaufland/CZ2050": {
-      "path": "catalogs/kaufland/CZ2050/a647e6a3fc8f61f67ccd026ffdb0e9b2cc990c781abb1caa26abf7b5ed2c606e.json",
-      "catalogVersion": "a647e6a3fc8f61f67ccd026ffdb0e9b2cc990c781abb1caa26abf7b5ed2c606e",
-      "generatedAt": "2026-10-10T12:46:42.303Z",
+      "path": "catalogs/kaufland/CZ2050/8303166e300ae14435e8c07184ca2b6c799e85773db7d070f043d4ab912b8c24.json",
+      "catalogVersion": "8303166e300ae14435e8c07184ca2b6c799e85773db7d070f043d4ab912b8c24",
+      "generatedAt": "2026-10-11T22:11:24.041Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ3850": {
-      "path": "catalogs/kaufland/CZ3850/ce8aaf2b4388eb5d5913503ba5cef85d61574f24731603c4caa098da211ed3ab.json",
-      "catalogVersion": "ce8aaf2b4388eb5d5913503ba5cef85d61574f24731603c4caa098da211ed3ab",
-      "generatedAt": "2026-10-10T12:46:41.586Z",
+      "path": "catalogs/kaufland/CZ3850/0c19b26b1b6a63d61eb49cd7c7fbd25ef26ca1ea44eb8394daecb0f19f2cb9ed.json",
+      "catalogVersion": "0c19b26b1b6a63d61eb49cd7c7fbd25ef26ca1ea44eb8394daecb0f19f2cb9ed",
+      "generatedAt": "2026-10-11T22:11:21.847Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 591
+      "count": 566
     },
     "kaufland/CZ3550": {
-      "path": "catalogs/kaufland/CZ3550/8969379aeb6cf10ead21df36428d3b20b9204f2deb3c9fba188338db9249ef8e.json",
-      "catalogVersion": "8969379aeb6cf10ead21df36428d3b20b9204f2deb3c9fba188338db9249ef8e",
-      "generatedAt": "2026-10-10T12:46:42.098Z",
+      "path": "catalogs/kaufland/CZ3550/7ac879f41627e43163c3c3930ff8fa97bc1e06424a2e7c35977e0003cd061bab.json",
+      "catalogVersion": "7ac879f41627e43163c3c3930ff8fa97bc1e06424a2e7c35977e0003cd061bab",
+      "generatedAt": "2026-10-11T22:11:22.618Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ4500": {
-      "path": "catalogs/kaufland/CZ4500/588dd55b428c331d920d793c87ab75103f7d6fd899e2185fde92a0ac9c0d4bd6.json",
-      "catalogVersion": "588dd55b428c331d920d793c87ab75103f7d6fd899e2185fde92a0ac9c0d4bd6",
-      "generatedAt": "2026-10-10T12:46:44.763Z",
+      "path": "catalogs/kaufland/CZ4500/0375f45054cee1a2132e3f35a055346580da63e84b26120c57e968aa90db05f2.json",
+      "catalogVersion": "0375f45054cee1a2132e3f35a055346580da63e84b26120c57e968aa90db05f2",
+      "generatedAt": "2026-10-11T22:11:26.272Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 589
+      "count": 564
     },
     "kaufland/CZ2910": {
-      "path": "catalogs/kaufland/CZ2910/f2a11d35642011e6b8d12b0bec3e77c90985d577764a2c4972f176573811d3e0.json",
-      "catalogVersion": "f2a11d35642011e6b8d12b0bec3e77c90985d577764a2c4972f176573811d3e0",
-      "generatedAt": "2026-10-10T12:46:44.004Z",
+      "path": "catalogs/kaufland/CZ2910/c1ba3e07f456d2cf095a4b64003186a1ca2007d88d0b3bc893e6a01307bf55e3.json",
+      "catalogVersion": "c1ba3e07f456d2cf095a4b64003186a1ca2007d88d0b3bc893e6a01307bf55e3",
+      "generatedAt": "2026-10-11T22:11:23.958Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 589
+      "count": 564
     },
     "kaufland/CZ1810": {
-      "path": "catalogs/kaufland/CZ1810/7b260ef193176f0818d5270e36fc0dd3a10e3220ef1506bcfd06621e5703ffdd.json",
-      "catalogVersion": "7b260ef193176f0818d5270e36fc0dd3a10e3220ef1506bcfd06621e5703ffdd",
-      "generatedAt": "2026-10-10T21:55:19.929Z",
+      "path": "catalogs/kaufland/CZ1810/629070a3a7ef8e2d9c84d67fdc289c9477ab571f7185175cfe22b4a70de34eea.json",
+      "catalogVersion": "629070a3a7ef8e2d9c84d67fdc289c9477ab571f7185175cfe22b4a70de34eea",
+      "generatedAt": "2026-10-11T22:11:24.804Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5500": {
-      "path": "catalogs/kaufland/CZ5500/ee7c6f10700f2da2fea41a816309827ab04eb82e9076ad0e34ba1720c1d8e29e.json",
-      "catalogVersion": "ee7c6f10700f2da2fea41a816309827ab04eb82e9076ad0e34ba1720c1d8e29e",
-      "generatedAt": "2026-10-10T12:46:46.132Z",
+      "path": "catalogs/kaufland/CZ5500/d653688600b7fb291f8563bb991b7b8aab33dc05c3267e610cda8f4adc77fa8f.json",
+      "catalogVersion": "d653688600b7fb291f8563bb991b7b8aab33dc05c3267e610cda8f4adc77fa8f",
+      "generatedAt": "2026-10-11T22:11:26.161Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ5810": {
-      "path": "catalogs/kaufland/CZ5810/154f3adf87375bb03dc845766d0a8663c1143a85c098cceceb7415129f14ee36.json",
-      "catalogVersion": "154f3adf87375bb03dc845766d0a8663c1143a85c098cceceb7415129f14ee36",
-      "generatedAt": "2026-10-10T12:46:44.819Z",
+      "path": "catalogs/kaufland/CZ5810/c19b0d53d52b78fc70f38960e723354b142009069076849661b2c23d2bb138ed.json",
+      "catalogVersion": "c19b0d53d52b78fc70f38960e723354b142009069076849661b2c23d2bb138ed",
+      "generatedAt": "2026-10-11T22:11:26.215Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ7410": {
-      "path": "catalogs/kaufland/CZ7410/a54e207f0164a5ae691a2ab0f50d955d582c9e0a9fc1daec1a04ea12449874d0.json",
-      "catalogVersion": "a54e207f0164a5ae691a2ab0f50d955d582c9e0a9fc1daec1a04ea12449874d0",
-      "generatedAt": "2026-10-10T12:46:50.186Z",
+      "path": "catalogs/kaufland/CZ7410/37b2210659fe9744a0c8f6738ba439c195ab18a00d29c87d5f6ce60ea909e975.json",
+      "catalogVersion": "37b2210659fe9744a0c8f6738ba439c195ab18a00d29c87d5f6ce60ea909e975",
+      "generatedAt": "2026-10-11T22:11:29.182Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ1050": {
-      "path": "catalogs/kaufland/CZ1050/f64871e218c9ee8e69cbf06d7029041f607ef5db6695cd51e37bb1338e695a4d.json",
-      "catalogVersion": "f64871e218c9ee8e69cbf06d7029041f607ef5db6695cd51e37bb1338e695a4d",
-      "generatedAt": "2026-10-10T12:46:46.335Z",
+      "path": "catalogs/kaufland/CZ1050/e0a2ee04e005d9ace8d0983e6e3e29e608b4cdfa1fce7aa55f44e8d22ace5779.json",
+      "catalogVersion": "e0a2ee04e005d9ace8d0983e6e3e29e608b4cdfa1fce7aa55f44e8d22ace5779",
+      "generatedAt": "2026-10-11T22:11:27.719Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 581
+      "count": 557
     },
     "kaufland/CZ3000": {
-      "path": "catalogs/kaufland/CZ3000/dbf17c1de738e99e3fcca0fe621f0b4e6749865a73c2385e7605f7abaaec227c.json",
-      "catalogVersion": "dbf17c1de738e99e3fcca0fe621f0b4e6749865a73c2385e7605f7abaaec227c",
-      "generatedAt": "2026-10-10T12:46:48.208Z",
+      "path": "catalogs/kaufland/CZ3000/2b1ea0871e8d44900560fbd2fd32b397ff435dba1f620eeb4dff10ff7ce33f11.json",
+      "catalogVersion": "2b1ea0871e8d44900560fbd2fd32b397ff435dba1f620eeb4dff10ff7ce33f11",
+      "generatedAt": "2026-10-11T22:11:27.598Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ5000": {
-      "path": "catalogs/kaufland/CZ5000/04aef20a5923e0097c57c005062980e912d4306993c18d1e51452b0e52e5585f.json",
-      "catalogVersion": "04aef20a5923e0097c57c005062980e912d4306993c18d1e51452b0e52e5585f",
-      "generatedAt": "2026-10-11T06:03:41.956Z",
+      "path": "catalogs/kaufland/CZ5000/b9dc32d5f6a852808ae22c4360c47e83fa7c70ca2898d8b0441131b8d1607b15.json",
+      "catalogVersion": "b9dc32d5f6a852808ae22c4360c47e83fa7c70ca2898d8b0441131b8d1607b15",
+      "generatedAt": "2026-10-11T22:11:30.902Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5100": {
-      "path": "catalogs/kaufland/CZ5100/dd3d28fc7aba577a2c7fcc488c5a9d7e303a35dbffb6abb84da067b9baebbba3.json",
-      "catalogVersion": "dd3d28fc7aba577a2c7fcc488c5a9d7e303a35dbffb6abb84da067b9baebbba3",
-      "generatedAt": "2026-10-10T12:46:49.597Z",
+      "path": "catalogs/kaufland/CZ5100/7bd8399546905231e83c7a5b576e34867a6130c9037efed3a21772455254320d.json",
+      "catalogVersion": "7bd8399546905231e83c7a5b576e34867a6130c9037efed3a21772455254320d",
+      "generatedAt": "2026-10-11T22:11:29.496Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ2550": {
-      "path": "catalogs/kaufland/CZ2550/e8d9a3a6367e72712dac046c1de73e48979a9225dd65ba7a4fd50d7f43d9f1e9.json",
-      "catalogVersion": "e8d9a3a6367e72712dac046c1de73e48979a9225dd65ba7a4fd50d7f43d9f1e9",
-      "generatedAt": "2026-10-10T12:46:50.240Z",
+      "path": "catalogs/kaufland/CZ2550/d015f0ca227d434a294d94bec1c667351286ecca9c764b3397ae8fc1a5a6f323.json",
+      "catalogVersion": "d015f0ca227d434a294d94bec1c667351286ecca9c764b3397ae8fc1a5a6f323",
+      "generatedAt": "2026-10-11T22:11:29.363Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ3750": {
-      "path": "catalogs/kaufland/CZ3750/75e7a19b1d91152ec01cfe1333f87f345a0ef12bad5d3ed77cab15d952a7c0fb.json",
-      "catalogVersion": "75e7a19b1d91152ec01cfe1333f87f345a0ef12bad5d3ed77cab15d952a7c0fb",
-      "generatedAt": "2026-10-11T06:03:42.025Z",
+      "path": "catalogs/kaufland/CZ3750/9b6069c227ca78dd2e01a7c4f6cfcd52e4e215cfeb68465b10f7193e03a4367a.json",
+      "catalogVersion": "9b6069c227ca78dd2e01a7c4f6cfcd52e4e215cfeb68465b10f7193e03a4367a",
+      "generatedAt": "2026-10-11T22:11:30.945Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 582
+      "count": 558
     },
     "kaufland/CZ6710": {
-      "path": "catalogs/kaufland/CZ6710/21c767f82fb8421183dbe5e96f9b848c51cf3449c1b3d4188f1ff03108f7d37e.json",
-      "catalogVersion": "21c767f82fb8421183dbe5e96f9b848c51cf3449c1b3d4188f1ff03108f7d37e",
-      "generatedAt": "2026-10-10T12:46:54.116Z",
+      "path": "catalogs/kaufland/CZ6710/842818715a14e15304c0e01f83d6a0a19b6b9bd26ad032f80d323c50179b9564.json",
+      "catalogVersion": "842818715a14e15304c0e01f83d6a0a19b6b9bd26ad032f80d323c50179b9564",
+      "generatedAt": "2026-10-11T22:11:32.400Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ4110": {
-      "path": "catalogs/kaufland/CZ4110/216fbbc9ce409e947dabfaaf4f2fe79fbc2a26cbee821265d786ac899b28a915.json",
-      "catalogVersion": "216fbbc9ce409e947dabfaaf4f2fe79fbc2a26cbee821265d786ac899b28a915",
-      "generatedAt": "2026-10-10T12:46:51.811Z",
+      "path": "catalogs/kaufland/CZ4110/c665986c919b4d400cb2440875f2e492e6fdb269c267c2c02ef7a540d6fc2d1b.json",
+      "catalogVersion": "c665986c919b4d400cb2440875f2e492e6fdb269c267c2c02ef7a540d6fc2d1b",
+      "generatedAt": "2026-10-11T22:11:30.996Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ7610": {
-      "path": "catalogs/kaufland/CZ7610/4a0241dd07d9a786ca08f9c6a992ddee628c236a0e526ba73f274d354bebdc45.json",
-      "catalogVersion": "4a0241dd07d9a786ca08f9c6a992ddee628c236a0e526ba73f274d354bebdc45",
-      "generatedAt": "2026-10-10T12:46:52.979Z",
+      "path": "catalogs/kaufland/CZ7610/8764adda17c7fa8ad5e44c66c204397f221d1be1ce91a8322207f323bccccf67.json",
+      "catalogVersion": "8764adda17c7fa8ad5e44c66c204397f221d1be1ce91a8322207f323bccccf67",
+      "generatedAt": "2026-10-11T22:11:32.271Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ4210": {
-      "path": "catalogs/kaufland/CZ4210/a16e8a80a3c867000a4a96dd223b35645f1e01af729da852ff22f422e5efb3d2.json",
-      "catalogVersion": "a16e8a80a3c867000a4a96dd223b35645f1e01af729da852ff22f422e5efb3d2",
-      "generatedAt": "2026-10-11T06:03:46.055Z",
+      "path": "catalogs/kaufland/CZ4210/64f3140010584e446a4d49ab9b78177440420b52c12066556ad8cdaada69c3b9.json",
+      "catalogVersion": "64f3140010584e446a4d49ab9b78177440420b52c12066556ad8cdaada69c3b9",
+      "generatedAt": "2026-10-11T22:11:32.630Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4510": {
-      "path": "catalogs/kaufland/CZ4510/a53f4486bdd30c98c33237bb0dd5c91722d41b48ded76c6e312cc424a54798da.json",
-      "catalogVersion": "a53f4486bdd30c98c33237bb0dd5c91722d41b48ded76c6e312cc424a54798da",
-      "generatedAt": "2026-10-10T12:46:53.044Z",
+      "path": "catalogs/kaufland/CZ4510/cbbcb17a21772f7b9b306d11e9ed4eb5d6980ad3455957c6939a922612400dc3.json",
+      "catalogVersion": "cbbcb17a21772f7b9b306d11e9ed4eb5d6980ad3455957c6939a922612400dc3",
+      "generatedAt": "2026-10-11T22:11:32.352Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ3610": {
-      "path": "catalogs/kaufland/CZ3610/f346c2e3fc761b8de0e6ea18f09cd9fe551551bda5a37aaf5693dd9f9c929912.json",
-      "catalogVersion": "f346c2e3fc761b8de0e6ea18f09cd9fe551551bda5a37aaf5693dd9f9c929912",
-      "generatedAt": "2026-10-10T12:46:57.726Z",
+      "path": "catalogs/kaufland/CZ3610/702e07d0b831519ec2d401395debffca828297756d6755fff3c18b6bccc9112f.json",
+      "catalogVersion": "702e07d0b831519ec2d401395debffca828297756d6755fff3c18b6bccc9112f",
+      "generatedAt": "2026-10-11T22:11:35.413Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4150": {
-      "path": "catalogs/kaufland/CZ4150/a8b08728bc13c170b0781b870a3684f0b8c98485e44a3b5ee108973ba6de9c4a.json",
-      "catalogVersion": "a8b08728bc13c170b0781b870a3684f0b8c98485e44a3b5ee108973ba6de9c4a",
-      "generatedAt": "2026-10-10T12:46:54.911Z",
+      "path": "catalogs/kaufland/CZ4150/616daac9b8e712f15f77a259bf7134fe17876c59e92c9340e442b6841e219b1d.json",
+      "catalogVersion": "616daac9b8e712f15f77a259bf7134fe17876c59e92c9340e442b6841e219b1d",
+      "generatedAt": "2026-10-11T22:11:33.704Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2600": {
-      "path": "catalogs/kaufland/CZ2600/b9cfa28bb4e048427b6ef3faa89361577acf17bc4f5df527d3ae2be873bedbba.json",
-      "catalogVersion": "b9cfa28bb4e048427b6ef3faa89361577acf17bc4f5df527d3ae2be873bedbba",
-      "generatedAt": "2026-10-11T06:03:44.927Z",
+      "path": "catalogs/kaufland/CZ2600/6b7ecd23a33b9a7bf447adfe5cff8f6726da6187767abb3a781994f58c90a32c.json",
+      "catalogVersion": "6b7ecd23a33b9a7bf447adfe5cff8f6726da6187767abb3a781994f58c90a32c",
+      "generatedAt": "2026-10-11T22:11:33.913Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2400": {
-      "path": "catalogs/kaufland/CZ2400/c13b275be04d37591119d536ddaed7c00688ba4481e45a8f82cc7d489f60b872.json",
-      "catalogVersion": "c13b275be04d37591119d536ddaed7c00688ba4481e45a8f82cc7d489f60b872",
-      "generatedAt": "2026-10-10T12:46:58.335Z",
+      "path": "catalogs/kaufland/CZ2400/64f87a737e368b9691c1ea719f5949ca9823e7a52c1f9b7f2a284a41f90464a3.json",
+      "catalogVersion": "64f87a737e368b9691c1ea719f5949ca9823e7a52c1f9b7f2a284a41f90464a3",
+      "generatedAt": "2026-10-11T22:11:35.369Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3400": {
-      "path": "catalogs/kaufland/CZ3400/21cc438793657c26e8d58a38eac12aac07f79f9db12516ce8e4347707aab737d.json",
-      "catalogVersion": "21cc438793657c26e8d58a38eac12aac07f79f9db12516ce8e4347707aab737d",
-      "generatedAt": "2026-10-11T06:03:48.029Z",
+      "path": "catalogs/kaufland/CZ3400/45cc78d0fe48d1e1ea245956b523fdb275629c8aaaf2537ade3de33c4d3bc24a.json",
+      "catalogVersion": "45cc78d0fe48d1e1ea245956b523fdb275629c8aaaf2537ade3de33c4d3bc24a",
+      "generatedAt": "2026-10-11T22:11:36.789Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3650": {
-      "path": "catalogs/kaufland/CZ3650/2afd84d6f02ffdcb4e009670f246e368ad32af52e6333086f7b1a1b62c8f4571.json",
-      "catalogVersion": "2afd84d6f02ffdcb4e009670f246e368ad32af52e6333086f7b1a1b62c8f4571",
-      "generatedAt": "2026-10-11T06:03:47.787Z",
+      "path": "catalogs/kaufland/CZ3650/33e56a1de22040783176f3e102c3dc87b3aacce3ee1f32395627cf6c65f93709.json",
+      "catalogVersion": "33e56a1de22040783176f3e102c3dc87b3aacce3ee1f32395627cf6c65f93709",
+      "generatedAt": "2026-10-11T22:11:35.317Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2450": {
-      "path": "catalogs/kaufland/CZ2450/da99b61b10ebe5efef3dd86d338b6158bcfe4f6921f4f7a438da55d4a11016af.json",
-      "catalogVersion": "da99b61b10ebe5efef3dd86d338b6158bcfe4f6921f4f7a438da55d4a11016af",
-      "generatedAt": "2026-10-11T06:03:49.304Z",
+      "path": "catalogs/kaufland/CZ2450/51f7df50551c8d54edce107b2d21ee2c1ff39616247a895feb67254b35e2c136.json",
+      "catalogVersion": "51f7df50551c8d54edce107b2d21ee2c1ff39616247a895feb67254b35e2c136",
+      "generatedAt": "2026-10-11T22:11:36.916Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ2700": {
-      "path": "catalogs/kaufland/CZ2700/42ff598df0897c9cba9ca8afd4a3aa8f5c1be2600fffdf1c05a364911ac2312a.json",
-      "catalogVersion": "42ff598df0897c9cba9ca8afd4a3aa8f5c1be2600fffdf1c05a364911ac2312a",
-      "generatedAt": "2026-10-11T06:03:49.575Z",
+      "path": "catalogs/kaufland/CZ2700/c4e8f85ab775ed2254959e7922ddf96ef5737e032c4cf9cb2536e6f9e564f7f3.json",
+      "catalogVersion": "c4e8f85ab775ed2254959e7922ddf96ef5737e032c4cf9cb2536e6f9e564f7f3",
+      "generatedAt": "2026-10-11T22:11:36.861Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 582
+      "count": 558
     },
     "kaufland/CZ4400": {
-      "path": "catalogs/kaufland/CZ4400/c0fcc41010c0fae7847020a65be5e8cc0422bef0e18fd7c9d447668a0c9bc121.json",
-      "catalogVersion": "c0fcc41010c0fae7847020a65be5e8cc0422bef0e18fd7c9d447668a0c9bc121",
-      "generatedAt": "2026-10-11T06:03:49.830Z",
+      "path": "catalogs/kaufland/CZ4400/60b36b18b81f3ac345aff8d6cfdad1be4b08d72a33c1724aa3014b3964b26703.json",
+      "catalogVersion": "60b36b18b81f3ac345aff8d6cfdad1be4b08d72a33c1724aa3014b3964b26703",
+      "generatedAt": "2026-10-11T22:11:38.336Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1450": {
-      "path": "catalogs/kaufland/CZ1450/7ba8639d6a0a8189aa0d187e2eeb6abc846b2ecd8161a53bd9e05072c563f835.json",
-      "catalogVersion": "7ba8639d6a0a8189aa0d187e2eeb6abc846b2ecd8161a53bd9e05072c563f835",
-      "generatedAt": "2026-10-10T12:47:02.520Z",
+      "path": "catalogs/kaufland/CZ1450/cbcf7d99486136a0bf1263d214d2a33665bd92fbefba0a394b209ae6b4bcbf1c.json",
+      "catalogVersion": "cbcf7d99486136a0bf1263d214d2a33665bd92fbefba0a394b209ae6b4bcbf1c",
+      "generatedAt": "2026-10-11T22:11:39.931Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ2250": {
-      "path": "catalogs/kaufland/CZ2250/06f7cfa53177aa71e85b56a880148c644bdeaeac1f9c0d4de0defb149865d69d.json",
-      "catalogVersion": "06f7cfa53177aa71e85b56a880148c644bdeaeac1f9c0d4de0defb149865d69d",
-      "generatedAt": "2026-10-10T12:47:01.677Z",
+      "path": "catalogs/kaufland/CZ2250/a2814e8dc1645b4a685bc3d7b475f4d24ccad4969ca48b4da692ac8c4f1dcf03.json",
+      "catalogVersion": "a2814e8dc1645b4a685bc3d7b475f4d24ccad4969ca48b4da692ac8c4f1dcf03",
+      "generatedAt": "2026-10-11T22:11:38.285Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4100": {
-      "path": "catalogs/kaufland/CZ4100/27c0e9b47a7a37ebe29117bc1fec11b0e0faff0c1e9dcea095f13d0006d3f68f.json",
-      "catalogVersion": "27c0e9b47a7a37ebe29117bc1fec11b0e0faff0c1e9dcea095f13d0006d3f68f",
-      "generatedAt": "2026-10-10T12:47:00.574Z",
+      "path": "catalogs/kaufland/CZ4100/87cf9165621dcc96e429c51f90e0af334a21aa3c7a4987a60653420ddbe7d72e.json",
+      "catalogVersion": "87cf9165621dcc96e429c51f90e0af334a21aa3c7a4987a60653420ddbe7d72e",
+      "generatedAt": "2026-10-11T22:11:38.572Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 580
+      "count": 556
     },
     "kaufland/CZ4650": {
-      "path": "catalogs/kaufland/CZ4650/e201beb7d76502581c41477fa98d59f7ed91bf01da7f4e01cf92fee4f5853c2a.json",
-      "catalogVersion": "e201beb7d76502581c41477fa98d59f7ed91bf01da7f4e01cf92fee4f5853c2a",
-      "generatedAt": "2026-10-11T06:03:52.447Z",
+      "path": "catalogs/kaufland/CZ4650/2089c81a29e584d5647aa5ddfbdb92d18fa006a9e9a654cba3036e511ca01bb5.json",
+      "catalogVersion": "2089c81a29e584d5647aa5ddfbdb92d18fa006a9e9a654cba3036e511ca01bb5",
+      "generatedAt": "2026-10-11T22:11:40.062Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2350": {
-      "path": "catalogs/kaufland/CZ2350/e1a930aa26b332f5a49e1e83cc848838db059d44769f74abb0afc551b14e9875.json",
-      "catalogVersion": "e1a930aa26b332f5a49e1e83cc848838db059d44769f74abb0afc551b14e9875",
-      "generatedAt": "2026-10-10T12:47:02.453Z",
+      "path": "catalogs/kaufland/CZ2350/f9e8878ff3c7f46420db566d3a2327efbf0a5f0fc6945a4fca6d88053abad9e2.json",
+      "catalogVersion": "f9e8878ff3c7f46420db566d3a2327efbf0a5f0fc6945a4fca6d88053abad9e2",
+      "generatedAt": "2026-10-11T22:11:40.018Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2010": {
-      "path": "catalogs/kaufland/CZ2010/7d7fef5d55200da2c5f32274c8ce7f31314763545c0776d512647786d355b001.json",
-      "catalogVersion": "7d7fef5d55200da2c5f32274c8ce7f31314763545c0776d512647786d355b001",
-      "generatedAt": "2026-10-10T12:47:04.569Z",
+      "path": "catalogs/kaufland/CZ2010/89cad08c20117c20b821dc3e9ddee1906469bb578d4dd8a2ab7279966faad59f.json",
+      "catalogVersion": "89cad08c20117c20b821dc3e9ddee1906469bb578d4dd8a2ab7279966faad59f",
+      "generatedAt": "2026-10-11T22:11:41.443Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ2900": {
-      "path": "catalogs/kaufland/CZ2900/c179dc2c63ce867a77af6c679d8d4d1fce7a6d0fa4aa8f4dc230e1c5098f8ebf.json",
-      "catalogVersion": "c179dc2c63ce867a77af6c679d8d4d1fce7a6d0fa4aa8f4dc230e1c5098f8ebf",
-      "generatedAt": "2026-10-10T12:47:03.283Z",
+      "path": "catalogs/kaufland/CZ2900/e49e71b21fb2bc19a8386754decfe98f6b35de0de8073cc4f05853317e6a604b.json",
+      "catalogVersion": "e49e71b21fb2bc19a8386754decfe98f6b35de0de8073cc4f05853317e6a604b",
+      "generatedAt": "2026-10-11T22:11:41.484Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 582
+      "count": 558
     },
     "kaufland/CZ6510": {
-      "path": "catalogs/kaufland/CZ6510/0138d1716b225e8f63b62c09ecdfe704e03f419ea2e9383cda9e01264eee5cd4.json",
-      "catalogVersion": "0138d1716b225e8f63b62c09ecdfe704e03f419ea2e9383cda9e01264eee5cd4",
-      "generatedAt": "2026-10-10T12:47:06.494Z",
+      "path": "catalogs/kaufland/CZ6510/ded5eb7ed636e081034c084cf0e5abc4c7df52cd98cbd1a766a518619ba6fbf8.json",
+      "catalogVersion": "ded5eb7ed636e081034c084cf0e5abc4c7df52cd98cbd1a766a518619ba6fbf8",
+      "generatedAt": "2026-10-11T22:11:43.026Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ4610": {
-      "path": "catalogs/kaufland/CZ4610/67995687a7a582949bcda3720ad8518e9184ca599ff5e03eed3840103c752556.json",
-      "catalogVersion": "67995687a7a582949bcda3720ad8518e9184ca599ff5e03eed3840103c752556",
-      "generatedAt": "2026-10-10T12:47:04.472Z",
+      "path": "catalogs/kaufland/CZ4610/42f148fef357fc2d4b7d39f1c4b31354c76007daec7670907cc569580b1e437f.json",
+      "catalogVersion": "42f148fef357fc2d4b7d39f1c4b31354c76007daec7670907cc569580b1e437f",
+      "generatedAt": "2026-10-11T22:11:41.588Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ7600": {
-      "path": "catalogs/kaufland/CZ7600/8ae3410e2a7b1d907a014d82ade3089a7a6195942c2e6b891ca1fd7df84540d4.json",
-      "catalogVersion": "8ae3410e2a7b1d907a014d82ade3089a7a6195942c2e6b891ca1fd7df84540d4",
-      "generatedAt": "2026-10-10T12:47:06.415Z",
+      "path": "catalogs/kaufland/CZ7600/5f11a959f93e5c051443cf4b775b67bf9faf6e2013481d52eaf4e6b4daa76dee.json",
+      "catalogVersion": "5f11a959f93e5c051443cf4b775b67bf9faf6e2013481d52eaf4e6b4daa76dee",
+      "generatedAt": "2026-10-11T22:11:42.985Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ7500": {
-      "path": "catalogs/kaufland/CZ7500/bfb92b181c1dd629afa06bbfaa053a18d9239da9456a127bbc6d05d2d1e49094.json",
-      "catalogVersion": "bfb92b181c1dd629afa06bbfaa053a18d9239da9456a127bbc6d05d2d1e49094",
-      "generatedAt": "2026-10-11T06:03:58.185Z",
+      "path": "catalogs/kaufland/CZ7500/42ed4b0b3e8318f12a0663e7dde085ffc1e4f41cdbf14ec9d89708b9e18491bf.json",
+      "catalogVersion": "42ed4b0b3e8318f12a0663e7dde085ffc1e4f41cdbf14ec9d89708b9e18491bf",
+      "generatedAt": "2026-10-11T22:11:45.192Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1750": {
-      "path": "catalogs/kaufland/CZ1750/38e84e17d23dd22c75ef949f5f4fbc1edb4952bfcec9425d9aef7021492b6d1c.json",
-      "catalogVersion": "38e84e17d23dd22c75ef949f5f4fbc1edb4952bfcec9425d9aef7021492b6d1c",
-      "generatedAt": "2026-10-11T06:03:55.715Z",
+      "path": "catalogs/kaufland/CZ1750/e54c3c590242ed19ca14c445f9d1956969c530b0ba9d21640ecaf637ef14284f.json",
+      "catalogVersion": "e54c3c590242ed19ca14c445f9d1956969c530b0ba9d21640ecaf637ef14284f",
+      "generatedAt": "2026-10-11T22:11:41.814Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6910": {
-      "path": "catalogs/kaufland/CZ6910/2b806dc0625b7aa7f19bdc7d79eb9d0027e3a38310165f6a120bd9ab87979719.json",
-      "catalogVersion": "2b806dc0625b7aa7f19bdc7d79eb9d0027e3a38310165f6a120bd9ab87979719",
-      "generatedAt": "2026-10-11T06:03:55.957Z",
+      "path": "catalogs/kaufland/CZ6910/438b2a03f8b02ea0de81aa1ec9c989788c26a1da2aed69651b2a153f28bb9316.json",
+      "catalogVersion": "438b2a03f8b02ea0de81aa1ec9c989788c26a1da2aed69651b2a153f28bb9316",
+      "generatedAt": "2026-10-11T22:11:44.404Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ5850": {
-      "path": "catalogs/kaufland/CZ5850/7e550d2ec74831247cf5607c18a44b5af3983078a993a73d48304d9867fb3587.json",
-      "catalogVersion": "7e550d2ec74831247cf5607c18a44b5af3983078a993a73d48304d9867fb3587",
-      "generatedAt": "2026-10-10T12:47:09.061Z",
+      "path": "catalogs/kaufland/CZ5850/1adb69ef1526569abf73e7a3563213960017ef04819ae78df0843e119713af54.json",
+      "catalogVersion": "1adb69ef1526569abf73e7a3563213960017ef04819ae78df0843e119713af54",
+      "generatedAt": "2026-10-11T22:11:44.333Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ1550": {
-      "path": "catalogs/kaufland/CZ1550/9183aa06a9bf59c3cde535619e10a7f3bf49e938ff0bda7da0bfc3f735ae7c76.json",
-      "catalogVersion": "9183aa06a9bf59c3cde535619e10a7f3bf49e938ff0bda7da0bfc3f735ae7c76",
-      "generatedAt": "2026-10-10T12:47:10.503Z",
+      "path": "catalogs/kaufland/CZ1550/c33946872d6ae1fd94281bfdfd401be07378ecfc73971e7087bb72a4161b6426.json",
+      "catalogVersion": "c33946872d6ae1fd94281bfdfd401be07378ecfc73971e7087bb72a4161b6426",
+      "generatedAt": "2026-10-11T22:11:46.597Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ4900": {
-      "path": "catalogs/kaufland/CZ4900/fec8eac0c3a15226ee7ebb9e3f91862fe6917e463f8c2bb30400f4ec54c17c6e.json",
-      "catalogVersion": "fec8eac0c3a15226ee7ebb9e3f91862fe6917e463f8c2bb30400f4ec54c17c6e",
-      "generatedAt": "2026-10-10T12:47:11.022Z",
+      "path": "catalogs/kaufland/CZ4900/9ec091a054a4161927725d7fe0f1ea77c37efb0b4aaf9fb1ad0fa4e2508b840e.json",
+      "catalogVersion": "9ec091a054a4161927725d7fe0f1ea77c37efb0b4aaf9fb1ad0fa4e2508b840e",
+      "generatedAt": "2026-10-11T22:11:46.637Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ5210": {
-      "path": "catalogs/kaufland/CZ5210/d019fb6baef0a9692d0cb3a4ac3ac69fd69126bee689d827c3355c2b3ae2a7a7.json",
-      "catalogVersion": "d019fb6baef0a9692d0cb3a4ac3ac69fd69126bee689d827c3355c2b3ae2a7a7",
-      "generatedAt": "2026-10-10T12:47:10.437Z",
+      "path": "catalogs/kaufland/CZ5210/577cbb6af6344f3aee7b1db3a81f888b0a701d23e506e1b012aac32873419295.json",
+      "catalogVersion": "577cbb6af6344f3aee7b1db3a81f888b0a701d23e506e1b012aac32873419295",
+      "generatedAt": "2026-10-11T22:11:46.531Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 585
+      "count": 561
     },
     "kaufland/CZ6210": {
-      "path": "catalogs/kaufland/CZ6210/aa92cfc7f56dad8f9f6d69f756a2872fe1b96972efb102bad482f0b46fdd5f02.json",
-      "catalogVersion": "aa92cfc7f56dad8f9f6d69f756a2872fe1b96972efb102bad482f0b46fdd5f02",
-      "generatedAt": "2026-10-11T06:04:00.072Z",
+      "path": "catalogs/kaufland/CZ6210/07ba59383189833e396159fe14d440472359d95359b4d5fdde4fd6b8e7438a74.json",
+      "catalogVersion": "07ba59383189833e396159fe14d440472359d95359b4d5fdde4fd6b8e7438a74",
+      "generatedAt": "2026-10-11T22:11:47.980Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ2000": {
-      "path": "catalogs/kaufland/CZ2000/2cebc15ee5ec29e5d137e137a8a0a6ee1ff058fe93a418aae0aaf37ab8553b7e.json",
-      "catalogVersion": "2cebc15ee5ec29e5d137e137a8a0a6ee1ff058fe93a418aae0aaf37ab8553b7e",
-      "generatedAt": "2026-10-10T12:47:12.434Z",
+      "path": "catalogs/kaufland/CZ2000/61b86232fccc763d9cb1174337d6da10232713ad106a1e0adb212a89d3d559b5.json",
+      "catalogVersion": "61b86232fccc763d9cb1174337d6da10232713ad106a1e0adb212a89d3d559b5",
+      "generatedAt": "2026-10-11T22:11:48.246Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 588
+      "count": 563
     },
     "kaufland/CZ2510": {
-      "path": "catalogs/kaufland/CZ2510/ec5ab206bd30742e4e7ce6a3cf3a5912cca3b1266911405cce053679ceae0ec3.json",
-      "catalogVersion": "ec5ab206bd30742e4e7ce6a3cf3a5912cca3b1266911405cce053679ceae0ec3",
-      "generatedAt": "2026-10-10T12:47:12.938Z",
+      "path": "catalogs/kaufland/CZ2510/8638c41151a76480c981be742801ac06c5675412bbed91ad5cd8ec78a1999fad.json",
+      "catalogVersion": "8638c41151a76480c981be742801ac06c5675412bbed91ad5cd8ec78a1999fad",
+      "generatedAt": "2026-10-11T22:11:48.039Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ2800": {
-      "path": "catalogs/kaufland/CZ2800/7ea0a1e142358d05ecf3e7efb5a61e89134c86b862c8138c26785f2805bf948d.json",
-      "catalogVersion": "7ea0a1e142358d05ecf3e7efb5a61e89134c86b862c8138c26785f2805bf948d",
-      "generatedAt": "2026-10-10T12:47:13.796Z",
+      "path": "catalogs/kaufland/CZ2800/f8898b76605e60ba37fc2b5d7736cbc939a859d4df96eca3ca20f49d1ee92417.json",
+      "catalogVersion": "f8898b76605e60ba37fc2b5d7736cbc939a859d4df96eca3ca20f49d1ee92417",
+      "generatedAt": "2026-10-11T22:11:49.716Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 583
+      "count": 559
     },
     "kaufland/CZ2810": {
-      "path": "catalogs/kaufland/CZ2810/cab670afbefa62f0f04613d822a26f8701067ecc5c0a309f6eb2452e9e5a227a.json",
-      "catalogVersion": "cab670afbefa62f0f04613d822a26f8701067ecc5c0a309f6eb2452e9e5a227a",
-      "generatedAt": "2026-10-10T12:47:14.440Z",
+      "path": "catalogs/kaufland/CZ2810/4d57ba8490f46ff02b11c9d30ae7cb0ff23c96e8dffef59463f7dee39ed22200.json",
+      "catalogVersion": "4d57ba8490f46ff02b11c9d30ae7cb0ff23c96e8dffef59463f7dee39ed22200",
+      "generatedAt": "2026-10-11T22:11:49.666Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ3510": {
-      "path": "catalogs/kaufland/CZ3510/3f1aa6e9347f172fa45b5e13fd32557f44deccc5e329d8bcdc444fcc95fbc422.json",
-      "catalogVersion": "3f1aa6e9347f172fa45b5e13fd32557f44deccc5e329d8bcdc444fcc95fbc422",
-      "generatedAt": "2026-10-11T06:04:02.995Z",
+      "path": "catalogs/kaufland/CZ3510/5d9ba941902e1ec5231fadba885b33d782926a06fe5b190708eed1bdf45ff95a.json",
+      "catalogVersion": "5d9ba941902e1ec5231fadba885b33d782926a06fe5b190708eed1bdf45ff95a",
+      "generatedAt": "2026-10-11T22:11:49.614Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "kaufland/CZ6000": {
-      "path": "catalogs/kaufland/CZ6000/0851efc8824d39f89598e2dda7e326de47a0488167dd03a24c46ea97b301af07.json",
-      "catalogVersion": "0851efc8824d39f89598e2dda7e326de47a0488167dd03a24c46ea97b301af07",
-      "generatedAt": "2026-10-10T12:47:17.040Z",
+      "path": "catalogs/kaufland/CZ6000/ea749cf8c9a80ee8a92b0dcfb1827e6e849402311354f741b690071bb572a2cb.json",
+      "catalogVersion": "ea749cf8c9a80ee8a92b0dcfb1827e6e849402311354f741b690071bb572a2cb",
+      "generatedAt": "2026-10-11T22:11:51.130Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
-      "count": 584
+      "count": 560
     },
     "globus/praha-sterboholy": {
       "path": "catalogs/globus/praha-sterboholy/06c5e46b04ef4ef34f8abfdf947053d72d1ca8c983dc10466b09f324a4a0e7f1.json",
@@ -1250,12 +1250,12 @@
       "count": 727
     },
     "globus/praha-cakovice": {
-      "path": "catalogs/globus/praha-cakovice/ad070d20c2153a81312049d3268a3501621035f15f1b2b4a825a7d453104c7c0.json",
-      "catalogVersion": "ad070d20c2153a81312049d3268a3501621035f15f1b2b4a825a7d453104c7c0",
-      "generatedAt": "2026-10-11T13:10:28.293Z",
+      "path": "catalogs/globus/praha-cakovice/d81cb9291b4ae11db05d8cd5ce896a18b6c36e4b2c9a7e3959975a9f5e1a7ee6.json",
+      "catalogVersion": "d81cb9291b4ae11db05d8cd5ce896a18b6c36e4b2c9a7e3959975a9f5e1a7ee6",
+      "generatedAt": "2026-10-11T06:05:17.978Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 798
+      "count": 797
     },
     "globus/ceske-budejovice": {
       "path": "catalogs/globus/ceske-budejovice/7ba075e92e93114ab63c1db808f6903d22693e6b3f79bb92400543993d9b762c.json",
@@ -1266,20 +1266,20 @@
       "count": 785
     },
     "globus/praha-zlicin": {
-      "path": "catalogs/globus/praha-zlicin/5104634c930c779f4aa0e61e9be40915e1a328164232dfedb6019553de7f93d6.json",
-      "catalogVersion": "5104634c930c779f4aa0e61e9be40915e1a328164232dfedb6019553de7f93d6",
-      "generatedAt": "2026-10-11T13:11:03.450Z",
+      "path": "catalogs/globus/praha-zlicin/6eea14b35336c5e701170766e90d73af0165302dbecf02d7ed6f4637e0b7dc6e.json",
+      "catalogVersion": "6eea14b35336c5e701170766e90d73af0165302dbecf02d7ed6f4637e0b7dc6e",
+      "generatedAt": "2026-10-10T00:52:50.783Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 790
+      "count": 789
     },
     "globus/chotikov": {
-      "path": "catalogs/globus/chotikov/0134552feadb63e26e22d5b018804c54ab0d4118dedbe0e1b6eba3ae7c6721cb.json",
-      "catalogVersion": "0134552feadb63e26e22d5b018804c54ab0d4118dedbe0e1b6eba3ae7c6721cb",
-      "generatedAt": "2026-10-11T13:11:54.838Z",
+      "path": "catalogs/globus/chotikov/7e2425b1f40113796149aea2a3b10b451aba79a0d5de9e539e243008df4ba02a.json",
+      "catalogVersion": "7e2425b1f40113796149aea2a3b10b451aba79a0d5de9e539e243008df4ba02a",
+      "generatedAt": "2026-10-11T06:08:08.433Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 798
+      "count": 797
     },
     "globus/havirov": {
       "path": "catalogs/globus/havirov/4c45ba63850f208c9ed24fa3d974f3ca8fca56b44343f7b0529293dd011dabca.json",
@@ -1298,9 +1298,9 @@
       "count": 790
     },
     "globus/liberec": {
-      "path": "catalogs/globus/liberec/0f1acb9d01287156d060bcbb6331315a7bbe182ab24ff684ed699a870433f9c5.json",
-      "catalogVersion": "0f1acb9d01287156d060bcbb6331315a7bbe182ab24ff684ed699a870433f9c5",
-      "generatedAt": "2026-10-11T06:08:55.520Z",
+      "path": "catalogs/globus/liberec/abf66725ff8550167f7d1879e29fecb59136ec93a267a457bb8f8d998e2b05c6.json",
+      "catalogVersion": "abf66725ff8550167f7d1879e29fecb59136ec93a267a457bb8f8d998e2b05c6",
+      "generatedAt": "2026-10-11T22:14:00.316Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
       "count": 786
@@ -1314,12 +1314,12 @@
       "count": 789
     },
     "globus/jenisov": {
-      "path": "catalogs/globus/jenisov/5af5d5484a87bb3b722bc274bea9608ff6012e5cb10dcd2cd912bf2fa1a1a868.json",
-      "catalogVersion": "5af5d5484a87bb3b722bc274bea9608ff6012e5cb10dcd2cd912bf2fa1a1a868",
-      "generatedAt": "2026-10-11T13:12:47.052Z",
+      "path": "catalogs/globus/jenisov/29060bf99673eacb7c3caf9fe6712ae40aba59c2143d910277206138dbeb45e0.json",
+      "catalogVersion": "29060bf99673eacb7c3caf9fe6712ae40aba59c2143d910277206138dbeb45e0",
+      "generatedAt": "2026-10-11T06:08:43.480Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-15",
-      "count": 798
+      "count": 797
     },
     "globus/pardubice": {
       "path": "catalogs/globus/pardubice/aff6cc0a25a16a388d06bc26ad58ba39d17a9d366673cb646b36f3e978dd3e9a.json",
