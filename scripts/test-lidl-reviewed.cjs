@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm'),crypto=require('crypto');
+const bytes=Buffer.from('reviewed PDF');
+const reviews=[{id:'pet',pdfUrl:'https://assets.leaflets.schwarz/example.pdf',sha256:crypto.createHash('sha256').update(bytes).digest('hex'),validFrom:'2026-10-12',validTo:'2026-10-18',offers:[{id:'food'}]}];
+const m={exports:{}};
+vm.runInNewContext(fs.readFileSync('scripts/lidl-reviewed-publications.cjs','utf8'),{module:m,require:n=>n==='node:crypto'?crypto:reviews});
+const source={id:'pet',pdfUrl:reviews[0].pdfUrl,offerStartDate:'2026-10-12',offerEndDate:'2026-10-18'};
+const run=m.exports.collectReviewedPublications;
+(async()=>{
+ assert.equal((await run([source],async()=>bytes,'2026-10-14')).offers.length,1);
+ assert.equal((await run([source],async()=>Buffer.from('replaced'),'2026-10-14')).offers.length,0);
+ assert.equal((await run([{...source,offerEndDate:'2026-10-25'}],async()=>bytes,'2026-10-14')).offers.length,0);
+ assert.equal((await run([],async()=>bytes,'2026-10-14')).issues.length,1);
+ let downloads=0;assert.equal((await run([source],async()=>{downloads++;return bytes;},'2026-10-19')).offers.length,0);assert.equal(downloads,0);
+ const actual=require('../scripts/lidl-reviewed-publications.json')[0];
+ const {canonicalBrandTitle}=require('../scripts/lidl-title-brands.cjs');
+ assert.equal(canonicalBrandTitle("MAX'S WORLD Snack pro psy"),'PETBRAND Snack pro psy');
+ assert.equal(canonicalBrandTitle('MILA’S WORLD Konzerva pro kočky'),'PETBRAND Konzerva pro kočky');
+ assert.equal(canonicalBrandTitle("MAX'S WORLD PEDIGREE Granule"),'PETBRAND PEDIGREE Granule');
+ assert.equal(canonicalBrandTitle('PILOS LACRUM Mléko'),'PILOS LACRUM Mléko');
+ assert.equal(actual.offers.length,10);assert.equal(new Set(actual.offers.map(o=>o.productKey)).size,10,'Distinct packs and variants are not conflated');
+ assert.ok(actual.offers.every(o=>[1,4].includes(o.flyerPage)&&!o.productName.includes('Vodítko')));
+ console.log('OK: reviewed Lidl source/hash/date guards and distinct pet-food variants');
+})().catch(e=>{console.error(e);process.exitCode=1});

@@ -57,3 +57,7 @@ assert.equal(item.imageUrl, undefined, 'Same price and pack must never identify 
 const {pageValidity}=require('./update-lidl.cjs');
 assert.deepEqual(pageValidity('Od pátku 11. 9. do 13. 9.',{validFrom:'2026-09-10',validTo:'2026-09-13'}),{validFrom:'2026-09-11',validTo:'2026-09-13'});
 assert.equal(finalCatalogTitle('A: upevňovací lano (18 m),'),false);
+
+require('./test-lidl-reviewed.cjs');
+for(const offer of require('./lidl-reviewed-publications.json')[0].offers)assert.equal(require('./update-lidl.cjs').finalCatalogTitle(offer.productName),true);
+assert.equal(require('./update-lidl.cjs').finalCatalogTitle("MAX'S WORLD PEDIGREE Granule pro psy"),false);

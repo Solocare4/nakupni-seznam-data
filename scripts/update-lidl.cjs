@@ -319,6 +319,7 @@ function isTechnicalOrCampaignTitle(value) {
   return false;
 }
 function uppercaseBrandTokenCount(value) {
+  value = require('./lidl-title-brands.cjs').canonicalBrandTitle(value);
   return clean(value).split(/\s+/).filter((word) => {
     const letters = word.replace(/[^A-Za-zÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]/g, '');
     if (letters.length < 3) return false;
@@ -939,12 +940,16 @@ async function main() {
   try { htmlProducts=await collectHtmlEnrichment(); enrichOffersFromHtml(extracted.offers,htmlProducts); } catch (error) { console.log(`[LIDL-DATA] htmlEnrichment error=${error instanceof Error?error.message:String(error)}`); }
   await attachFlyerCropImages(extracted.offers, Array.isArray(flyer.pages)?flyer.pages:[]);
   for (const offer of extracted.offers) offer.flyerUrl = `${pdfUrl}#page=${offer.__pageNo}`;
+  const supplemental = await require('./lidl-reviewed-publications.cjs').collectReviewedPublications(flyers, fetchBuffer, todayPrague());
+  extracted.offers.push(...supplemental.offers);
+  for (const issue of supplemental.issues) console.warn('[LIDL-REVIEW]', JSON.stringify(issue));
   const cleanedOffers = extracted.offers
     .filter((offer)=>finalCatalogTitle(offer.productName))
     .map(stripInternalOfferFields);
   const catalog = {
     version: 1,
     pipelineVersion: 5,
+    publicationIssues: supplemental.issues,
     source: 'lidl',
     fetchedAt: new Date().toISOString(),
     scope: 'CZ',
