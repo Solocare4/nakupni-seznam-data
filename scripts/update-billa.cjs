@@ -1198,8 +1198,13 @@ function selectPublicationSlug(html, pageUrl) {
   const url = new URL(pageUrl);
   const kind = url.pathname.includes('/special-') ? url.pathname.split('/').at(-1) :
     (url.searchParams.get('tab') || url.pathname).includes('maly-letak') ? 'maly-letak' : 'velky-letak';
-  const slugs = [...new Set([...html.matchAll(/https:\/\/view\.publitas\.com\/billa-cz\/([a-z0-9-]+)/gi)].map(m => m[1]))]
-    .filter(slug => slug.startsWith(kind + '-'));
+  const available = [...new Set([...html.matchAll(/https:\/\/view\.publitas\.com\/billa-cz\/([a-z0-9-]+)/gi)].map(m => m[1]))];
+  let slugs = available.filter(slug => slug.startsWith(kind + '-'));
+  // CMS routes can end in a duplicate-page number (special-pstruzi2), while
+  // the embedded publication retains the city name. Never choose another city.
+  if (!slugs.length && /^special-.*\d$/.test(kind)) {
+    slugs = available.filter(slug => slug.startsWith(kind.replace(/\d+$/, '') + '-'));
+  }
   if (slugs.length !== 1) throw new Error('BILLA: chybějící nebo nejednoznačný leták ' + kind);
   return slugs[0];
 }
@@ -1462,6 +1467,7 @@ async function main(options = {}) {
   }
 
   const catalog = {
+    pdfSha256: require('node:crypto').createHash('sha256').update(buffer).digest('hex'),
     version: 1,
 
     source: 'billa',
