@@ -42,9 +42,9 @@
       "count": 690
     },
     "albert": {
-      "path": "catalogs/albert/acc1efffefc40caf49383ed6e272ee2144140d269347cdb4c892ff8540bfe63f.json",
-      "catalogVersion": "acc1efffefc40caf49383ed6e272ee2144140d269347cdb4c892ff8540bfe63f",
-      "generatedAt": "2026-10-16T04:51:53.661Z",
+      "path": "catalogs/albert/d7fc3d1f94cc0fc91facd6476440c98558f7802dfb32266a8875480a21822755.json",
+      "catalogVersion": "d7fc3d1f94cc0fc91facd6476440c98558f7802dfb32266a8875480a21822755",
+      "generatedAt": "2026-10-16T11:47:20.004Z",
       "validFrom": "2026-10-14",
       "validTo": "2026-10-20",
       "count": 591
@@ -1298,20 +1298,20 @@
       "count": 822
     },
     "globus/liberec": {
-      "path": "catalogs/globus/liberec/ff52ba50b1d910ca9a3d07ac829d657e857b6fd6179e5bbc864e72a52a7ce8fb.json",
-      "catalogVersion": "ff52ba50b1d910ca9a3d07ac829d657e857b6fd6179e5bbc864e72a52a7ce8fb",
-      "generatedAt": "2026-10-18T04:52:48.633Z",
+      "path": "catalogs/globus/liberec/bcbed9d88ff0e07d5b10f74b90299e94546c6ddba84b5b7286b6fcd5e8e808f8.json",
+      "catalogVersion": "bcbed9d88ff0e07d5b10f74b90299e94546c6ddba84b5b7286b6fcd5e8e808f8",
+      "generatedAt": "2026-10-18T20:59:15.956Z",
+      "validFrom": "2026-09-02",
+      "validTo": "2026-12-26",
+      "count": 833
+    },
+    "globus/olomouc": {
+      "path": "catalogs/globus/olomouc/3f16dff92ad91c1f28387743df47c06db55e30c441614e09ca3f23b2af4d3eed.json",
+      "catalogVersion": "3f16dff92ad91c1f28387743df47c06db55e30c441614e09ca3f23b2af4d3eed",
+      "generatedAt": "2026-10-18T20:59:58.248Z",
       "validFrom": "2026-09-02",
       "validTo": "2026-12-26",
       "count": 831
-    },
-    "globus/olomouc": {
-      "path": "catalogs/globus/olomouc/dde89d7a9aefa3553418c332e3cc9c7cf98366d0c6de89a64b0ba1552757c38c.json",
-      "catalogVersion": "dde89d7a9aefa3553418c332e3cc9c7cf98366d0c6de89a64b0ba1552757c38c",
-      "generatedAt": "2026-10-18T04:54:41.784Z",
-      "validFrom": "2026-09-02",
-      "validTo": "2026-12-26",
-      "count": 830
     },
     "globus/jenisov": {
       "path": "catalogs/globus/jenisov/c9483a48452620be61e7c089f7663b7014e60692266ef70de32ec0de91f258d6.json",
