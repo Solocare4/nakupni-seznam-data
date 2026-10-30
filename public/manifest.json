@@ -18,9 +18,9 @@
       "count": 285
     },
     "lidl": {
-      "path": "catalogs/lidl/89996fe7a8f3a12442357bbeedcbb87cee22a40136d8a298c7886483a37a764a.json",
-      "catalogVersion": "89996fe7a8f3a12442357bbeedcbb87cee22a40136d8a298c7886483a37a764a",
-      "generatedAt": "2026-10-29T13:22:43.199Z",
+      "path": "catalogs/lidl/3544e94e5071d78f95c4eff9669ab445dafb01a18703c7833ae9dc11fcd53bfa.json",
+      "catalogVersion": "3544e94e5071d78f95c4eff9669ab445dafb01a18703c7833ae9dc11fcd53bfa",
+      "generatedAt": "2026-10-30T06:03:45.254Z",
       "validFrom": "2026-10-29",
       "validTo": "2026-11-01",
       "count": 116
@@ -50,17 +50,17 @@
       "count": 368
     },
     "globus/brno": {
-      "path": "catalogs/globus/brno/e5a3aeddf17ad794ad018ca4b56d4e2bd3e8921d93fb99824d95aec3c6cdd6b3.json",
-      "catalogVersion": "e5a3aeddf17ad794ad018ca4b56d4e2bd3e8921d93fb99824d95aec3c6cdd6b3",
-      "generatedAt": "2026-10-29T22:55:58.304Z",
+      "path": "catalogs/globus/brno/d6cfd1b81d9e913a37fda7d49831e4b7a47688b273ab416876e7ac7000b141e9.json",
+      "catalogVersion": "d6cfd1b81d9e913a37fda7d49831e4b7a47688b273ab416876e7ac7000b141e9",
+      "generatedAt": "2026-10-30T06:08:16.003Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 951
     },
     "globus/cerny-most": {
-      "path": "catalogs/globus/cerny-most/648cee580156992974aea77a4dce60e7c5c7a34435308b4837f7c867d46a019c.json",
-      "catalogVersion": "648cee580156992974aea77a4dce60e7c5c7a34435308b4837f7c867d46a019c",
-      "generatedAt": "2026-10-29T22:55:18.377Z",
+      "path": "catalogs/globus/cerny-most/8420983bd3db008fec44c0786f9c60252c2960355196b8a665dfb49aa13f693c.json",
+      "catalogVersion": "8420983bd3db008fec44c0786f9c60252c2960355196b8a665dfb49aa13f693c",
+      "generatedAt": "2026-10-30T06:07:38.787Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 931
@@ -378,9 +378,9 @@
       "count": 701
     },
     "kaufland/CZ6810": {
-      "path": "catalogs/kaufland/CZ6810/22b8c461b3ec81583d0d8f39ccbfbe52a67962add28d8d0ffb431dec89cacd94.json",
-      "catalogVersion": "22b8c461b3ec81583d0d8f39ccbfbe52a67962add28d8d0ffb431dec89cacd94",
-      "generatedAt": "2026-10-29T22:53:54.502Z",
+      "path": "catalogs/kaufland/CZ6810/53726cda62b4f194758ca2550e45cba314d8875f8627b90558a8e7c933d36b00.json",
+      "catalogVersion": "53726cda62b4f194758ca2550e45cba314d8875f8627b90558a8e7c933d36b00",
+      "generatedAt": "2026-10-29T13:23:19.511Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
       "count": 701
@@ -474,9 +474,9 @@
       "count": 700
     },
     "kaufland/CZ6800": {
-      "path": "catalogs/kaufland/CZ6800/0b1d677ebdb5d4cfc80540c05f7d10638bb79d0ce0c13035405784025ddc71a4.json",
-      "catalogVersion": "0b1d677ebdb5d4cfc80540c05f7d10638bb79d0ce0c13035405784025ddc71a4",
-      "generatedAt": "2026-10-29T22:53:59.249Z",
+      "path": "catalogs/kaufland/CZ6800/3c0b464a9e0c99584fbc0df748853a5112ae55b8ee43e7f0494f56356598872c.json",
+      "catalogVersion": "3c0b464a9e0c99584fbc0df748853a5112ae55b8ee43e7f0494f56356598872c",
+      "generatedAt": "2026-10-29T13:23:26.706Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
       "count": 700
@@ -602,9 +602,9 @@
       "count": 702
     },
     "kaufland/CZ7010": {
-      "path": "catalogs/kaufland/CZ7010/701a5cd057884d5bc108ec7d2cb6bf6de52f21ef108ac3a615a1aeca920c3022.json",
-      "catalogVersion": "701a5cd057884d5bc108ec7d2cb6bf6de52f21ef108ac3a615a1aeca920c3022",
-      "generatedAt": "2026-10-29T13:23:40.951Z",
+      "path": "catalogs/kaufland/CZ7010/a8f5ea68c015065d7597a77738e97bff9e5cfafcebd5a0e5e78395366699b881.json",
+      "catalogVersion": "a8f5ea68c015065d7597a77738e97bff9e5cfafcebd5a0e5e78395366699b881",
+      "generatedAt": "2026-10-30T06:06:21.053Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
       "count": 701
@@ -802,9 +802,9 @@
       "count": 702
     },
     "kaufland/CZ7810": {
-      "path": "catalogs/kaufland/CZ7810/12278aa2d9e8abb52dec2285a4fd4ed1b9a5e8f8c98e18a5bc8af48c9d444978.json",
-      "catalogVersion": "12278aa2d9e8abb52dec2285a4fd4ed1b9a5e8f8c98e18a5bc8af48c9d444978",
-      "generatedAt": "2026-10-29T22:54:22.396Z",
+      "path": "catalogs/kaufland/CZ7810/9eccbdcb6be5cc1def97173a734fc8e302a74730d643d81085a22192b206ab49.json",
+      "catalogVersion": "9eccbdcb6be5cc1def97173a734fc8e302a74730d643d81085a22192b206ab49",
+      "generatedAt": "2026-10-29T13:23:54.959Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
       "count": 702
@@ -1210,9 +1210,9 @@
       "count": 700
     },
     "kaufland/CZ2800": {
-      "path": "catalogs/kaufland/CZ2800/d2547a71e8d4e32630e2c7e839c2ab402a5949628b6415bae915ff3669a9a28c.json",
-      "catalogVersion": "d2547a71e8d4e32630e2c7e839c2ab402a5949628b6415bae915ff3669a9a28c",
-      "generatedAt": "2026-10-29T22:54:48.507Z",
+      "path": "catalogs/kaufland/CZ2800/cf1cde12845dfeb561e1c578fc1c72106673fe9c4d05f00e2eed859999b70f09.json",
+      "catalogVersion": "cf1cde12845dfeb561e1c578fc1c72106673fe9c4d05f00e2eed859999b70f09",
+      "generatedAt": "2026-10-30T06:07:05.186Z",
       "validFrom": "2026-10-07",
       "validTo": "2026-11-03",
       "count": 702
@@ -1242,113 +1242,113 @@
       "count": 702
     },
     "globus/praha-sterboholy": {
-      "path": "catalogs/globus/praha-sterboholy/69d5677337820048a0e34a5c59649fcd647c77adade8fbc201c07571a9aa1c41.json",
-      "catalogVersion": "69d5677337820048a0e34a5c59649fcd647c77adade8fbc201c07571a9aa1c41",
-      "generatedAt": "2026-10-29T22:55:51.777Z",
+      "path": "catalogs/globus/praha-sterboholy/ce75b8280889465d1d707dee272725b888aa6543ba0595b3489909725c9a1055.json",
+      "catalogVersion": "ce75b8280889465d1d707dee272725b888aa6543ba0595b3489909725c9a1055",
+      "generatedAt": "2026-10-30T06:08:01.359Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 631
     },
     "globus/praha-cakovice": {
-      "path": "catalogs/globus/praha-cakovice/a1c512368a77ec5f34670f5675fa439844d3dae82218a5c42eeff94f3b8c2df2.json",
-      "catalogVersion": "a1c512368a77ec5f34670f5675fa439844d3dae82218a5c42eeff94f3b8c2df2",
-      "generatedAt": "2026-10-29T22:55:24.234Z",
+      "path": "catalogs/globus/praha-cakovice/9845fb5b90bfa483edefa6d58af74b56f5f36fdf90ed7cc26ef0ad931c17eeae.json",
+      "catalogVersion": "9845fb5b90bfa483edefa6d58af74b56f5f36fdf90ed7cc26ef0ad931c17eeae",
+      "generatedAt": "2026-10-30T06:07:41.116Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 954
     },
     "globus/ceske-budejovice": {
-      "path": "catalogs/globus/ceske-budejovice/bac3cbee48ad5ff0c4e0fdbfcbe347dd67089d1542560cb2c26308bb982e4353.json",
-      "catalogVersion": "bac3cbee48ad5ff0c4e0fdbfcbe347dd67089d1542560cb2c26308bb982e4353",
-      "generatedAt": "2026-10-29T22:56:39.957Z",
+      "path": "catalogs/globus/ceske-budejovice/99d2cb10b0840b83fdbbe3023e7bd0457b0eaa5ecc094492e7c945425e9250dd.json",
+      "catalogVersion": "99d2cb10b0840b83fdbbe3023e7bd0457b0eaa5ecc094492e7c945425e9250dd",
+      "generatedAt": "2026-10-30T06:08:54.949Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 948
     },
     "globus/praha-zlicin": {
-      "path": "catalogs/globus/praha-zlicin/1e2bae69ae79bb068b98dc7487d503e275acfb51d1114a5f6aab89caa39a47b5.json",
-      "catalogVersion": "1e2bae69ae79bb068b98dc7487d503e275acfb51d1114a5f6aab89caa39a47b5",
-      "generatedAt": "2026-10-29T22:56:05.357Z",
+      "path": "catalogs/globus/praha-zlicin/37818be27b22d103dfd3604f96d66cb8b7e784f9d429f91faec3495049990e5d.json",
+      "catalogVersion": "37818be27b22d103dfd3604f96d66cb8b7e784f9d429f91faec3495049990e5d",
+      "generatedAt": "2026-10-30T06:08:16.307Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 951
     },
     "globus/chotikov": {
-      "path": "catalogs/globus/chotikov/560e5a4b30cac1e37bed36070a8ad0f8f98fc775c3cec6d920eb999b18155b1e.json",
-      "catalogVersion": "560e5a4b30cac1e37bed36070a8ad0f8f98fc775c3cec6d920eb999b18155b1e",
-      "generatedAt": "2026-10-29T22:56:40.729Z",
+      "path": "catalogs/globus/chotikov/8478bff3822755f49d24f8748c55c1aed31f48a068c6315ffabcc1c16dfb6ae4.json",
+      "catalogVersion": "8478bff3822755f49d24f8748c55c1aed31f48a068c6315ffabcc1c16dfb6ae4",
+      "generatedAt": "2026-10-30T06:08:49.666Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 953
     },
     "globus/havirov": {
-      "path": "catalogs/globus/havirov/0e6d0cf814c34c84b1287ab6da34f08bcd5f7e4827af1f4d66abce752d582bd1.json",
-      "catalogVersion": "0e6d0cf814c34c84b1287ab6da34f08bcd5f7e4827af1f4d66abce752d582bd1",
-      "generatedAt": "2026-10-29T22:57:20.303Z",
+      "path": "catalogs/globus/havirov/ebdea9d75e4321facc38ed8fd26ce6a3ac93536ee5c669ecdf3b01f1bf82270f.json",
+      "catalogVersion": "ebdea9d75e4321facc38ed8fd26ce6a3ac93536ee5c669ecdf3b01f1bf82270f",
+      "generatedAt": "2026-10-30T06:09:28.818Z",
       "validFrom": "2026-09-27",
       "validTo": "2027-01-04",
       "count": 949
     },
     "globus/chomutov": {
-      "path": "catalogs/globus/chomutov/14e314c4308728809301e7dadabfda9a092d526a84498365878e0eda99eefc01.json",
-      "catalogVersion": "14e314c4308728809301e7dadabfda9a092d526a84498365878e0eda99eefc01",
-      "generatedAt": "2026-10-29T22:56:42.192Z",
+      "path": "catalogs/globus/chomutov/5a796440e881fe7c9c8de9f9c9117eae9b0b9d605ea6c2527b002cca24936e9a.json",
+      "catalogVersion": "5a796440e881fe7c9c8de9f9c9117eae9b0b9d605ea6c2527b002cca24936e9a",
+      "generatedAt": "2026-10-30T06:08:49.280Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 950
     },
     "globus/liberec": {
-      "path": "catalogs/globus/liberec/2353f88a44d759707a043530d36a56d27dc6534ba8069407d077b768b2aff2ee.json",
-      "catalogVersion": "2353f88a44d759707a043530d36a56d27dc6534ba8069407d077b768b2aff2ee",
-      "generatedAt": "2026-10-29T22:57:21.348Z",
+      "path": "catalogs/globus/liberec/fd009d2a43865c3e8b9bb2b3c3d89473eb2c3e92e17e484ac362d6b6c0ac5ebe.json",
+      "catalogVersion": "fd009d2a43865c3e8b9bb2b3c3d89473eb2c3e92e17e484ac362d6b6c0ac5ebe",
+      "generatedAt": "2026-10-30T06:09:30.686Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 827
     },
     "globus/olomouc": {
-      "path": "catalogs/globus/olomouc/36069f72f6e2d4fa08e32edcc95fdaf1f64eefd3da4cb8958a4ebd1704ddb5c2.json",
-      "catalogVersion": "36069f72f6e2d4fa08e32edcc95fdaf1f64eefd3da4cb8958a4ebd1704ddb5c2",
-      "generatedAt": "2026-10-29T22:57:59.059Z",
+      "path": "catalogs/globus/olomouc/47645c25123d2c012da0b0cf7fba9178c6bcb4e1b14748a84dd9b73073e4f73b.json",
+      "catalogVersion": "47645c25123d2c012da0b0cf7fba9178c6bcb4e1b14748a84dd9b73073e4f73b",
+      "generatedAt": "2026-10-30T06:10:03.899Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 940
     },
     "globus/jenisov": {
-      "path": "catalogs/globus/jenisov/53348554cba767314e26ed6bb032586fb06a1f5eb673e1814685fb0d6ac54dc4.json",
-      "catalogVersion": "53348554cba767314e26ed6bb032586fb06a1f5eb673e1814685fb0d6ac54dc4",
-      "generatedAt": "2026-10-29T22:57:19.408Z",
+      "path": "catalogs/globus/jenisov/5b82b4d33f4d541f022484921f88dd2b7f8dfc39c23554e1d8ec0555e2a7510a.json",
+      "catalogVersion": "5b82b4d33f4d541f022484921f88dd2b7f8dfc39c23554e1d8ec0555e2a7510a",
+      "generatedAt": "2026-10-30T06:09:31.004Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 953
     },
     "globus/pardubice": {
-      "path": "catalogs/globus/pardubice/8ff665f60919818c084c654a32903398e97e64e03e46b59d5da71fa3e64b5f42.json",
-      "catalogVersion": "8ff665f60919818c084c654a32903398e97e64e03e46b59d5da71fa3e64b5f42",
-      "generatedAt": "2026-10-29T22:58:29.726Z",
+      "path": "catalogs/globus/pardubice/265ad60441186430d45597e6fe92c719a63d435fc6fb2d42861fe851fbd60cb1.json",
+      "catalogVersion": "265ad60441186430d45597e6fe92c719a63d435fc6fb2d42861fe851fbd60cb1",
+      "generatedAt": "2026-10-30T06:10:41.264Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 950
     },
     "globus/ostrava": {
-      "path": "catalogs/globus/ostrava/a14056a1f9bb5ee1ad9ee0921aea9b18cc589dfbd829d878ac1d6a053b1e5c7b.json",
-      "catalogVersion": "a14056a1f9bb5ee1ad9ee0921aea9b18cc589dfbd829d878ac1d6a053b1e5c7b",
-      "generatedAt": "2026-10-29T22:57:50.223Z",
+      "path": "catalogs/globus/ostrava/69182e8137666f02bc96473e93ca0c0116d4b517360489b4ceb8b99ee96f3ae1.json",
+      "catalogVersion": "69182e8137666f02bc96473e93ca0c0116d4b517360489b4ceb8b99ee96f3ae1",
+      "generatedAt": "2026-10-30T06:10:08.041Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 946
     },
     "globus/opava": {
-      "path": "catalogs/globus/opava/6f0bd0bcb3169d7123c8007ca7207c9ec89b8661f0bb4f84e0efaf94a2db0e7e.json",
-      "catalogVersion": "6f0bd0bcb3169d7123c8007ca7207c9ec89b8661f0bb4f84e0efaf94a2db0e7e",
-      "generatedAt": "2026-10-29T22:57:52.062Z",
+      "path": "catalogs/globus/opava/6093f9e0b39371dc000558569e193a2692df9dd2474862a459af7019cad4f3cf.json",
+      "catalogVersion": "6093f9e0b39371dc000558569e193a2692df9dd2474862a459af7019cad4f3cf",
+      "generatedAt": "2026-10-30T06:10:05.677Z",
       "validFrom": "2026-09-29",
       "validTo": "2027-01-04",
       "count": 948
     },
     "globus/trmice": {
-      "path": "catalogs/globus/trmice/f23a3384d02298a5491149cb10b541139c0f251fa31fbd139909e27a2ed7992e.json",
-      "catalogVersion": "f23a3384d02298a5491149cb10b541139c0f251fa31fbd139909e27a2ed7992e",
-      "generatedAt": "2026-10-29T22:58:30.502Z",
+      "path": "catalogs/globus/trmice/321a6eba83abdf501e230c27d658a6c3fd5c689fc54d6b545adc2b4473cce61d.json",
+      "catalogVersion": "321a6eba83abdf501e230c27d658a6c3fd5c689fc54d6b545adc2b4473cce61d",
+      "generatedAt": "2026-10-30T06:10:40.836Z",
       "validFrom": "2026-09-28",
       "validTo": "2027-01-04",
       "count": 950
