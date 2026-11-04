@@ -8,8 +8,17 @@ function catalogDay(now = new Date()) {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Prague', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(now);
     return ['year', 'month', 'day'].map(type => parts.find(p => p.type === type).value).join('-');
 }
-const offerIdentity = (o) => [o.retailer, o.productName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(), o.quantity, o.unit, o.price, o.validFrom, o.validTo, o.loyaltyOnly ? o.loyaltyProgram : '', o.source === 'billa' ? o.sourceUrl ?? o.flyerUrl?.split('#')[0] : ''].join('|');
+const offerIdentity = (o) => [o.retailer, o.productName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim(), o.quantity, o.unit, o.price, o.validFrom, o.validTo, o.loyaltyOnly ? o.loyaltyProgram : '', o.source === 'billa' ? o.sourceUrl ?? o.flyerUrl?.split('#')[0] : '', ...(o.packageQuantityUnknown ? [o.packageText] : [])].join('|');
 exports.offerIdentity = offerIdentity;
+function preferConfirmedLidl(previous, next) {
+    const restriction = (o) => o.branchRestriction;
+    // A preview must not erase the same dated, priced offer from a verified leaflet.
+    if (previous?.source === 'lidl' && next.source === 'lidl' &&
+        restriction(next)?.unverified === true && restriction(previous) &&
+        restriction(previous)?.unverified !== true)
+        return previous;
+    return next;
+}
 function resolveSourceRevisions(offers) {
     const revisions = new Map();
     for (const offer of offers) {
@@ -17,12 +26,14 @@ function resolveSourceRevisions(offers) {
         // conflicting prices. Keep the geometrically verified PDF in that case.
         const key = offer.source === 'albert'
             ? [offer.source, offer.id, offer.quantity, offer.unit, offer.validFrom, offer.validTo, offer.storeName, offer.loyaltyOnly, offer.loyaltyProgram].join('|')
-            : (0, exports.offerIdentity)(offer);
+            : offer.id && offer.flyerUrl
+                ? [offer.source, offer.retailer, offer.id, offer.productName, offer.flyerUrl, offer.quantity, offer.unit, offer.validFrom, offer.validTo, offer.storeName, offer.loyaltyOnly, offer.loyaltyProgram].join('|')
+                : (0, exports.offerIdentity)(offer);
         const previous = revisions.get(key);
         const verified = (o) => o.verification === 'pdf-layout-v1';
         if (previous && verified(previous) && !verified(offer))
             continue;
-        revisions.set(key, offer);
+        revisions.set(key, preferConfirmedLidl(previous, offer));
     }
     return [...new Map([...revisions.values()].map(o => [(0, exports.offerIdentity)(o), o])).values()];
 }
@@ -34,7 +45,10 @@ function mergeCatalog(current, incoming) {
         return { ...incoming, offers: resolveSourceRevisions(incoming.offers) };
     const oldRevision = current.pipelineVersion ?? 0;
     const newRevision = incoming.pipelineVersion ?? 0;
-    if (newRevision > oldRevision && ['lidl', 'billa', 'penny'].includes(incoming.offers[0]?.source ?? ''))
+    // A delayed response must not reintroduce rows a newer parser already corrected.
+    if (oldRevision > newRevision && ['lidl', 'billa', 'penny', 'albert'].includes(current.offers[0]?.source ?? ''))
+        return current;
+    if (newRevision > oldRevision && ['lidl', 'billa', 'penny', 'albert'].includes(incoming.offers[0]?.source ?? ''))
         return mergeCatalog(null, incoming);
     const day = catalogDay(new Date(incoming.fetchedAt));
     const retained = current.offers.filter(o => o.validTo >= day);
@@ -47,6 +61,11 @@ function mergeCatalog(current, incoming) {
     const offers = new Map(retained.map(o => [(0, exports.offerIdentity)(o), o]));
     for (const next of incoming.offers) {
         const old = offers.get((0, exports.offerIdentity)(next));
+        if (preferConfirmedLidl(old, next) === old)
+            continue;
+        // Move incoming rows after cached rows, even when that exact price already
+        // exists in cache. Revision resolution must always see the new row last.
+        offers.delete((0, exports.offerIdentity)(next));
         offers.set((0, exports.offerIdentity)(next), { ...old, ...next, imageUrl: next.imageUrl ?? old?.imageUrl });
     }
     return { ...incoming, offers: resolveSourceRevisions([...offers.values()]) };
